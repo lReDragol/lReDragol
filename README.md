@@ -1,4 +1,4 @@
-
+![Your GIF Description](https://github.com/lReDragol/lReDragol/blob/main/terminal.gif?raw=true)
 
 ## My favorite tools and technologies ⚙️
 
@@ -58,10 +58,12 @@
 ---
 
 ### Profile Views and YouTube 📹
-<a href="https://www.youtube.com/@drago5210">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
-</a>
-<img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" style="margin-left: 10px;">
+<div style="display: flex; align-items: center;">
+  <a href="https://www.youtube.com/@drago5210" style="margin-right: 10px; text-decoration: none; outline: none;">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" alt="Profile Views">
+</div>
 
 
 ## GitHub Profile Trophy 🏆
