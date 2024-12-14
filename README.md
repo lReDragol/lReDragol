@@ -57,6 +57,12 @@
 
 ---
 
+## GitHub Profile Trophy 🏆
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=lReDragol&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
+
+---
+
 ### Profile Views and YouTube 📹
 <div style="display: flex; align-items: center;">
   <a href="https://www.youtube.com/@drago5210" style="margin-right: 10px; text-decoration: none; outline: none;">
@@ -65,9 +71,6 @@
   <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" alt="Profile Views">
 </div>
 
-
-## GitHub Profile Trophy 🏆
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=lReDragol&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
+---
 
 <img data-target="animated-image.replacedImage" alt="dino.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" style="display: block; opacity: 1;">
