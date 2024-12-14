@@ -42,35 +42,27 @@
 
 ## Github stats 📊
 
-<details>
-  <summary>GitHub Profile Stats 💻</summary>
-  <br/>
-    <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="lReDragol's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=lReDragol&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=00E676&icon_color=00E676" height="192px"/></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats"><img alt="lReDragol's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lReDragol&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook" height="192px"/></a>
-  <br/>
-</details>
+### GitHub Profile Stats 💻
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img alt="lReDragol's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=lReDragol&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=00E676&icon_color=00E676" height="192px"/>
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img alt="lReDragol's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lReDragol&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook" height="192px"/>
+</a>
 
-<details>
-  <summary>Activity Graph 📈</summary>
-  <br/>
+---
 
+### Activity Graph 📈
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lReDragol&bg_color=ffffff&color=000000&line=04e61b&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-</details>
+---
 
-
-<details>
-  <summary>Profile Views 👁️</summary>
-  <br/>
-  <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen">
-
-</details>
-
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+### Profile Views and YouTube 📹
 <a href="https://www.youtube.com/@drago5210">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">
 </a>
+<img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" style="margin-left: 10px;">
+
 
 ## GitHub Profile Trophy 🏆
 
