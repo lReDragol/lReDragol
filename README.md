@@ -1,6 +1,3 @@
-[test](javascript:(function(){document.body.style.background='url(https://raw.githubusercontent.com/lReDragol/lReDragol/main/1image.png)';})())
-
-
 ![Your GIF Description](https://github.com/lReDragol/lReDragol/blob/main/terminal.gif?raw=true)
 
 ## My favorite tools and technologies ⚙️
