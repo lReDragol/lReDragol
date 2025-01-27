@@ -1,3 +1,5 @@
+![Profile Theme](https://raw.githubusercontent.com/yourusername/yourrepo/main/background.svg)
+
 ![Your GIF Description](https://github.com/lReDragol/lReDragol/blob/main/terminal.gif?raw=true)
 
 ## My favorite tools and technologies ⚙️
