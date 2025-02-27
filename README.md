@@ -48,12 +48,15 @@
 </table>
 
 
+---
+
+## GitHub Profile Trophy 🏆
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=lReDragol&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
 
 
+## GitHub Profile Stats 💻
 
-## Github stats 📊
-
-### GitHub Profile Stats 💻
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img alt="lReDragol's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=lReDragol&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=00E676&icon_color=00E676" height="192px"/>
 </a>
@@ -65,12 +68,6 @@
 
 ### Activity Graph 📈
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lReDragol&bg_color=ffffff&color=000000&line=04e61b&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
----
-
-## GitHub Profile Trophy 🏆
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=lReDragol&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
