@@ -21,6 +21,13 @@ jobs:
           path: profile/trophy.svg
           token: ${{ secrets.WIDGETS_TOKEN || github.token }}
 
+      - name: Generate trophy (dark)
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: "username=${{ github.repository_owner }}&theme=onedark&row=1&margin-w=40"
+          path: profile/trophy-dark.svg
+          token: ${{ secrets.WIDGETS_TOKEN || github.token }}
+
       - name: Generate stats cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -35,8 +42,12 @@ jobs:
       - name: Extract cards
         run: |
           mkdir -p profile
+          cp "profile-summary-card-output/github/0-profile-details.svg" "profile/details.svg"
           cp "profile-summary-card-output/github/3-stats.svg" "profile/stats.svg"
           cp "profile-summary-card-output/github/1-repos-per-language.svg" "profile/top-langs.svg"
+          cp "profile-summary-card-output/github_dark/0-profile-details.svg" "profile/details-dark.svg"
+          cp "profile-summary-card-output/github_dark/3-stats.svg" "profile/stats-dark.svg"
+          cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
 
       - name: Commit and push
@@ -44,6 +55,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add profile/trophy.svg profile/stats.svg profile/top-langs.svg
+          git add \
+            profile/details.svg \
+            profile/details-dark.svg \
+            profile/stats.svg \
+            profile/stats-dark.svg \
+            profile/top-langs.svg \
+            profile/top-langs-dark.svg \
+            profile/trophy.svg \
+            profile/trophy-dark.svg
           git commit -m "chore: update profile widgets" || exit 0
           git push
