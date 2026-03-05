@@ -52,16 +52,16 @@
 
 ## GitHub Profile Trophy 🏆
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=lReDragol&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](./profile/trophy.svg)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 ## GitHub Profile Stats 💻
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img alt="lReDragol's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=lReDragol&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=00E676&icon_color=00E676" height="192px"/>
+<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats.svg" height="192px"/>
 </a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img alt="lReDragol's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lReDragol&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook" height="192px"/>
+<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs.svg" height="192px"/>
 </a>
 
 ---
@@ -82,4 +82,3 @@
 ---
 
 <img data-target="animated-image.replacedImage" alt="dino.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/saadeghi/saadeghi/raw/master/dino.gif" style="display: block; opacity: 1;">
-
