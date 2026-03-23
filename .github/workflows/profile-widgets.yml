@@ -50,6 +50,13 @@ jobs:
           cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
 
+      - name: Generate line badges
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN || github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+        run: python3 scripts/generate_line_badges.py
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
@@ -58,6 +65,8 @@ jobs:
           git add \
             profile/details.svg \
             profile/details-dark.svg \
+            profile/lines-7d.svg \
+            profile/lines-30d.svg \
             profile/stats.svg \
             profile/stats-dark.svg \
             profile/top-langs.svg \
