@@ -69,6 +69,11 @@
 ### Activity Graph 📈
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lReDragol&bg_color=ffffff&color=000000&line=04e61b&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+<p>
+  <img src="./profile/lines-7d.svg" alt="Lines changed in the last 7 days">
+  <img src="./profile/lines-30d.svg" alt="Lines changed in the last 30 days">
+</p>
+
 ---
 
 ### Profile Views and YouTube 📹
@@ -77,8 +82,6 @@
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
   <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" alt="Profile Views">
-  <img src="./profile/lines-7d.svg" alt="Lines changed in the last 7 days">
-  <img src="./profile/lines-30d.svg" alt="Lines changed in the last 30 days">
 </p>
 
 ---
