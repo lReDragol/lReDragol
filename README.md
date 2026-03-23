@@ -72,12 +72,14 @@
 ---
 
 ### Profile Views and YouTube 📹
-<div style="display: flex; align-items: center;">
-  <a href="https://www.youtube.com/@drago5210" style="margin-right: 10px; text-decoration: none; outline: none;">
+<p>
+  <a href="https://www.youtube.com/@drago5210">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
   </a>
   <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" alt="Profile Views">
-</div>
+  <img src="./profile/lines-7d.svg" alt="Lines changed in the last 7 days">
+  <img src="./profile/lines-30d.svg" alt="Lines changed in the last 30 days">
+</p>
 
 ---
 
