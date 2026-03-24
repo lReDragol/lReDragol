@@ -59,8 +59,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "lReDragol"
+          git config user.email "blinov.dr1@yandex.ru"
 
           git add \
             profile/details.svg \
