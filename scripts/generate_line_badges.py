@@ -36,20 +36,13 @@ def request_json(url: str, token: str | None) -> tuple[object, dict[str, str]]:
         return payload, response_headers
 
 
-def list_repositories(username: str, token: str | None) -> list[dict[str, object]]:
+def list_repositories_from_url(base_url: str, query_params: dict[str, object], token: str | None) -> list[dict[str, object]]:
     repositories: list[dict[str, object]] = []
     page = 1
 
     while True:
-        query = urllib.parse.urlencode(
-            {
-                "type": "owner",
-                "sort": "updated",
-                "per_page": 100,
-                "page": page,
-            }
-        )
-        url = f"{API_BASE}/users/{username}/repos?{query}"
+        query = urllib.parse.urlencode({**query_params, "per_page": 100, "page": page})
+        url = f"{base_url}?{query}"
         payload, _ = request_json(url, token)
         if not isinstance(payload, list) or not payload:
             break
@@ -60,6 +53,35 @@ def list_repositories(username: str, token: str | None) -> list[dict[str, object
         page += 1
 
     return repositories
+
+
+def list_repositories(username: str, token: str | None) -> list[dict[str, object]]:
+    if token:
+        try:
+            repositories = list_repositories_from_url(
+                f"{API_BASE}/user/repos",
+                {
+                    "visibility": "all",
+                    "affiliation": "owner,collaborator,organization_member",
+                    "sort": "updated",
+                },
+                token,
+            )
+        except urllib.error.HTTPError as error:
+            if error.code not in {401, 403, 404}:
+                raise
+        else:
+            if repositories:
+                return repositories
+
+    return list_repositories_from_url(
+        f"{API_BASE}/users/{username}/repos",
+        {
+            "type": "owner",
+            "sort": "updated",
+        },
+        token,
+    )
 
 
 def list_commits(owner: str, repo: str, author: str, since: dt.datetime, token: str | None) -> list[dict[str, object]]:

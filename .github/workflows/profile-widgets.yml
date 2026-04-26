@@ -50,9 +50,18 @@ jobs:
           cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
 
+      - name: Ensure widgets token is configured
+        env:
+          WIDGETS_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+        run: |
+          if [ -z "$WIDGETS_TOKEN" ]; then
+            echo "WIDGETS_TOKEN secret is required for line badges that include private repositories." >&2
+            exit 1
+          fi
+
       - name: Generate line badges
         env:
-          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
           OUTPUT_DIR: profile
         run: python3 scripts/generate_line_badges.py
