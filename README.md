@@ -58,10 +58,10 @@
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's GitHub Stats" src="./profile/stats.svg?v=20260427-235500" height="192px"/>
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260427-235500" height="192px"/>
 </a>
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's Top Languages" src="./profile/top-langs.svg?v=20260427-235500" height="192px"/>
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260427-235500" height="192px"/>
 </a>
 
 ---
