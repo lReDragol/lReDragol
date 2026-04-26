@@ -143,6 +143,10 @@ def format_count(value: int) -> str:
     return f"{value:,}"
 
 
+def date_labels_for_range(start_date: dt.date, days: int) -> list[str]:
+    return [(start_date + dt.timedelta(days=index)).strftime("%d.%m") for index in range(days)]
+
+
 def joined_text(created_at: dt.datetime, now: dt.datetime, label: str = "GitHub") -> str:
     now_date = now.date()
     created_date = created_at.date()
@@ -262,31 +266,43 @@ def collect_activity_overview(
         "private_repo_count": private_repo_count,
         "joined_text": joined_text(created_at or now_utc, now_local, "GitHub"),
         "daily_commit_counts": commit_counts,
+        "date_labels": date_labels_for_range(start_date, days),
         "days": days,
     }
 
 
-def graph_geometry(daily_commit_counts: list[int]) -> tuple[list[tuple[float, float]], list[float], int]:
+def graph_geometry(
+    daily_commit_counts: list[int],
+) -> tuple[list[tuple[float, float, float, float, int]], list[tuple[int, float]], int, float, float, float, float, float]:
     graph_left = 420.0
-    graph_top = 88.0
+    graph_top = 102.0
     graph_width = 492.0
-    graph_height = 170.0
+    graph_height = 140.0
     max_count = max(max(daily_commit_counts, default=0), 1)
-    step = graph_width / max(len(daily_commit_counts) - 1, 1)
+    step = graph_width / max(len(daily_commit_counts), 1)
+    bar_width = min(8.0, step * 0.28)
     baseline = graph_top + graph_height
 
-    points: list[tuple[float, float]] = []
-    y_ticks: list[float] = []
-
+    bars: list[tuple[float, float, float, float, int]] = []
     for index, count in enumerate(daily_commit_counts):
-        x = graph_left + step * index
-        y = baseline - (count / max_count) * (graph_height - 18)
-        points.append((x, y))
+        center_x = graph_left + step * index + step / 2
+        bar_height = (count / max_count) * (graph_height - 10) if count else 0.0
+        y = baseline - bar_height
+        bars.append((center_x - bar_width / 2, y, bar_width, bar_height, count))
 
-    for fraction in (0.0, 0.25, 0.5, 0.75, 1.0):
-        y_ticks.append(graph_top + graph_height - graph_height * fraction)
+    raw_tick_values = sorted({round(max_count * fraction / 3) for fraction in range(4)})
+    if raw_tick_values[-1] != max_count:
+        raw_tick_values.append(max_count)
+    tick_values = sorted(set(raw_tick_values))
+    tick_rows = [
+        (
+            value,
+            baseline - (value / max_count) * (graph_height - 10) if value else baseline,
+        )
+        for value in tick_values
+    ]
 
-    return points, y_ticks, max_count
+    return bars, tick_rows, max_count, graph_left, graph_top, graph_width, graph_height, baseline
 
 
 def render_activity_card(overview: dict[str, object]) -> str:
@@ -295,48 +311,32 @@ def render_activity_card(overview: dict[str, object]) -> str:
     private_repo_count = int(overview["private_repo_count"])
     joined = html.escape(str(overview["joined_text"]))
     daily_commit_counts = [int(value) for value in overview["daily_commit_counts"]]
+    date_labels = [html.escape(str(value)) for value in overview["date_labels"]]
     days = int(overview["days"])
     total_commits = sum(daily_commit_counts)
-    points, y_ticks, max_count = graph_geometry(daily_commit_counts)
-
-    polyline_points = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
-    graph_left = 420.0
-    graph_top = 88.0
-    graph_width = 492.0
-    graph_height = 170.0
-    baseline = graph_top + graph_height
-
-    if points:
-        area_path = (
-            f"M {graph_left:.1f},{baseline:.1f} "
-            + " ".join(f"L {x:.1f},{y:.1f}" for x, y in points)
-            + f" L {graph_left + graph_width:.1f},{baseline:.1f} Z"
-        )
-    else:
-        area_path = f"M {graph_left:.1f},{baseline:.1f} L {graph_left + graph_width:.1f},{baseline:.1f} Z"
-
-    label_step = graph_width / max(len(daily_commit_counts) - 1, 1)
-    start_x = graph_left
-    middle_x = graph_left + label_step * ((len(daily_commit_counts) - 1) / 2)
-    end_x = graph_left + graph_width
-    label_positions = (
-        (start_x, "14d ago", "start"),
-        (middle_x, "7d ago", "middle"),
-        (end_x, "Today", "end"),
-    )
+    bars, y_ticks, max_count, graph_left, graph_top, graph_width, graph_height, baseline = graph_geometry(daily_commit_counts)
+    step = graph_width / max(len(daily_commit_counts), 1)
 
     grid_lines = "\n".join(
-        f'  <line x1="{graph_left:.1f}" y1="{y:.1f}" x2="{graph_left + graph_width:.1f}" y2="{y:.1f}" '
-        'stroke="#21262d" stroke-width="1"/>'
-        for y in y_ticks
+        f'  <line x1="{graph_left:.1f}" y1="{y:.1f}" x2="{graph_left + graph_width:.1f}" y2="{y:.1f}" stroke="#21262d" stroke-width="1"/>\n'
+        f'  <text x="{graph_left - 12:.1f}" y="{y + 4:.1f}" fill="#6e7681" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="11" text-anchor="end">{value}</text>'
+        for value, y in y_ticks
     )
-    bars = "\n".join(
-        f'  <rect x="{x - 7:.1f}" y="{y:.1f}" width="14" height="{baseline - y:.1f}" rx="7" fill="url(#barGradient)" opacity="0.92"/>'
-        for x, y in points
+    bar_shapes = "\n".join(
+        (
+            f'  <rect x="{x:.1f}" y="{y:.1f}" width="{width:.1f}" height="{max(height, 2.0):.1f}" rx="4" fill="url(#barGradient)" opacity="0.95"/>'
+            if count
+            else f'  <rect x="{x:.1f}" y="{baseline - 2:.1f}" width="{width:.1f}" height="2.0" rx="1" fill="#2d333b"/>'
+        )
+        for x, y, width, height, count in bars
     )
-    x_labels = "\n".join(
-        f'  <text x="{x:.1f}" y="{graph_top + graph_height + 28:.1f}" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="13" text-anchor="{anchor}">{text}</text>'
-        for x, text, anchor in label_positions
+    count_labels = "\n".join(
+        f'  <text x="{x + width / 2:.1f}" y="{graph_top - 12:.1f}" fill="{"#f0f6fc" if count else "#6e7681"}" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">{count}</text>'
+        for x, _y, width, _height, count in bars
+    )
+    date_markup = "\n".join(
+        f'  <text x="{graph_left + step * index + step / 2:.1f}" y="{baseline + 28:.1f}" fill="{"#f0f6fc" if index == len(date_labels) - 1 else "#8b949e"}" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="10.5" text-anchor="middle">{label}</text>'
+        for index, label in enumerate(date_labels)
     )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" role="img" aria-label="{html.escape(str(overview['title']))}: {total_commits} commits in the last {days} days">
@@ -349,17 +349,6 @@ def render_activity_card(overview: dict[str, object]) -> str:
       <stop offset="0%" stop-color="#3fb950"/>
       <stop offset="100%" stop-color="#238636"/>
     </linearGradient>
-    <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.38"/>
-      <stop offset="100%" stop-color="#2ea043" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
   <rect width="{CARD_WIDTH}" height="{CARD_HEIGHT}" rx="24" fill="url(#cardBg)"/>
@@ -375,18 +364,18 @@ def render_activity_card(overview: dict[str, object]) -> str:
   <text x="206" y="176" fill="#f0f6fc" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700">{format_count(private_repo_count)}</text>
   <text x="206" y="202" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="16">Private Repos</text>
 
-  <text x="40" y="254" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.08em">DAILY COMMITS</text>
-  <text x="40" y="290" fill="#3fb950" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="700">{format_count(total_commits)}</text>
-  <text x="118" y="290" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="16">in the last {days} days</text>
+  <text x="40" y="246" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.08em">DAILY COMMITS</text>
+  <text x="40" y="286" fill="#3fb950" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="700">{format_count(total_commits)}</text>
+  <text x="104" y="286" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="16">total in the last {days} days</text>
 
   <text x="{graph_left:.1f}" y="56" fill="#f0f6fc" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">Daily Commits ({days}d)</text>
-  <text x="{graph_left + graph_width:.1f}" y="56" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="14" text-anchor="end">Peak day: {format_count(max_count)}</text>
+  <text x="{graph_left + graph_width:.1f}" y="56" fill="#8b949e" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="14" text-anchor="end">Total: {format_count(total_commits)} | Peak: {format_count(max_count)}</text>
+  <text x="{graph_left:.1f}" y="76" fill="#6e7681" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="12">Exact daily counts above each bar</text>
 
 {grid_lines}
-  <path d="{area_path}" fill="url(#areaGradient)"/>
-{bars}
-  <polyline points="{polyline_points}" fill="none" stroke="#56d364" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-{x_labels}
+{count_labels}
+{bar_shapes}
+{date_markup}
 </svg>
 """
 

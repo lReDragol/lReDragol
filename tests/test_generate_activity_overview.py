@@ -95,6 +95,8 @@ class CollectActivityOverviewTests(unittest.TestCase):
         self.assertEqual(overview["private_repo_count"], 1)
         self.assertEqual(overview["daily_commit_counts"], [1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1])
         self.assertEqual(overview["days"], 14)
+        self.assertEqual(overview["date_labels"][:3], ["14.04", "15.04", "16.04"])
+        self.assertEqual(overview["date_labels"][-3:], ["25.04", "26.04", "27.04"])
 
     def test_svg_card_mentions_private_repositories_and_daily_commits(self) -> None:
         module = load_module(self)
@@ -106,6 +108,22 @@ class CollectActivityOverviewTests(unittest.TestCase):
                 "private_repo_count": 5,
                 "joined_text": "Joined GitHub 2 years ago",
                 "daily_commit_counts": [0, 1, 0, 2, 0, 3, 0, 2, 1, 0, 4, 1, 0, 2],
+                "date_labels": [
+                    "14.04",
+                    "15.04",
+                    "16.04",
+                    "17.04",
+                    "18.04",
+                    "19.04",
+                    "20.04",
+                    "21.04",
+                    "22.04",
+                    "23.04",
+                    "24.04",
+                    "25.04",
+                    "26.04",
+                    "27.04",
+                ],
                 "days": 14,
             }
         )
@@ -113,6 +131,11 @@ class CollectActivityOverviewTests(unittest.TestCase):
         self.assertIn("Private Repos", svg)
         self.assertIn("Daily Commits (14d)", svg)
         self.assertIn("lReDragol (Drago)", svg)
+        self.assertIn("Total: 16", svg)
+        self.assertIn("Peak: 4", svg)
+        self.assertIn("14.04", svg)
+        self.assertIn("27.04", svg)
+        self.assertIn(">4<", svg)
 
 
 if __name__ == "__main__":
