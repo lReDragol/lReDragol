@@ -54,9 +54,7 @@ jobs:
       - name: Extract cards
         run: |
           mkdir -p profile
-          cp "profile-summary-card-output/github/3-stats.svg" "profile/stats.svg"
           cp "profile-summary-card-output/github/1-repos-per-language.svg" "profile/top-langs.svg"
-          cp "profile-summary-card-output/github_dark/3-stats.svg" "profile/stats-dark.svg"
           cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
 
@@ -84,6 +82,13 @@ jobs:
           UTC_OFFSET: 3
           ACTIVITY_DAYS: 14
         run: python3 scripts/generate_activity_overview.py
+
+      - name: Generate profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+        run: python3 scripts/generate_profile_stats.py
 
       - name: Commit and push
         run: |
