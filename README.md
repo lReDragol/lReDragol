@@ -66,8 +66,11 @@
 
 ---
 
-### Activity Graph 📈
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lReDragol&bg_color=ffffff&color=000000&line=04e61b&point=403d3d&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+### Activity Overview 📈
+<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+  <img alt="lReDragol's GitHub activity overview" src="./profile/details.svg#gh-light-mode-only">
+  <img alt="lReDragol's GitHub activity overview" src="./profile/details-dark.svg#gh-dark-mode-only">
+</a>
 
 <p>
   <img src="./profile/lines-7d.svg" alt="Lines changed in the last 7 days">
