@@ -15,18 +15,30 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate trophy
-        uses: soulteary/github-profile-trophy-action@v1.0.0
-        with:
-          options: "username=${{ github.repository_owner }}&row=1&margin-w=40"
-          path: profile/trophy.svg
-          token: ${{ github.token }}
+        run: |
+          mkdir -p profile
 
-      - name: Generate trophy (dark)
-        uses: soulteary/github-profile-trophy-action@v1.0.0
-        with:
-          options: "username=${{ github.repository_owner }}&theme=onedark&row=1&margin-w=40"
-          path: profile/trophy-dark.svg
-          token: ${{ github.token }}
+          fetch_trophy() {
+            local url="$1"
+            local destination="$2"
+            local temp_file
+            temp_file="$(mktemp)"
+
+            if curl -fsSL "$url" -o "$temp_file" && grep -q "<svg" "$temp_file"; then
+              mv "$temp_file" "$destination"
+              echo "Updated $destination"
+            else
+              rm -f "$temp_file"
+              echo "Skipping $destination because the trophy source is unavailable."
+            fi
+          }
+
+          fetch_trophy \
+            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&row=1&margin-w=40" \
+            "profile/trophy.svg"
+          fetch_trophy \
+            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=onedark&row=1&margin-w=40" \
+            "profile/trophy-dark.svg"
 
       - name: Generate stats cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
