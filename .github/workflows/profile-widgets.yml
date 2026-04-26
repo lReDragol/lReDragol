@@ -90,12 +90,18 @@ jobs:
           OUTPUT_DIR: profile
         run: python3 scripts/generate_profile_stats.py
 
+      - name: Update README cache-bust token
+        run: |
+          CACHE_BUST="$(date -u +%Y%m%d%H%M%S)"
+          python3 scripts/update_readme_cache_bust.py README.md "$CACHE_BUST"
+
       - name: Commit and push
         run: |
           git config user.name "lReDragol"
           git config user.email "blinov.dr1@yandex.ru"
 
           git add \
+            README.md \
             profile/activity-dark.svg \
             profile/lines-7d.svg \
             profile/lines-30d.svg \
