@@ -42,10 +42,8 @@ jobs:
       - name: Extract cards
         run: |
           mkdir -p profile
-          cp "profile-summary-card-output/github/0-profile-details.svg" "profile/details.svg"
           cp "profile-summary-card-output/github/3-stats.svg" "profile/stats.svg"
           cp "profile-summary-card-output/github/1-repos-per-language.svg" "profile/top-langs.svg"
-          cp "profile-summary-card-output/github_dark/0-profile-details.svg" "profile/details-dark.svg"
           cp "profile-summary-card-output/github_dark/3-stats.svg" "profile/stats-dark.svg"
           cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
@@ -66,14 +64,22 @@ jobs:
           OUTPUT_DIR: profile
         run: python3 scripts/generate_line_badges.py
 
+      - name: Generate activity overview
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+          UTC_OFFSET: 3
+          ACTIVITY_DAYS: 14
+        run: python3 scripts/generate_activity_overview.py
+
       - name: Commit and push
         run: |
           git config user.name "lReDragol"
           git config user.email "blinov.dr1@yandex.ru"
 
           git add \
-            profile/details.svg \
-            profile/details-dark.svg \
+            profile/activity-dark.svg \
             profile/lines-7d.svg \
             profile/lines-30d.svg \
             profile/stats.svg \

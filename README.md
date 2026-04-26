@@ -67,10 +67,7 @@
 ---
 
 ### Activity Overview 📈
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's GitHub activity overview" src="./profile/details.svg#gh-light-mode-only">
-  <img alt="lReDragol's GitHub activity overview" src="./profile/details-dark.svg#gh-dark-mode-only">
-</a>
+<img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg">
 
 <p>
   <img src="./profile/lines-7d.svg" alt="Lines changed in the last 7 days">
