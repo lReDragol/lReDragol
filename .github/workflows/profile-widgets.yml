@@ -19,19 +19,19 @@ jobs:
         with:
           options: "username=${{ github.repository_owner }}&row=1&margin-w=40"
           path: profile/trophy.svg
-          token: ${{ secrets.WIDGETS_TOKEN || github.token }}
+          token: ${{ github.token }}
 
       - name: Generate trophy (dark)
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
           options: "username=${{ github.repository_owner }}&theme=onedark&row=1&margin-w=40"
           path: profile/trophy-dark.svg
-          token: ${{ secrets.WIDGETS_TOKEN || github.token }}
+          token: ${{ github.token }}
 
       - name: Generate stats cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
