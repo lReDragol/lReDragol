@@ -11,10 +11,10 @@
   <text x="306" y="94" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">43</text>
   <circle cx="31" cy="113" r="4" fill="#3fb950"/>
   <text x="44" y="118" style="fill: #8b949e; font-size: 14px;">Total Commits</text>
-  <text x="306" y="118" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">278</text>
+  <text x="306" y="118" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">284</text>
   <circle cx="31" cy="137" r="4" fill="#3fb950"/>
   <text x="44" y="142" style="fill: #8b949e; font-size: 14px;">Total PRs</text>
-  <text x="306" y="142" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">1</text>
+  <text x="306" y="142" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">3</text>
   <circle cx="31" cy="161" r="4" fill="#3fb950"/>
   <text x="44" y="166" style="fill: #8b949e; font-size: 14px;">Total Issues</text>
   <text x="306" y="166" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">1</text>
