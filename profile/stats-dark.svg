@@ -8,17 +8,17 @@
   <line x1="24" y1="72" x2="316" y2="72" stroke="#21262d" stroke-width="1"/>
   <circle cx="31" cy="89" r="4" fill="#3fb950"/>
   <text x="44" y="94" style="fill: #8b949e; font-size: 14px;">Total Stars</text>
-  <text x="306" y="94" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">43</text>
+  <text x="306" y="94" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">44</text>
   <circle cx="31" cy="113" r="4" fill="#3fb950"/>
   <text x="44" y="118" style="fill: #8b949e; font-size: 14px;">Total Commits</text>
-  <text x="306" y="118" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">286</text>
+  <text x="306" y="118" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">360</text>
   <circle cx="31" cy="137" r="4" fill="#3fb950"/>
   <text x="44" y="142" style="fill: #8b949e; font-size: 14px;">Total PRs</text>
-  <text x="306" y="142" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">3</text>
+  <text x="306" y="142" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">4</text>
   <circle cx="31" cy="161" r="4" fill="#3fb950"/>
   <text x="44" y="166" style="fill: #8b949e; font-size: 14px;">Total Issues</text>
   <text x="306" y="166" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">1</text>
   <circle cx="31" cy="185" r="4" fill="#3fb950"/>
   <text x="44" y="190" style="fill: #8b949e; font-size: 14px;">Contributed to</text>
-  <text x="306" y="190" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">33</text>
+  <text x="306" y="190" text-anchor="end" style="fill: #f0f6fc; font-size: 14px; font-weight: 700;">34</text>
 </svg>
