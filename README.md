@@ -52,26 +52,26 @@
 
 ## GitHub Profile Trophy 🏆
 
-[![trophy](./profile/trophy.svg?v=20260817030044)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](./profile/trophy.svg?v=20260818025620)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260817030044" height="192px"/>
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260818025620" height="192px"/>
 </a>
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260817030044" height="192px"/>
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260818025620" height="192px"/>
 </a>
 
 ---
 
 ### Activity Overview 📈
-<img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg?v=20260817030044">
+<img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg?v=20260818025620">
 
 <p>
-  <img src="./profile/lines-7d.svg?v=20260817030044" alt="Lines changed in the last 7 days">
-  <img src="./profile/lines-30d.svg?v=20260817030044" alt="Lines changed in the last 30 days">
+  <img src="./profile/lines-7d.svg?v=20260818025620" alt="Lines changed in the last 7 days">
+  <img src="./profile/lines-30d.svg?v=20260818025620" alt="Lines changed in the last 30 days">
 </p>
 
 ---
