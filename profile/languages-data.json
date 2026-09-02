@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T22:04:41Z",
+  "username": "lReDragol",
+  "repository_count": 40,
+  "total_bytes": 29670252,
+  "languages": [
+    {
+      "name": "Python",
+      "bytes": 26196387,
+      "percent": 88.29,
+      "color": "#3572A5"
+    },
+    {
+      "name": "C#",
+      "bytes": 1605219,
+      "percent": 5.41,
+      "color": "#178600"
+    },
+    {
+      "name": "C++",
+      "bytes": 705208,
+      "percent": 2.38,
+      "color": "#f34b7d"
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 632426,
+      "percent": 2.13,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Lua",
+      "bytes": 236239,
+      "percent": 0.8,
+      "color": "#000080"
+    },
+    {
+      "name": "CSS",
+      "bytes": 109520,
+      "percent": 0.37,
+      "color": "#563d7c"
+    },
+    {
+      "name": "HTML",
+      "bytes": 50650,
+      "percent": 0.17,
+      "color": "#e34c26"
+    },
+    {
+      "name": "PowerShell",
+      "bytes": 47618,
+      "percent": 0.16,
+      "color": "#012456"
+    },
+    {
+      "name": "Cuda",
+      "bytes": 42594,
+      "percent": 0.14,
+      "color": "#3a4e3a"
+    },
+    {
+      "name": "Inno Setup",
+      "bytes": 17172,
+      "percent": 0.06,
+      "color": "#264b99"
+    },
+    {
+      "name": "Batchfile",
+      "bytes": 12080,
+      "percent": 0.04,
+      "color": "#8b949e"
+    },
+    {
+      "name": "Shell",
+      "bytes": 6628,
+      "percent": 0.02,
+      "color": "#89e051"
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 3865,
+      "percent": 0.01,
+      "color": "#8b949e"
+    },
+    {
+      "name": "CMake",
+      "bytes": 2702,
+      "percent": 0.01,
+      "color": "#8b949e"
+    },
+    {
+      "name": "Cython",
+      "bytes": 1858,
+      "percent": 0.01,
+      "color": "#8b949e"
+    },
+    {
+      "name": "Makefile",
+      "bytes": 86,
+      "percent": 0.0,
+      "color": "#8b949e"
+    }
+  ]
+}

@@ -60,24 +60,13 @@ jobs:
           OUTPUT_DIR: profile
         run: python3 scripts/generate_trophy.py
 
-      - name: Generate stats cards
-        # Pin the release branch so third-party code cannot change between runs unnoticed.
-        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
+      - name: Generate top languages
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
-          UTC_OFFSET: 3
-          EXCLUDE: "Jupyter Notebook"
-          AUTO_PUSH: false
-
-      - name: Extract cards
-        run: |
-          mkdir -p profile
-          cp "profile-summary-card-output/github/1-repos-per-language.svg" "profile/top-langs.svg"
-          cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
-          rm -rf profile-summary-card-output
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+          EXCLUDE_LANGUAGES: "Jupyter Notebook"
+        run: python3 scripts/generate_top_languages.py
 
       - name: Update README cache-bust token
         run: |
@@ -103,6 +92,7 @@ jobs:
             profile/releases-dark.svg \
             profile/lines-7d.svg \
             profile/lines-30d.svg \
+            profile/languages-data.json \
             profile/stats-data.json \
             profile/stats.svg \
             profile/stats-dark.svg \

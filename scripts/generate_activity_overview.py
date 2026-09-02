@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -13,7 +14,7 @@ from pathlib import Path
 
 API_BASE = "https://api.github.com"
 USER_AGENT = "lReDragol-profile-widgets"
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 CARD_WIDTH = 960
 CARD_HEIGHT = 330
 DEFAULT_HISTORY_DAYS = 365
@@ -221,6 +222,37 @@ def empty_day(value: dt.date) -> dict[str, object]:
         "deletions": 0,
         "changed": 0,
         "merges": 0,
+        "repositories": [],
+    }
+
+
+def normalized_repository_activity(value: object) -> dict[str, object] | None:
+    if not isinstance(value, dict):
+        return None
+    repository_id = value.get("id")
+    name = value.get("name")
+    if not isinstance(repository_id, str) or not repository_id or not isinstance(name, str) or not name:
+        return None
+    try:
+        commits = max(int(value.get("commits", 0) or 0), 0)
+        additions = max(int(value.get("additions", 0) or 0), 0)
+        deletions = max(int(value.get("deletions", 0) or 0), 0)
+        merges = max(int(value.get("merges", 0) or 0), 0)
+    except (TypeError, ValueError):
+        return None
+    url = value.get("url")
+    if not isinstance(url, str) or not url.startswith("https://github.com/"):
+        url = None
+    return {
+        "id": repository_id,
+        "name": name,
+        "url": url,
+        "private": value.get("private") is True,
+        "commits": commits,
+        "additions": additions,
+        "deletions": deletions,
+        "changed": additions + deletions,
+        "merges": merges,
     }
 
 
@@ -235,6 +267,13 @@ def normalized_cached_day(value: object) -> dict[str, object] | None:
         merges = max(int(value.get("merges", 0) or 0), 0)
     except (TypeError, ValueError):
         return None
+    raw_repositories = value.get("repositories")
+    repositories = (
+        [item for raw in raw_repositories if (item := normalized_repository_activity(raw))]
+        if isinstance(raw_repositories, list)
+        else []
+    )
+    repositories.sort(key=lambda item: (-int(item["commits"]), -int(item["changed"]), str(item["name"]).casefold()))
     return {
         "date": value["date"],
         "commits": commits,
@@ -242,6 +281,32 @@ def normalized_cached_day(value: object) -> dict[str, object] | None:
         "deletions": deletions,
         "changed": additions + deletions,
         "merges": merges,
+        "repositories": repositories,
+    }
+
+
+def repository_activity_identity(
+    repository: dict[str, object],
+    username: str,
+    token: str | None,
+) -> dict[str, object] | None:
+    full_name = repository_full_name(repository)
+    if full_name is None:
+        return None
+    if repository.get("private") is True:
+        secret = token or username
+        digest = hashlib.sha256(f"{secret}\0{full_name.casefold()}".encode("utf-8")).hexdigest()[:8]
+        return {
+            "id": f"private-{digest}",
+            "name": f"Private repository {digest.upper()}",
+            "url": None,
+            "private": True,
+        }
+    return {
+        "id": full_name.casefold(),
+        "name": full_name,
+        "url": f"https://github.com/{full_name}",
+        "private": False,
     }
 
 
@@ -319,6 +384,9 @@ def collect_activity_data(
         if not isinstance(owner, dict) or not isinstance(owner.get("login"), str) or not isinstance(repo_name, str):
             continue
         owner_login = owner["login"]
+        repository_identity = repository_activity_identity(repository, username, token)
+        if repository_identity is None:
+            continue
 
         # Without an explicit `sha`, GitHub's commits endpoint walks the repository default branch.
         for commit in list_commits(owner_login, repo_name, username, since_utc, token):
@@ -341,8 +409,37 @@ def collect_activity_data(
             day["deletions"] = int(day["deletions"]) + deletions
             day["changed"] = int(day["additions"]) + int(day["deletions"])
             parents = commit.get("parents")
-            if isinstance(parents, list) and len(parents) > 1:
+            is_merge = isinstance(parents, list) and len(parents) > 1
+            if is_merge:
                 day["merges"] = int(day["merges"]) + 1
+
+            raw_repository_rows = day.get("repositories")
+            repository_rows = raw_repository_rows if isinstance(raw_repository_rows, list) else []
+            repository_row = next(
+                (
+                    row
+                    for row in repository_rows
+                    if isinstance(row, dict) and row.get("id") == repository_identity["id"]
+                ),
+                None,
+            )
+            if repository_row is None:
+                repository_row = {
+                    **repository_identity,
+                    "commits": 0,
+                    "additions": 0,
+                    "deletions": 0,
+                    "changed": 0,
+                    "merges": 0,
+                }
+                repository_rows.append(repository_row)
+                day["repositories"] = repository_rows
+            repository_row["commits"] = int(repository_row["commits"]) + 1
+            repository_row["additions"] = int(repository_row["additions"]) + additions
+            repository_row["deletions"] = int(repository_row["deletions"]) + deletions
+            repository_row["changed"] = int(repository_row["additions"]) + int(repository_row["deletions"])
+            if is_merge:
+                repository_row["merges"] = int(repository_row["merges"]) + 1
 
     login = profile_payload.get("login")
     name = profile_payload.get("name")
@@ -350,6 +447,17 @@ def collect_activity_data(
     if isinstance(name, str) and name.strip() and name.strip() != title:
         title = f"{title} ({name.strip()})"
     created_at = parse_datetime(profile_payload.get("created_at")) or now_utc
+
+    for day in days_by_date.values():
+        repository_rows = day.get("repositories")
+        if isinstance(repository_rows, list):
+            repository_rows.sort(
+                key=lambda item: (
+                    -int(item.get("commits", 0)),
+                    -int(item.get("changed", 0)),
+                    str(item.get("name", "")).casefold(),
+                )
+            )
 
     return {
         "schema_version": SCHEMA_VERSION,
@@ -362,7 +470,7 @@ def collect_activity_data(
         "scope": {
             "commits": "Authored commits reachable from repository default branches",
             "lines": "Raw Git diff additions and deletions, including generated files and merges",
-            "privacy": "Daily aggregate only; repository names, commit IDs, messages, paths, and code are omitted",
+            "privacy": "Public repository names are included; private repository names are replaced with opaque labels",
         },
         "repository_counts": {"public": public_repo_count, "private": private_repo_count},
         "days": [days_by_date[key] for key in sorted(days_by_date)],
@@ -507,8 +615,11 @@ def main() -> int:
     days = int(os.environ.get("ACTIVITY_DAYS", str(DEFAULT_HISTORY_DAYS)))
     data_path = output_dir / "activity-data.json"
     cached_data = load_activity_data(data_path)
-    refresh_default = DEFAULT_REFRESH_DAYS if cached_data else days
-    refresh_days = int(os.environ.get("ACTIVITY_REFRESH_DAYS", str(refresh_default)))
+    refresh_days = (
+        int(os.environ.get("ACTIVITY_REFRESH_DAYS", str(DEFAULT_REFRESH_DAYS)))
+        if cached_data
+        else days
+    )
     excluded = {
         item.strip()
         for item in os.environ.get("EXCLUDE_REPOSITORY", f"{username}/{username}" if username else "").split(",")

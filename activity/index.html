@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Interactive daily GitHub activity for lReDragol, including privacy-safe aggregate data from private repositories.">
+    <meta name="description" content="Interactive daily GitHub activity for lReDragol across public and private repositories.">
     <title>lReDragol - Activity Overview</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
@@ -20,11 +20,6 @@
           <a class="profile-link" href="https://github.com/lReDragol">Open GitHub profile</a>
         </div>
       </header>
-
-      <section class="notice" aria-label="Privacy and metric explanation">
-        <strong>Privacy-safe aggregate.</strong>
-        Private repository names, commit IDs, messages, paths, and code are never published. Line counts are raw additions and deletions, so generated files, merges, imports, and mass deletions are included.
-      </section>
 
       <section class="summary" aria-label="Activity totals">
         <article><span id="total-commits">-</span><small>commits</small></article>
@@ -65,6 +60,17 @@
         <div class="legend-row">
           <span id="period-label">Loading activity...</span>
           <div class="legend" aria-label="Heat scale"><span>Less</span><i data-level="0"></i><i data-level="1"></i><i data-level="2"></i><i data-level="3"></i><i data-level="4"></i><span>More</span></div>
+        </div>
+
+        <div class="repository-activity" aria-labelledby="repository-activity-heading">
+          <div class="repository-activity-head">
+            <div>
+              <p id="repository-context" class="repository-context">Selected period</p>
+              <h3 id="repository-activity-heading">Loading repository activity...</h3>
+            </div>
+            <button id="repository-reset" class="repository-reset" type="button" hidden>Show selected period</button>
+          </div>
+          <div id="repository-list" class="repository-list" aria-live="polite"></div>
         </div>
       </section>
 

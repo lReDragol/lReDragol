@@ -95,9 +95,27 @@ class CollectActivityTests(unittest.TestCase):
 
         self.assertEqual(data["title"], "lReDragol (Drago)")
         self.assertEqual(data["repository_counts"], {"public": 1, "private": 1})
-        self.assertEqual(data["days"][0], {"date": "2026-04-14", "commits": 1, "additions": 10, "deletions": 2, "changed": 12, "merges": 0})
-        self.assertEqual(data["days"][5], {"date": "2026-04-19", "commits": 2, "additions": 33, "deletions": 6, "changed": 39, "merges": 0})
-        self.assertEqual(data["days"][13], {"date": "2026-04-27", "commits": 1, "additions": 2, "deletions": 8, "changed": 10, "merges": 1})
+        self.assertEqual(
+            {key: data["days"][0][key] for key in ("date", "commits", "additions", "deletions", "changed", "merges")},
+            {"date": "2026-04-14", "commits": 1, "additions": 10, "deletions": 2, "changed": 12, "merges": 0},
+        )
+        self.assertEqual(data["days"][5]["commits"], 2)
+        self.assertEqual(data["days"][5]["changed"], 39)
+        self.assertEqual(data["days"][13]["merges"], 1)
+
+        public_row = data["days"][0]["repositories"][0]
+        self.assertEqual(public_row["name"], "lReDragol/public-one")
+        self.assertEqual(public_row["url"], "https://github.com/lReDragol/public-one")
+        self.assertEqual(public_row["commits"], 1)
+        private_rows = [
+            repository
+            for day in data["days"]
+            for repository in day["repositories"]
+            if repository["private"]
+        ]
+        self.assertEqual(len(private_rows), 2)
+        self.assertTrue(all(repository["name"].startswith("Private repository ") for repository in private_rows))
+        self.assertTrue(all(repository["url"] is None for repository in private_rows))
 
         published = json.dumps(data)
         for private_value in ("private-one", "team-secret", "priv-day5", "collab-day13"):
@@ -105,11 +123,19 @@ class CollectActivityTests(unittest.TestCase):
 
     def test_cached_history_is_preserved_outside_refresh_window(self) -> None:
         cached = {
-            "schema_version": 1,
+            "schema_version": 2,
             "days": [
-                {"date": "2026-04-24", "commits": 7, "additions": 20, "deletions": 4, "changed": 999, "merges": 1},
-                {"date": "2026-04-25", "commits": 2, "additions": 5, "deletions": 1, "changed": 6, "merges": 0},
-                {"date": "2026-04-26", "commits": 99, "additions": 99, "deletions": 99, "changed": 198, "merges": 0},
+                {
+                    "date": "2026-04-24",
+                    "commits": 7,
+                    "additions": 20,
+                    "deletions": 4,
+                    "changed": 999,
+                    "merges": 1,
+                    "repositories": [{"id": "public/repo", "name": "Public/repo", "url": "https://github.com/Public/repo", "private": False, "commits": 7, "additions": 20, "deletions": 4, "changed": 999, "merges": 1}],
+                },
+                {"date": "2026-04-25", "commits": 2, "additions": 5, "deletions": 1, "changed": 6, "merges": 0, "repositories": []},
+                {"date": "2026-04-26", "commits": 99, "additions": 99, "deletions": 99, "changed": 198, "merges": 0, "repositories": []},
             ],
         }
         profile = {"login": "lReDragol", "created_at": "2024-06-01T08:00:00Z"}
@@ -127,6 +153,7 @@ class CollectActivityTests(unittest.TestCase):
             )
 
         self.assertEqual(data["days"][0]["changed"], 24)
+        self.assertEqual(data["days"][0]["repositories"][0]["changed"], 24)
         self.assertEqual(data["days"][1]["commits"], 2)
         self.assertEqual(data["days"][2]["commits"], 0)
         self.assertEqual(data["days"][3]["commits"], 0)

@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-09-02T21:51:29Z",
+  "schema_version": 2,
+  "generated_at": "2026-09-02T22:04:53Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
@@ -13,7 +13,7 @@
   "scope": {
     "commits": "Authored commits reachable from repository default branches",
     "lines": "Raw Git diff additions and deletions, including generated files and merges",
-    "privacy": "Daily aggregate only; repository names, commit IDs, messages, paths, and code are omitted"
+    "privacy": "Public repository names are included; private repository names are replaced with opaque labels"
   },
   "repository_counts": {
     "public": 26,
@@ -26,7 +26,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-05",
@@ -34,7 +35,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-06",
@@ -42,7 +44,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-07",
@@ -50,7 +53,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-08",
@@ -58,7 +62,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-09",
@@ -66,7 +71,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-10",
@@ -74,7 +80,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-11",
@@ -82,7 +89,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-12",
@@ -90,7 +98,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-13",
@@ -98,7 +107,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-14",
@@ -106,7 +116,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-15",
@@ -114,7 +125,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-16",
@@ -122,7 +134,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-17",
@@ -130,7 +143,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-18",
@@ -138,7 +152,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-19",
@@ -146,7 +161,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-20",
@@ -154,7 +170,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-21",
@@ -162,7 +179,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-22",
@@ -170,7 +188,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-23",
@@ -178,7 +197,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-24",
@@ -186,7 +206,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-25",
@@ -194,7 +215,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-26",
@@ -202,7 +224,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-27",
@@ -210,7 +233,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-28",
@@ -218,7 +242,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-29",
@@ -226,7 +251,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-09-30",
@@ -234,7 +260,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-01",
@@ -242,7 +269,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-02",
@@ -250,7 +278,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-03",
@@ -258,7 +287,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-04",
@@ -266,7 +296,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-05",
@@ -274,7 +305,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-06",
@@ -282,7 +314,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-07",
@@ -290,7 +323,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-08",
@@ -298,7 +332,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-09",
@@ -306,7 +341,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-10",
@@ -314,7 +350,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-11",
@@ -322,7 +359,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-12",
@@ -330,7 +368,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-13",
@@ -338,7 +377,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-14",
@@ -346,7 +386,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-15",
@@ -354,7 +395,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-16",
@@ -362,7 +404,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-17",
@@ -370,7 +413,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-18",
@@ -378,7 +422,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-19",
@@ -386,7 +431,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-20",
@@ -394,7 +440,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-21",
@@ -402,7 +449,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-22",
@@ -410,7 +458,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-23",
@@ -418,7 +467,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-24",
@@ -426,7 +476,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-25",
@@ -434,7 +485,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-26",
@@ -442,7 +494,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-27",
@@ -450,7 +503,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-28",
@@ -458,7 +512,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-29",
@@ -466,7 +521,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-30",
@@ -474,7 +530,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-10-31",
@@ -482,7 +539,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-01",
@@ -490,7 +548,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-02",
@@ -498,7 +557,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-03",
@@ -506,7 +566,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-04",
@@ -514,7 +575,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-05",
@@ -522,7 +584,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-06",
@@ -530,7 +593,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-07",
@@ -538,7 +602,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-08",
@@ -546,7 +611,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-09",
@@ -554,7 +620,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-10",
@@ -562,7 +629,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-11",
@@ -570,7 +638,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-12",
@@ -578,7 +647,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-13",
@@ -586,7 +656,20 @@
       "additions": 1653,
       "deletions": 0,
       "changed": 1653,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-da2e8502",
+          "name": "Private repository DA2E8502",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 1653,
+          "deletions": 0,
+          "changed": 1653,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2025-11-14",
@@ -594,7 +677,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-15",
@@ -602,7 +686,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-16",
@@ -610,7 +695,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-17",
@@ -618,7 +704,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-18",
@@ -626,7 +713,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-19",
@@ -634,7 +722,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-20",
@@ -642,7 +731,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-21",
@@ -650,7 +740,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-22",
@@ -658,7 +749,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-23",
@@ -666,7 +758,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-24",
@@ -674,7 +767,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-25",
@@ -682,7 +776,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-26",
@@ -690,7 +785,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-27",
@@ -698,7 +794,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-28",
@@ -706,7 +803,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-29",
@@ -714,7 +812,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-11-30",
@@ -722,7 +821,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-01",
@@ -730,7 +830,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-02",
@@ -738,7 +839,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-03",
@@ -746,7 +848,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-04",
@@ -754,7 +857,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-05",
@@ -762,7 +866,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-06",
@@ -770,7 +875,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-07",
@@ -778,7 +884,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-08",
@@ -786,7 +893,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-09",
@@ -794,7 +902,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-10",
@@ -802,7 +911,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-11",
@@ -810,7 +920,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-12",
@@ -818,7 +929,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-13",
@@ -826,7 +938,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-14",
@@ -834,7 +947,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-15",
@@ -842,7 +956,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-16",
@@ -850,7 +965,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-17",
@@ -858,7 +974,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-18",
@@ -866,7 +983,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-19",
@@ -874,7 +992,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-20",
@@ -882,7 +1001,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-21",
@@ -890,7 +1010,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-22",
@@ -898,7 +1019,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-23",
@@ -906,7 +1028,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-24",
@@ -914,7 +1037,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-25",
@@ -922,7 +1046,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-26",
@@ -930,7 +1055,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-27",
@@ -938,7 +1064,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-28",
@@ -946,7 +1073,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-29",
@@ -954,7 +1082,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-30",
@@ -962,7 +1091,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2025-12-31",
@@ -970,7 +1100,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-01",
@@ -978,7 +1109,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-02",
@@ -986,7 +1118,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-03",
@@ -994,7 +1127,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-04",
@@ -1002,7 +1136,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-05",
@@ -1010,7 +1145,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-06",
@@ -1018,7 +1154,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-07",
@@ -1026,7 +1163,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-08",
@@ -1034,7 +1172,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-09",
@@ -1042,7 +1181,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-10",
@@ -1050,7 +1190,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-11",
@@ -1058,7 +1199,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-12",
@@ -1066,7 +1208,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-13",
@@ -1074,7 +1217,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-14",
@@ -1082,7 +1226,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-15",
@@ -1090,7 +1235,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-16",
@@ -1098,7 +1244,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-17",
@@ -1106,7 +1253,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-18",
@@ -1114,7 +1262,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-19",
@@ -1122,7 +1271,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-20",
@@ -1130,7 +1280,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-21",
@@ -1138,7 +1289,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-22",
@@ -1146,7 +1298,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-23",
@@ -1154,7 +1307,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-24",
@@ -1162,7 +1316,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-25",
@@ -1170,7 +1325,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-26",
@@ -1178,7 +1334,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-27",
@@ -1186,7 +1343,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-28",
@@ -1194,7 +1352,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-29",
@@ -1202,7 +1361,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-30",
@@ -1210,7 +1370,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-01-31",
@@ -1218,7 +1379,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-01",
@@ -1226,7 +1388,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-02",
@@ -1234,7 +1397,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-03",
@@ -1242,7 +1406,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-04",
@@ -1250,7 +1415,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-05",
@@ -1258,7 +1424,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-06",
@@ -1266,7 +1433,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-07",
@@ -1274,7 +1442,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-08",
@@ -1282,7 +1451,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-09",
@@ -1290,7 +1460,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-10",
@@ -1298,7 +1469,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-11",
@@ -1306,7 +1478,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-12",
@@ -1314,7 +1487,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-13",
@@ -1322,7 +1496,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-14",
@@ -1330,7 +1505,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-15",
@@ -1338,7 +1514,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-16",
@@ -1346,7 +1523,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-17",
@@ -1354,7 +1532,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-18",
@@ -1362,7 +1541,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-19",
@@ -1370,7 +1550,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-20",
@@ -1378,7 +1559,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-21",
@@ -1386,7 +1568,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-22",
@@ -1394,7 +1577,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-23",
@@ -1402,7 +1586,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-24",
@@ -1410,7 +1595,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-25",
@@ -1418,7 +1604,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-26",
@@ -1426,7 +1613,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-27",
@@ -1434,7 +1622,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-02-28",
@@ -1442,7 +1631,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-01",
@@ -1450,7 +1640,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-02",
@@ -1458,7 +1649,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-03",
@@ -1466,7 +1658,20 @@
       "additions": 201,
       "deletions": 0,
       "changed": 201,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/escgram",
+          "name": "lReDragol/ESCgram",
+          "url": "https://github.com/lReDragol/ESCgram",
+          "private": false,
+          "commits": 1,
+          "additions": 201,
+          "deletions": 0,
+          "changed": 201,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-04",
@@ -1474,7 +1679,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-05",
@@ -1482,7 +1688,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-06",
@@ -1490,7 +1697,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-07",
@@ -1498,7 +1706,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-08",
@@ -1506,7 +1715,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-09",
@@ -1514,7 +1724,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-10",
@@ -1522,7 +1733,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-11",
@@ -1530,7 +1742,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-12",
@@ -1538,7 +1751,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-13",
@@ -1546,7 +1760,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-14",
@@ -1554,7 +1769,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-15",
@@ -1562,7 +1778,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-16",
@@ -1570,7 +1787,20 @@
       "additions": 22940,
       "deletions": 85699,
       "changed": 108639,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/oncehuman_tools",
+          "name": "lReDragol/OnceHuman_Tools",
+          "url": "https://github.com/lReDragol/OnceHuman_Tools",
+          "private": false,
+          "commits": 8,
+          "additions": 22940,
+          "deletions": 85699,
+          "changed": 108639,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-17",
@@ -1578,7 +1808,20 @@
       "additions": 4661,
       "deletions": 184,
       "changed": 4845,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/oncehuman_tools",
+          "name": "lReDragol/OnceHuman_Tools",
+          "url": "https://github.com/lReDragol/OnceHuman_Tools",
+          "private": false,
+          "commits": 2,
+          "additions": 4661,
+          "deletions": 184,
+          "changed": 4845,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-18",
@@ -1586,7 +1829,20 @@
       "additions": 219237,
       "deletions": 1530,
       "changed": 220767,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/oncehuman_tools",
+          "name": "lReDragol/OnceHuman_Tools",
+          "url": "https://github.com/lReDragol/OnceHuman_Tools",
+          "private": false,
+          "commits": 1,
+          "additions": 219237,
+          "deletions": 1530,
+          "changed": 220767,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-19",
@@ -1594,7 +1850,20 @@
       "additions": 736,
       "deletions": 164,
       "changed": 900,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/oncehuman_tools",
+          "name": "lReDragol/OnceHuman_Tools",
+          "url": "https://github.com/lReDragol/OnceHuman_Tools",
+          "private": false,
+          "commits": 2,
+          "additions": 736,
+          "deletions": 164,
+          "changed": 900,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-20",
@@ -1602,7 +1871,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-21",
@@ -1610,7 +1880,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-22",
@@ -1618,7 +1889,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-23",
@@ -1626,7 +1898,20 @@
       "additions": 16000,
       "deletions": 0,
       "changed": 16000,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/icarus-save-editor",
+          "name": "lReDragol/icarus-save-editor",
+          "url": "https://github.com/lReDragol/icarus-save-editor",
+          "private": false,
+          "commits": 1,
+          "additions": 16000,
+          "deletions": 0,
+          "changed": 16000,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-24",
@@ -1634,7 +1919,20 @@
       "additions": 424,
       "deletions": 3,
       "changed": 427,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/icarus-save-editor",
+          "name": "lReDragol/icarus-save-editor",
+          "url": "https://github.com/lReDragol/icarus-save-editor",
+          "private": false,
+          "commits": 1,
+          "additions": 424,
+          "deletions": 3,
+          "changed": 427,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-03-25",
@@ -1642,7 +1940,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-26",
@@ -1650,7 +1949,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-27",
@@ -1658,7 +1958,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-28",
@@ -1666,7 +1967,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-29",
@@ -1674,7 +1976,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-30",
@@ -1682,7 +1985,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-03-31",
@@ -1690,7 +1994,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-01",
@@ -1698,7 +2003,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-02",
@@ -1706,7 +2012,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-03",
@@ -1714,7 +2021,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-04",
@@ -1722,7 +2030,20 @@
       "additions": 111,
       "deletions": 108,
       "changed": 219,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/icon-creator",
+          "name": "lReDragol/Icon-Creator",
+          "url": "https://github.com/lReDragol/Icon-Creator",
+          "private": false,
+          "commits": 1,
+          "additions": 111,
+          "deletions": 108,
+          "changed": 219,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-05",
@@ -1730,7 +2051,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-06",
@@ -1738,7 +2060,20 @@
       "additions": 24991,
       "deletions": 0,
       "changed": 24991,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/deeper-router-api-research",
+          "name": "lReDragol/deeper-router-api-research",
+          "url": "https://github.com/lReDragol/deeper-router-api-research",
+          "private": false,
+          "commits": 2,
+          "additions": 24991,
+          "deletions": 0,
+          "changed": 24991,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-07",
@@ -1746,7 +2081,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-08",
@@ -1754,7 +2090,31 @@
       "additions": 10144,
       "deletions": 2007,
       "changed": 12151,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/deeper-router-api-research",
+          "name": "lReDragol/deeper-router-api-research",
+          "url": "https://github.com/lReDragol/deeper-router-api-research",
+          "private": false,
+          "commits": 2,
+          "additions": 2126,
+          "deletions": 2007,
+          "changed": 4133,
+          "merges": 0
+        },
+        {
+          "id": "private-bab7df41",
+          "name": "Private repository BAB7DF41",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 8018,
+          "deletions": 0,
+          "changed": 8018,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-09",
@@ -1762,7 +2122,20 @@
       "additions": 4795,
       "deletions": 676,
       "changed": 5471,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-429c638c",
+          "name": "Private repository 429C638C",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4795,
+          "deletions": 676,
+          "changed": 5471,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-10",
@@ -1770,7 +2143,20 @@
       "additions": 6211,
       "deletions": 0,
       "changed": 6211,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-92c7ce66",
+          "name": "Private repository 92C7CE66",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 6211,
+          "deletions": 0,
+          "changed": 6211,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-11",
@@ -1778,7 +2164,42 @@
       "additions": 33151,
       "deletions": 19803,
       "changed": 52954,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-da2e8502",
+          "name": "Private repository DA2E8502",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 20169,
+          "deletions": 1702,
+          "changed": 21871,
+          "merges": 0
+        },
+        {
+          "id": "private-429c638c",
+          "name": "Private repository 429C638C",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 5077,
+          "deletions": 18101,
+          "changed": 23178,
+          "merges": 0
+        },
+        {
+          "id": "private-21e16bc7",
+          "name": "Private repository 21E16BC7",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 7905,
+          "deletions": 0,
+          "changed": 7905,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-12",
@@ -1786,7 +2207,42 @@
       "additions": 6520,
       "deletions": 134,
       "changed": 6654,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-429c638c",
+          "name": "Private repository 429C638C",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 6052,
+          "deletions": 19,
+          "changed": 6071,
+          "merges": 0
+        },
+        {
+          "id": "private-21e16bc7",
+          "name": "Private repository 21E16BC7",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 361,
+          "deletions": 0,
+          "changed": 361,
+          "merges": 0
+        },
+        {
+          "id": "private-da2e8502",
+          "name": "Private repository DA2E8502",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 107,
+          "deletions": 115,
+          "changed": 222,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-13",
@@ -1794,7 +2250,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-14",
@@ -1802,7 +2259,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-15",
@@ -1810,7 +2268,20 @@
       "additions": 19739,
       "deletions": 0,
       "changed": 19739,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 19739,
+          "deletions": 0,
+          "changed": 19739,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-16",
@@ -1818,7 +2289,20 @@
       "additions": 2561,
       "deletions": 371,
       "changed": 2932,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 2561,
+          "deletions": 371,
+          "changed": 2932,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-17",
@@ -1826,7 +2310,20 @@
       "additions": 1445,
       "deletions": 220,
       "changed": 1665,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 5,
+          "additions": 1445,
+          "deletions": 220,
+          "changed": 1665,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-18",
@@ -1834,7 +2331,20 @@
       "additions": 1134,
       "deletions": 204,
       "changed": 1338,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 1134,
+          "deletions": 204,
+          "changed": 1338,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-19",
@@ -1842,7 +2352,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-20",
@@ -1850,7 +2361,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-21",
@@ -1858,7 +2370,20 @@
       "additions": 2592,
       "deletions": 217,
       "changed": 2809,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 2592,
+          "deletions": 217,
+          "changed": 2809,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-22",
@@ -1866,7 +2391,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-04-23",
@@ -1874,7 +2400,20 @@
       "additions": 369,
       "deletions": 70,
       "changed": 439,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-3a7fc6d6",
+          "name": "Private repository 3A7FC6D6",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 369,
+          "deletions": 70,
+          "changed": 439,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-24",
@@ -1882,7 +2421,42 @@
       "additions": 713690,
       "deletions": 830,
       "changed": 714520,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-7fb57982",
+          "name": "Private repository 7FB57982",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 47254,
+          "deletions": 828,
+          "changed": 48082,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 2,
+          "additions": 43478,
+          "deletions": 2,
+          "changed": 43480,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 622958,
+          "deletions": 0,
+          "changed": 622958,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-25",
@@ -1890,7 +2464,42 @@
       "additions": 26946,
       "deletions": 2927,
       "changed": 29873,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 6,
+          "additions": 19330,
+          "deletions": 2445,
+          "changed": 21775,
+          "merges": 0
+        },
+        {
+          "id": "private-7fb57982",
+          "name": "Private repository 7FB57982",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 3309,
+          "deletions": 338,
+          "changed": 3647,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 4307,
+          "deletions": 144,
+          "changed": 4451,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-26",
@@ -1898,7 +2507,42 @@
       "additions": 30661,
       "deletions": 1813,
       "changed": 32474,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 4,
+          "additions": 11327,
+          "deletions": 319,
+          "changed": 11646,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 14357,
+          "deletions": 795,
+          "changed": 15152,
+          "merges": 0
+        },
+        {
+          "id": "private-7fb57982",
+          "name": "Private repository 7FB57982",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4977,
+          "deletions": 699,
+          "changed": 5676,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-27",
@@ -1906,7 +2550,53 @@
       "additions": 19205,
       "deletions": 1615,
       "changed": 20820,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-7fb57982",
+          "name": "Private repository 7FB57982",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 8602,
+          "deletions": 828,
+          "changed": 9430,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 3,
+          "additions": 6280,
+          "deletions": 275,
+          "changed": 6555,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4323,
+          "deletions": 508,
+          "changed": 4831,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/bybit-info-bot",
+          "name": "lReDragol/bybit-info-bot",
+          "url": "https://github.com/lReDragol/bybit-info-bot",
+          "private": false,
+          "commits": 1,
+          "additions": 0,
+          "deletions": 4,
+          "changed": 4,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-28",
@@ -1914,7 +2604,42 @@
       "additions": 18607,
       "deletions": 10791,
       "changed": 29398,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4171,
+          "deletions": 677,
+          "changed": 4848,
+          "merges": 0
+        },
+        {
+          "id": "private-7fb57982",
+          "name": "Private repository 7FB57982",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 9412,
+          "deletions": 10096,
+          "changed": 19508,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 2,
+          "additions": 5024,
+          "deletions": 18,
+          "changed": 5042,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-29",
@@ -1922,7 +2647,31 @@
       "additions": 2625,
       "deletions": 6006,
       "changed": 8631,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 4,
+          "additions": 1652,
+          "deletions": 5958,
+          "changed": 7610,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 973,
+          "deletions": 48,
+          "changed": 1021,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-04-30",
@@ -1930,7 +2679,31 @@
       "additions": 15074,
       "deletions": 618088,
       "changed": 633162,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 3,
+          "additions": 3056,
+          "deletions": 1059,
+          "changed": 4115,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 12018,
+          "deletions": 617029,
+          "changed": 629047,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-01",
@@ -1938,7 +2711,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-02",
@@ -1946,7 +2720,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-03",
@@ -1954,7 +2729,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-04",
@@ -1962,7 +2738,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-05",
@@ -1970,7 +2747,20 @@
       "additions": 4415,
       "deletions": 116,
       "changed": 4531,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 3,
+          "additions": 4415,
+          "deletions": 116,
+          "changed": 4531,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-06",
@@ -1978,7 +2768,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-07",
@@ -1986,7 +2777,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-08",
@@ -1994,7 +2786,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-09",
@@ -2002,7 +2795,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-10",
@@ -2010,7 +2804,20 @@
       "additions": 3763,
       "deletions": 298,
       "changed": 4061,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 3763,
+          "deletions": 298,
+          "changed": 4061,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-11",
@@ -2018,7 +2825,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-12",
@@ -2026,7 +2834,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-13",
@@ -2034,7 +2843,20 @@
       "additions": 1870,
       "deletions": 68,
       "changed": 1938,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 1870,
+          "deletions": 68,
+          "changed": 1938,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-14",
@@ -2042,7 +2864,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-15",
@@ -2050,7 +2873,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-16",
@@ -2058,7 +2882,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-17",
@@ -2066,7 +2891,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-18",
@@ -2074,7 +2900,20 @@
       "additions": 859,
       "deletions": 178,
       "changed": 1037,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 859,
+          "deletions": 178,
+          "changed": 1037,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-19",
@@ -2082,7 +2921,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-20",
@@ -2090,7 +2930,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-21",
@@ -2098,7 +2939,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-22",
@@ -2106,7 +2948,20 @@
       "additions": 110652,
       "deletions": 54524,
       "changed": 165176,
-      "merges": 2
+      "merges": 2,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 110652,
+          "deletions": 54524,
+          "changed": 165176,
+          "merges": 2
+        }
+      ]
     },
     {
       "date": "2026-05-23",
@@ -2114,7 +2969,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-24",
@@ -2122,7 +2978,20 @@
       "additions": 4899770,
       "deletions": 523,
       "changed": 4900293,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4899770,
+          "deletions": 523,
+          "changed": 4900293,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-25",
@@ -2130,7 +2999,20 @@
       "additions": 4990,
       "deletions": 265,
       "changed": 5255,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 4990,
+          "deletions": 265,
+          "changed": 5255,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-26",
@@ -2138,7 +3020,20 @@
       "additions": 2862,
       "deletions": 148,
       "changed": 3010,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 2862,
+          "deletions": 148,
+          "changed": 3010,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-27",
@@ -2146,7 +3041,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-28",
@@ -2154,7 +3050,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-29",
@@ -2162,7 +3059,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-05-30",
@@ -2170,7 +3068,20 @@
       "additions": 2644,
       "deletions": 0,
       "changed": 2644,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/rar5-gpu-cracker",
+          "name": "lReDragol/rar5-gpu-cracker",
+          "url": "https://github.com/lReDragol/rar5-gpu-cracker",
+          "private": false,
+          "commits": 2,
+          "additions": 2644,
+          "deletions": 0,
+          "changed": 2644,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-05-31",
@@ -2178,7 +3089,31 @@
       "additions": 31536,
       "deletions": 9783837,
       "changed": 9815373,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 40,
+          "additions": 31310,
+          "deletions": 9783704,
+          "changed": 9815014,
+          "merges": 1
+        },
+        {
+          "id": "lredragol/rar5-gpu-cracker",
+          "name": "lReDragol/rar5-gpu-cracker",
+          "url": "https://github.com/lReDragol/rar5-gpu-cracker",
+          "private": false,
+          "commits": 2,
+          "additions": 226,
+          "deletions": 133,
+          "changed": 359,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-06-01",
@@ -2186,7 +3121,20 @@
       "additions": 28875,
       "deletions": 4893194,
       "changed": 4922069,
-      "merges": 2
+      "merges": 2,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 26,
+          "additions": 28875,
+          "deletions": 4893194,
+          "changed": 4922069,
+          "merges": 2
+        }
+      ]
     },
     {
       "date": "2026-06-02",
@@ -2194,7 +3142,20 @@
       "additions": 7,
       "deletions": 0,
       "changed": 7,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 7,
+          "deletions": 0,
+          "changed": 7,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-06-03",
@@ -2202,7 +3163,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-04",
@@ -2210,7 +3172,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-05",
@@ -2218,7 +3181,20 @@
       "additions": 5597,
       "deletions": 0,
       "changed": 5597,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-750e367e",
+          "name": "Private repository 750E367E",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 5597,
+          "deletions": 0,
+          "changed": 5597,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-06-06",
@@ -2226,7 +3202,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-07",
@@ -2234,7 +3211,20 @@
       "additions": 2018,
       "deletions": 0,
       "changed": 2018,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/piano-bot",
+          "name": "lReDragol/piano-bot",
+          "url": "https://github.com/lReDragol/piano-bot",
+          "private": false,
+          "commits": 2,
+          "additions": 2018,
+          "deletions": 0,
+          "changed": 2018,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-06-08",
@@ -2242,7 +3232,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-09",
@@ -2250,7 +3241,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-10",
@@ -2258,7 +3250,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-11",
@@ -2266,7 +3259,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-12",
@@ -2274,7 +3268,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-13",
@@ -2282,7 +3277,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-14",
@@ -2290,7 +3286,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-15",
@@ -2298,7 +3295,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-16",
@@ -2306,7 +3304,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-17",
@@ -2314,7 +3313,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-18",
@@ -2322,7 +3322,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-19",
@@ -2330,7 +3331,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-20",
@@ -2338,7 +3340,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-21",
@@ -2346,7 +3349,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-22",
@@ -2354,7 +3358,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-23",
@@ -2362,7 +3367,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-24",
@@ -2370,7 +3376,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-25",
@@ -2378,7 +3385,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-26",
@@ -2386,7 +3394,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-27",
@@ -2394,7 +3403,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-28",
@@ -2402,7 +3412,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-29",
@@ -2410,7 +3421,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-06-30",
@@ -2418,7 +3430,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-07-01",
@@ -2426,7 +3439,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-07-02",
@@ -2434,7 +3448,20 @@
       "additions": 2181094,
       "deletions": 88,
       "changed": 2181182,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 2181094,
+          "deletions": 88,
+          "changed": 2181182,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-03",
@@ -2442,7 +3469,20 @@
       "additions": 7642,
       "deletions": 2213,
       "changed": 9855,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 9,
+          "additions": 7642,
+          "deletions": 2213,
+          "changed": 9855,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-04",
@@ -2450,7 +3490,20 @@
       "additions": 3550,
       "deletions": 1344,
       "changed": 4894,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 12,
+          "additions": 3550,
+          "deletions": 1344,
+          "changed": 4894,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-05",
@@ -2458,7 +3511,20 @@
       "additions": 3999,
       "deletions": 7649,
       "changed": 11648,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 10,
+          "additions": 3999,
+          "deletions": 7649,
+          "changed": 11648,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-06",
@@ -2466,7 +3532,20 @@
       "additions": 13083,
       "deletions": 2434,
       "changed": 15517,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 29,
+          "additions": 13083,
+          "deletions": 2434,
+          "changed": 15517,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-07",
@@ -2474,7 +3553,20 @@
       "additions": 28145,
       "deletions": 9543,
       "changed": 37688,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 14,
+          "additions": 28145,
+          "deletions": 9543,
+          "changed": 37688,
+          "merges": 1
+        }
+      ]
     },
     {
       "date": "2026-07-08",
@@ -2482,7 +3574,20 @@
       "additions": 7533,
       "deletions": 799,
       "changed": 8332,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 5,
+          "additions": 7533,
+          "deletions": 799,
+          "changed": 8332,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-09",
@@ -2490,7 +3595,20 @@
       "additions": 5259,
       "deletions": 414,
       "changed": 5673,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 7,
+          "additions": 5259,
+          "deletions": 414,
+          "changed": 5673,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-10",
@@ -2498,7 +3616,20 @@
       "additions": 11131,
       "deletions": 14027,
       "changed": 25158,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 30,
+          "additions": 11131,
+          "deletions": 14027,
+          "changed": 25158,
+          "merges": 1
+        }
+      ]
     },
     {
       "date": "2026-07-11",
@@ -2506,7 +3637,20 @@
       "additions": 1199,
       "deletions": 80,
       "changed": 1279,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 18,
+          "additions": 1199,
+          "deletions": 80,
+          "changed": 1279,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-12",
@@ -2514,7 +3658,20 @@
       "additions": 3237,
       "deletions": 1157,
       "changed": 4394,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 18,
+          "additions": 3237,
+          "deletions": 1157,
+          "changed": 4394,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-13",
@@ -2522,7 +3679,20 @@
       "additions": 5089,
       "deletions": 324,
       "changed": 5413,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 5089,
+          "deletions": 324,
+          "changed": 5413,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-14",
@@ -2530,7 +3700,20 @@
       "additions": 8817,
       "deletions": 3517,
       "changed": 12334,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 23,
+          "additions": 8817,
+          "deletions": 3517,
+          "changed": 12334,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-15",
@@ -2538,7 +3721,31 @@
       "additions": 17020,
       "deletions": 1059,
       "changed": 18079,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 11,
+          "additions": 12702,
+          "deletions": 664,
+          "changed": 13366,
+          "merges": 0
+        },
+        {
+          "id": "private-78d1bfe8",
+          "name": "Private repository 78D1BFE8",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 4318,
+          "deletions": 395,
+          "changed": 4713,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-16",
@@ -2546,7 +3753,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-07-17",
@@ -2554,7 +3762,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-07-18",
@@ -2562,7 +3771,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-07-19",
@@ -2570,7 +3780,20 @@
       "additions": 774,
       "deletions": 268,
       "changed": 1042,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 7,
+          "additions": 774,
+          "deletions": 268,
+          "changed": 1042,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-20",
@@ -2578,7 +3801,20 @@
       "additions": 1201,
       "deletions": 1239,
       "changed": 2440,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 1201,
+          "deletions": 1239,
+          "changed": 2440,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-21",
@@ -2586,7 +3822,20 @@
       "additions": 16333,
       "deletions": 209,
       "changed": 16542,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 16333,
+          "deletions": 209,
+          "changed": 16542,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-22",
@@ -2594,7 +3843,20 @@
       "additions": 18942,
       "deletions": 25667,
       "changed": 44609,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 34,
+          "additions": 18942,
+          "deletions": 25667,
+          "changed": 44609,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-23",
@@ -2602,7 +3864,20 @@
       "additions": 4476,
       "deletions": 1491,
       "changed": 5967,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 32,
+          "additions": 4476,
+          "deletions": 1491,
+          "changed": 5967,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-24",
@@ -2610,7 +3885,31 @@
       "additions": 26919,
       "deletions": 3143,
       "changed": 30062,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 7,
+          "additions": 6079,
+          "deletions": 1443,
+          "changed": 7522,
+          "merges": 0
+        },
+        {
+          "id": "private-750e367e",
+          "name": "Private repository 750E367E",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 20840,
+          "deletions": 1700,
+          "changed": 22540,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-25",
@@ -2618,7 +3917,20 @@
       "additions": 4712,
       "deletions": 622,
       "changed": 5334,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 4712,
+          "deletions": 622,
+          "changed": 5334,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-26",
@@ -2626,7 +3938,20 @@
       "additions": 9367,
       "deletions": 950,
       "changed": 10317,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 10,
+          "additions": 9367,
+          "deletions": 950,
+          "changed": 10317,
+          "merges": 1
+        }
+      ]
     },
     {
       "date": "2026-07-27",
@@ -2634,7 +3959,31 @@
       "additions": 565551,
       "deletions": 703,
       "changed": 566254,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-a4cc9964",
+          "name": "Private repository A4CC9964",
+          "url": null,
+          "private": true,
+          "commits": 12,
+          "additions": 565299,
+          "deletions": 131,
+          "changed": 565430,
+          "merges": 0
+        },
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 252,
+          "deletions": 572,
+          "changed": 824,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-28",
@@ -2642,7 +3991,31 @@
       "additions": 7062,
       "deletions": 1389,
       "changed": 8451,
-      "merges": 2
+      "merges": 2,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 15,
+          "additions": 7045,
+          "deletions": 1375,
+          "changed": 8420,
+          "merges": 2
+        },
+        {
+          "id": "private-a4cc9964",
+          "name": "Private repository A4CC9964",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 17,
+          "deletions": 14,
+          "changed": 31,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-29",
@@ -2650,7 +4023,20 @@
       "additions": 6251,
       "deletions": 3169,
       "changed": 9420,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 9,
+          "additions": 6251,
+          "deletions": 3169,
+          "changed": 9420,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-30",
@@ -2658,7 +4044,31 @@
       "additions": 56737,
       "deletions": 17912,
       "changed": 74649,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 7,
+          "additions": 2127,
+          "deletions": 708,
+          "changed": 2835,
+          "merges": 1
+        },
+        {
+          "id": "private-a4cc9964",
+          "name": "Private repository A4CC9964",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 54610,
+          "deletions": 17204,
+          "changed": 71814,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-07-31",
@@ -2666,7 +4076,20 @@
       "additions": 74974,
       "deletions": 10769,
       "changed": 85743,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 89,
+          "additions": 74974,
+          "deletions": 10769,
+          "changed": 85743,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-01",
@@ -2674,7 +4097,20 @@
       "additions": 156960,
       "deletions": 1314,
       "changed": 158274,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 22,
+          "additions": 156960,
+          "deletions": 1314,
+          "changed": 158274,
+          "merges": 1
+        }
+      ]
     },
     {
       "date": "2026-08-02",
@@ -2682,7 +4118,20 @@
       "additions": 2610,
       "deletions": 906,
       "changed": 3516,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 12,
+          "additions": 2610,
+          "deletions": 906,
+          "changed": 3516,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-03",
@@ -2690,7 +4139,20 @@
       "additions": 1536,
       "deletions": 252,
       "changed": 1788,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 1536,
+          "deletions": 252,
+          "changed": 1788,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-04",
@@ -2698,7 +4160,20 @@
       "additions": 18297,
       "deletions": 20150,
       "changed": 38447,
-      "merges": 1
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 18297,
+          "deletions": 20150,
+          "changed": 38447,
+          "merges": 1
+        }
+      ]
     },
     {
       "date": "2026-08-05",
@@ -2706,7 +4181,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-08-06",
@@ -2714,7 +4190,20 @@
       "additions": 497,
       "deletions": 577,
       "changed": 1074,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 497,
+          "deletions": 577,
+          "changed": 1074,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-07",
@@ -2722,7 +4211,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-08-08",
@@ -2730,7 +4220,31 @@
       "additions": 35578,
       "deletions": 13387,
       "changed": 48965,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 18,
+          "additions": 20215,
+          "deletions": 13360,
+          "changed": 33575,
+          "merges": 0
+        },
+        {
+          "id": "private-6e0e78be",
+          "name": "Private repository 6E0E78BE",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 15363,
+          "deletions": 27,
+          "changed": 15390,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-09",
@@ -2738,7 +4252,20 @@
       "additions": 5863,
       "deletions": 3199,
       "changed": 9062,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 10,
+          "additions": 5863,
+          "deletions": 3199,
+          "changed": 9062,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-10",
@@ -2746,7 +4273,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-08-11",
@@ -2754,7 +4282,20 @@
       "additions": 4163,
       "deletions": 888,
       "changed": 5051,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 14,
+          "additions": 4163,
+          "deletions": 888,
+          "changed": 5051,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-12",
@@ -2762,7 +4303,20 @@
       "additions": 2267,
       "deletions": 1005,
       "changed": 3272,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 2267,
+          "deletions": 1005,
+          "changed": 3272,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-13",
@@ -2770,7 +4324,20 @@
       "additions": 91315,
       "deletions": 100857,
       "changed": 192172,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 9,
+          "additions": 91315,
+          "deletions": 100857,
+          "changed": 192172,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-14",
@@ -2778,7 +4345,20 @@
       "additions": 1124,
       "deletions": 1042807,
       "changed": 1043931,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 1124,
+          "deletions": 1042807,
+          "changed": 1043931,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-15",
@@ -2786,7 +4366,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-08-16",
@@ -2794,7 +4375,20 @@
       "additions": 63,
       "deletions": 0,
       "changed": 63,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 63,
+          "deletions": 0,
+          "changed": 63,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-17",
@@ -2802,7 +4396,8 @@
       "additions": 0,
       "deletions": 0,
       "changed": 0,
-      "merges": 0
+      "merges": 0,
+      "repositories": []
     },
     {
       "date": "2026-08-18",
@@ -2810,7 +4405,20 @@
       "additions": 362,
       "deletions": 161,
       "changed": 523,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 362,
+          "deletions": 161,
+          "changed": 523,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-19",
@@ -2818,7 +4426,20 @@
       "additions": 55,
       "deletions": 45,
       "changed": 100,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 55,
+          "deletions": 45,
+          "changed": 100,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-20",
@@ -2826,7 +4447,20 @@
       "additions": 3492,
       "deletions": 1716,
       "changed": 5208,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 9,
+          "additions": 3492,
+          "deletions": 1716,
+          "changed": 5208,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-21",
@@ -2834,7 +4468,20 @@
       "additions": 2614,
       "deletions": 1500,
       "changed": 4114,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 12,
+          "additions": 2614,
+          "deletions": 1500,
+          "changed": 4114,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-22",
@@ -2842,7 +4489,20 @@
       "additions": 1318,
       "deletions": 417,
       "changed": 1735,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 1318,
+          "deletions": 417,
+          "changed": 1735,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-23",
@@ -2850,7 +4510,31 @@
       "additions": 10643,
       "deletions": 27,
       "changed": 10670,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/mistfall-build-manager",
+          "name": "lReDragol/Mistfall-Build-Manager",
+          "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+          "private": false,
+          "commits": 1,
+          "additions": 10608,
+          "deletions": 0,
+          "changed": 10608,
+          "merges": 0
+        },
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 35,
+          "deletions": 27,
+          "changed": 62,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-24",
@@ -2858,7 +4542,31 @@
       "additions": 604,
       "deletions": 192,
       "changed": 796,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/mistfall-build-manager",
+          "name": "lReDragol/Mistfall-Build-Manager",
+          "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+          "private": false,
+          "commits": 4,
+          "additions": 599,
+          "deletions": 181,
+          "changed": 780,
+          "merges": 0
+        },
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 5,
+          "deletions": 11,
+          "changed": 16,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-25",
@@ -2866,7 +4574,20 @@
       "additions": 936,
       "deletions": 217,
       "changed": 1153,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 936,
+          "deletions": 217,
+          "changed": 1153,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-26",
@@ -2874,7 +4595,31 @@
       "additions": 16780,
       "deletions": 1337,
       "changed": 18117,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 13,
+          "additions": 7418,
+          "deletions": 1337,
+          "changed": 8755,
+          "merges": 0
+        },
+        {
+          "id": "private-b65bc1f0",
+          "name": "Private repository B65BC1F0",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 9362,
+          "deletions": 0,
+          "changed": 9362,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-27",
@@ -2882,7 +4627,20 @@
       "additions": 12585,
       "deletions": 3791,
       "changed": 16376,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 44,
+          "additions": 12585,
+          "deletions": 3791,
+          "changed": 16376,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-28",
@@ -2890,7 +4648,20 @@
       "additions": 56544,
       "deletions": 17794,
       "changed": 74338,
-      "merges": 2
+      "merges": 2,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 21,
+          "additions": 56544,
+          "deletions": 17794,
+          "changed": 74338,
+          "merges": 2
+        }
+      ]
     },
     {
       "date": "2026-08-29",
@@ -2898,7 +4669,20 @@
       "additions": 4766,
       "deletions": 1479,
       "changed": 6245,
-      "merges": 4
+      "merges": 4,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 17,
+          "additions": 4766,
+          "deletions": 1479,
+          "changed": 6245,
+          "merges": 4
+        }
+      ]
     },
     {
       "date": "2026-08-30",
@@ -2906,7 +4690,42 @@
       "additions": 24812,
       "deletions": 2960,
       "changed": 27772,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 17,
+          "additions": 14535,
+          "deletions": 2202,
+          "changed": 16737,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/civic-evidence-lab",
+          "name": "lReDragol/civic-evidence-lab",
+          "url": "https://github.com/lReDragol/civic-evidence-lab",
+          "private": false,
+          "commits": 1,
+          "additions": 9797,
+          "deletions": 594,
+          "changed": 10391,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/deeper-router-api-research",
+          "name": "lReDragol/deeper-router-api-research",
+          "url": "https://github.com/lReDragol/deeper-router-api-research",
+          "private": false,
+          "commits": 1,
+          "additions": 480,
+          "deletions": 164,
+          "changed": 644,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-08-31",
@@ -2914,7 +4733,20 @@
       "additions": 23133,
       "deletions": 38976,
       "changed": 62109,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 44,
+          "additions": 23133,
+          "deletions": 38976,
+          "changed": 62109,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-09-01",
@@ -2922,7 +4754,31 @@
       "additions": 192309,
       "deletions": 97492,
       "changed": 289801,
-      "merges": 4
+      "merges": 4,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 22,
+          "additions": 191837,
+          "deletions": 97472,
+          "changed": 289309,
+          "merges": 4
+        },
+        {
+          "id": "lredragol/mistfall-build-manager",
+          "name": "lReDragol/Mistfall-Build-Manager",
+          "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+          "private": false,
+          "commits": 1,
+          "additions": 472,
+          "deletions": 20,
+          "changed": 492,
+          "merges": 0
+        }
+      ]
     },
     {
       "date": "2026-09-02",
@@ -2930,7 +4786,20 @@
       "additions": 37271,
       "deletions": 26069,
       "changed": 63340,
-      "merges": 7
+      "merges": 7,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 35,
+          "additions": 37271,
+          "deletions": 26069,
+          "changed": 63340,
+          "merges": 7
+        }
+      ]
     },
     {
       "date": "2026-09-03",
@@ -2938,7 +4807,20 @@
       "additions": 1102,
       "deletions": 352,
       "changed": 1454,
-      "merges": 0
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 1102,
+          "deletions": 352,
+          "changed": 1454,
+          "merges": 0
+        }
+      ]
     }
   ]
 }

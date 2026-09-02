@@ -5,10 +5,12 @@ const number = new Intl.NumberFormat("en-US");
 const fullDate = new Intl.DateTimeFormat("en", { weekday: "long", year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 const monthName = new Intl.DateTimeFormat("en", { month: "short", timeZone: "UTC" });
 
-const state = { data: null, releases: null, metric: "commits", range: 365 };
+const state = { data: null, releases: null, metric: "commits", range: 365, selectedDate: null, previewDate: null };
 const heatmap = document.querySelector("#heatmap");
 const months = document.querySelector("#months");
 const tooltip = document.querySelector("#tooltip");
+const repositoryList = document.querySelector("#repository-list");
+const repositoryReset = document.querySelector("#repository-reset");
 
 function parseDate(value) {
   return new Date(`${value}T00:00:00Z`);
@@ -44,6 +46,97 @@ function totals(days) {
     }
     return sum;
   }, { commits: 0, additions: 0, deletions: 0, changed: 0, merges: 0 });
+}
+
+function aggregateRepositories(days) {
+  const repositories = new Map();
+  for (const day of days) {
+    if (!Array.isArray(day.repositories)) continue;
+    for (const repository of day.repositories) {
+      if (!repository || typeof repository.id !== "string" || typeof repository.name !== "string") continue;
+      if (!repositories.has(repository.id)) {
+        repositories.set(repository.id, {
+          id: repository.id,
+          name: repository.name,
+          url: repository.url,
+          private: repository.private === true,
+          commits: 0,
+          additions: 0,
+          deletions: 0,
+          changed: 0,
+          merges: 0,
+        });
+      }
+      const aggregate = repositories.get(repository.id);
+      for (const key of ["commits", "additions", "deletions", "changed", "merges"]) {
+        aggregate[key] += Number(repository[key] || 0);
+      }
+    }
+  }
+  return [...repositories.values()].sort((left, right) =>
+    right.commits - left.commits || right.changed - left.changed || left.name.localeCompare(right.name)
+  );
+}
+
+function repositoryView() {
+  const days = selectedDays();
+  const activeDate = state.previewDate || state.selectedDate;
+  const activeDay = activeDate ? days.find((day) => day.date === activeDate) : null;
+  return { days: activeDay ? [activeDay] : days, activeDay };
+}
+
+function renderRepositoryActivity() {
+  const { days, activeDay } = repositoryView();
+  const repositories = aggregateRepositories(days);
+  const summary = totals(days);
+  const commitLabel = summary.commits === 1 ? "commit" : "commits";
+  const repositoryLabel = repositories.length === 1 ? "repository" : "repositories";
+  document.querySelector("#repository-activity-heading").textContent =
+    `Created ${number.format(summary.commits)} ${commitLabel} in ${number.format(repositories.length)} ${repositoryLabel}`;
+  document.querySelector("#repository-context").textContent = activeDay
+    ? fullDate.format(parseDate(activeDay.date))
+    : `${fullDate.format(parseDate(days[0].date))} - ${fullDate.format(parseDate(days.at(-1).date))}`;
+  repositoryReset.hidden = !state.selectedDate;
+  repositoryList.replaceChildren();
+
+  if (!repositories.length) {
+    const empty = document.createElement("p");
+    empty.className = "repository-empty";
+    empty.textContent = "No authored commits for this selection.";
+    repositoryList.append(empty);
+    return;
+  }
+
+  const maximum = Math.max(...repositories.map((repository) => repository.commits), 1);
+  for (const repository of repositories) {
+    const row = document.createElement("div");
+    row.className = "repository-row";
+
+    const url = safeGitHubUrl(repository.url);
+    const name = document.createElement(url === "#" || repository.private ? "span" : "a");
+    name.className = `repository-name${repository.private ? " private" : ""}`;
+    name.textContent = repository.name;
+    if (name instanceof HTMLAnchorElement) {
+      name.href = url;
+      name.target = "_blank";
+      name.rel = "noreferrer";
+    }
+
+    const track = document.createElement("span");
+    track.className = "repository-bar-track";
+    const fill = document.createElement("span");
+    fill.className = "repository-bar-fill";
+    fill.style.setProperty("--bar-width", `${(repository.commits / maximum) * 100}%`);
+    track.append(fill);
+
+    const values = document.createElement("span");
+    values.className = "repository-values";
+    const commits = document.createElement("strong");
+    commits.textContent = `${number.format(repository.commits)} ${repository.commits === 1 ? "commit" : "commits"}`;
+    values.append(commits, ` | +${number.format(repository.additions)} / -${number.format(repository.deletions)} lines`);
+    row.append(name, track, values);
+    repositoryList.append(row);
+  }
 }
 
 function showDetailsTooltip(title, rows, event) {
@@ -98,7 +191,10 @@ function render() {
 
   heatmap.replaceChildren();
   months.replaceChildren();
-  if (!days.length) return;
+  if (!days.length) {
+    repositoryList.replaceChildren();
+    return;
+  }
 
   const first = parseDate(days[0].date);
   const gridStart = addDays(first, -first.getUTCDay());
@@ -114,16 +210,42 @@ function render() {
     const value = Number(day[state.metric] || 0);
     cell.type = "button";
     cell.className = "day";
+    cell.dataset.date = day.date;
     cell.dataset.level = String(levelFor(value, maximum));
+    cell.classList.toggle("selected", state.selectedDate === day.date);
     cell.style.gridColumn = String(week + 1);
     cell.style.gridRow = String(weekday + 1);
     cell.setAttribute("role", "gridcell");
     cell.setAttribute("aria-label", `${fullDate.format(date)}: ${day.commits} commits, ${day.additions} additions, ${day.deletions} deletions`);
-    cell.addEventListener("mouseenter", (event) => showActivityTooltip(day, event));
+    cell.addEventListener("mouseenter", (event) => {
+      state.previewDate = day.date;
+      renderRepositoryActivity();
+      showActivityTooltip(day, event);
+    });
     cell.addEventListener("mousemove", positionTooltip);
-    cell.addEventListener("mouseleave", () => { tooltip.hidden = true; });
-    cell.addEventListener("focus", (event) => showActivityTooltip(day, event));
-    cell.addEventListener("blur", () => { tooltip.hidden = true; });
+    cell.addEventListener("mouseleave", () => {
+      state.previewDate = null;
+      tooltip.hidden = true;
+      renderRepositoryActivity();
+    });
+    cell.addEventListener("focus", (event) => {
+      state.previewDate = day.date;
+      renderRepositoryActivity();
+      showActivityTooltip(day, event);
+    });
+    cell.addEventListener("blur", () => {
+      state.previewDate = null;
+      tooltip.hidden = true;
+      renderRepositoryActivity();
+    });
+    cell.addEventListener("click", () => {
+      state.selectedDate = state.selectedDate === day.date ? null : day.date;
+      state.previewDate = null;
+      for (const peer of heatmap.querySelectorAll(".day")) {
+        peer.classList.toggle("selected", peer.dataset.date === state.selectedDate);
+      }
+      renderRepositoryActivity();
+    });
     heatmap.append(cell);
 
     const monthKey = `${date.getUTCFullYear()}-${date.getUTCMonth()}`;
@@ -139,6 +261,7 @@ function render() {
   const start = fullDate.format(parseDate(days[0].date));
   const end = fullDate.format(parseDate(days.at(-1).date));
   document.querySelector("#period-label").textContent = `${start} - ${end} | color: ${state.metric}`;
+  renderRepositoryActivity();
 }
 
 function safeGitHubUrl(value) {
@@ -244,6 +367,10 @@ function wireControls(containerSelector, dataKey, stateKey, validValues) {
     const value = stateKey === "range" ? Number(raw) : raw;
     if (!validValues.has(value)) return;
     state[stateKey] = value;
+    if (stateKey === "range") {
+      state.selectedDate = null;
+      state.previewDate = null;
+    }
     for (const peer of button.parentElement.querySelectorAll("button")) peer.classList.toggle("active", peer === button);
     render();
   });
@@ -282,5 +409,10 @@ async function loadReleases() {
 
 wireControls("#metric-controls", "metric", "metric", metrics);
 wireControls("#range-controls", "range", "range", new Set([30, 90, 365]));
+repositoryReset.addEventListener("click", () => {
+  state.selectedDate = null;
+  state.previewDate = null;
+  render();
+});
 loadActivity();
 loadReleases();
