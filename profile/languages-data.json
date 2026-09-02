@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-02T22:04:41Z",
+  "generated_at": "2026-09-02T22:21:18Z",
   "username": "lReDragol",
   "repository_count": 40,
-  "total_bytes": 29670252,
+  "total_bytes": 29695749,
   "languages": [
     {
       "name": "Python",
-      "bytes": 26196387,
-      "percent": 88.29,
+      "bytes": 26214656,
+      "percent": 88.28,
       "color": "#3572A5"
     },
     {
@@ -20,13 +20,13 @@
     {
       "name": "C++",
       "bytes": 705208,
-      "percent": 2.38,
+      "percent": 2.37,
       "color": "#f34b7d"
     },
     {
       "name": "JavaScript",
-      "bytes": 632426,
-      "percent": 2.13,
+      "bytes": 637452,
+      "percent": 2.15,
       "color": "#f1e05a"
     },
     {
@@ -37,13 +37,13 @@
     },
     {
       "name": "CSS",
-      "bytes": 109520,
-      "percent": 0.37,
+      "bytes": 111512,
+      "percent": 0.38,
       "color": "#563d7c"
     },
     {
       "name": "HTML",
-      "bytes": 50650,
+      "bytes": 50860,
       "percent": 0.17,
       "color": "#e34c26"
     },
