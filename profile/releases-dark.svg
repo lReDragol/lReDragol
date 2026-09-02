@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310" role="img" aria-label="Release downloads: 1576 total">
+  <style>
+    .title { font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 27px; font-weight: 700; }
+    .muted { font-family: "Segoe UI", Arial, sans-serif; fill: #8b949e; font-size: 12px; }
+    .label { font-family: "Segoe UI", Arial, sans-serif; fill: #c9d1d9; font-size: 12px; font-weight: 600; }
+    .value { font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 12px; font-weight: 700; }
+  </style>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#111926"/></linearGradient>
+    <linearGradient id="downloadsGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#238636"/><stop offset="100%" stop-color="#39d353"/></linearGradient>
+  </defs>
+  <rect width="960" height="310" rx="24" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="958" height="308" rx="23" fill="none" stroke="#30363d"/>
+  <text x="34" y="47" class="title">Release Downloads</text>
+  <text x="926" y="43" class="muted" text-anchor="end">Updated daily · public GitHub release assets</text>
+
+  <text x="34" y="111" fill="#39d353" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">1,576</text>
+  <text x="34" y="135" class="muted">total downloads</text>
+  <text x="34" y="180" class="value" font-size="19">8</text>
+  <text x="64" y="180" class="muted">projects</text>
+  <text x="144" y="180" class="value" font-size="19">34</text>
+  <text x="182" y="180" class="muted">releases</text>
+  <text x="34" y="215" class="value" font-size="19">76</text>
+  <text x="69" y="215" class="muted">assets</text>
+  <text x="34" y="250" class="muted">Daily history starts with this snapshot</text>
+
+  <text x="326" y="67" class="label" font-size="14">TOP REPOSITORIES / LOG SCALE</text>
+  <text x="326" y="103" class="label">OnceHuman_Tools</text>
+  <rect x="486" y="91" width="490" height="14" rx="7" fill="#161b22"/>
+  <rect x="486" y="91" width="490.0" height="14" rx="7" fill="url(#downloadsGradient)"/>
+  <text x="944" y="103" class="value" text-anchor="end">1,433</text>
+  <text x="326" y="140" class="label">Cheat-ShellShock-Live</text>
+  <rect x="486" y="128" width="490" height="14" rx="7" fill="#161b22"/>
+  <rect x="486" y="128" width="304.8" height="14" rx="7" fill="url(#downloadsGradient)"/>
+  <text x="944" y="140" class="value" text-anchor="end">91</text>
+  <text x="326" y="177" class="label">ESCgram</text>
+  <rect x="486" y="165" width="490" height="14" rx="7" fill="#161b22"/>
+  <rect x="486" y="165" width="229.3" height="14" rx="7" fill="url(#downloadsGradient)"/>
+  <text x="944" y="177" class="value" text-anchor="end">29</text>
+  <text x="326" y="214" class="label">Icon-Creator</text>
+  <rect x="486" y="202" width="490" height="14" rx="7" fill="#161b22"/>
+  <rect x="486" y="202" width="155.2" height="14" rx="7" fill="url(#downloadsGradient)"/>
+  <text x="944" y="214" class="value" text-anchor="end">9</text>
+  <text x="326" y="251" class="label">icarus-save-editor</text>
+  <rect x="486" y="239" width="490" height="14" rx="7" fill="#161b22"/>
+  <rect x="486" y="239" width="148.1" height="14" rx="7" fill="url(#downloadsGradient)"/>
+  <text x="944" y="251" class="value" text-anchor="end">8</text>
+  <text x="326" y="289" class="muted">Click for interactive repositories, releases, and assets</text>
+</svg>

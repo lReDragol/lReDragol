@@ -25,6 +25,7 @@ class UpdateReadmeCacheBustTests(unittest.TestCase):
         original = """
 <img src="./profile/activity-dark.svg">
 <img src="./profile/stats.svg?v=old-token">
+[![downloads](./profile/releases-dark.svg?v=old-token)](https://example.com)
 [![trophy](./profile/trophy.svg)](https://example.com)
 <img src="https://example.com/keep.svg">
 """
@@ -33,6 +34,7 @@ class UpdateReadmeCacheBustTests(unittest.TestCase):
 
         self.assertIn('./profile/activity-dark.svg?v=20260427-233000', updated)
         self.assertIn('./profile/stats.svg?v=20260427-233000', updated)
+        self.assertIn('./profile/releases-dark.svg?v=20260427-233000', updated)
         self.assertIn('./profile/trophy.svg?v=20260427-233000', updated)
         self.assertIn('https://example.com/keep.svg', updated)
 

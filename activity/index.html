@@ -15,7 +15,10 @@
           <h1>Activity Overview</h1>
           <p class="intro">Daily authored commits and raw Git diff volume across accessible public and private repositories.</p>
         </div>
-        <a class="profile-link" href="https://github.com/lReDragol">Open GitHub profile</a>
+        <div class="hero-actions">
+          <a class="profile-link" href="#releases">Release downloads</a>
+          <a class="profile-link" href="https://github.com/lReDragol">Open GitHub profile</a>
+        </div>
       </header>
 
       <section class="notice" aria-label="Privacy and metric explanation">
@@ -65,9 +68,51 @@
         </div>
       </section>
 
+      <section id="releases" class="panel releases-panel" aria-labelledby="releases-heading">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">PUBLIC GITHUB RELEASE ASSETS</p>
+            <h2 id="releases-heading">Release Downloads</h2>
+          </div>
+          <p id="release-generated-at" class="panel-meta">Loading release data...</p>
+        </div>
+
+        <div class="release-summary" aria-label="Release download totals">
+          <article><span id="release-downloads">-</span><small>downloads</small></article>
+          <article><span id="release-projects">-</span><small>projects</small></article>
+          <article><span id="release-count">-</span><small>releases</small></article>
+          <article><span id="release-assets">-</span><small>assets</small></article>
+        </div>
+
+        <p id="release-delta" class="release-delta">Daily download history begins with the first snapshot.</p>
+
+        <div class="release-grid">
+          <div>
+            <div class="subhead">
+              <h3>Repositories</h3>
+              <span>Logarithmic bar scale; exact totals are shown</span>
+            </div>
+            <div id="release-bars" class="release-bars" aria-label="Downloads by repository"></div>
+          </div>
+
+          <div>
+            <div class="subhead">
+              <h3>Top assets</h3>
+              <span>Hover or focus for release details</span>
+            </div>
+            <div class="asset-table-wrap">
+              <table class="asset-table">
+                <thead><tr><th>Asset</th><th>Repository</th><th>Downloads</th></tr></thead>
+                <tbody id="asset-rows"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <span id="generated-at"></span>
-        <span>Source: GitHub REST API, published as daily totals only.</span>
+        <span>Source: GitHub REST API. Activity is aggregated; release data is public.</span>
       </footer>
     </main>
 

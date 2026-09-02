@@ -47,31 +47,18 @@ jobs:
           OUTPUT_DIR: profile
         run: python3 scripts/generate_profile_stats.py
 
+      - name: Generate release download stats
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+          UTC_OFFSET: 3
+        run: python3 scripts/generate_release_downloads.py
+
       - name: Generate trophy
-        run: |
-          mkdir -p profile
-
-          fetch_trophy() {
-            local url="$1"
-            local destination="$2"
-            local temp_file
-            temp_file="$(mktemp)"
-
-            if curl -fsSL "$url" -o "$temp_file" && grep -q "<svg" "$temp_file"; then
-              mv "$temp_file" "$destination"
-              echo "Updated $destination"
-            else
-              rm -f "$temp_file"
-              echo "Skipping $destination because the trophy source is unavailable."
-            fi
-          }
-
-          fetch_trophy \
-            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&row=1&margin-w=40" \
-            "profile/trophy.svg"
-          fetch_trophy \
-            "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=onedark&row=1&margin-w=40" \
-            "profile/trophy-dark.svg"
+        env:
+          OUTPUT_DIR: profile
+        run: python3 scripts/generate_trophy.py
 
       - name: Generate stats cards
         # Pin the release branch so third-party code cannot change between runs unnoticed.
@@ -112,8 +99,11 @@ jobs:
             activity/styles.css \
             profile/activity-data.json \
             profile/activity-dark.svg \
+            profile/releases-data.json \
+            profile/releases-dark.svg \
             profile/lines-7d.svg \
             profile/lines-30d.svg \
+            profile/stats-data.json \
             profile/stats.svg \
             profile/stats-dark.svg \
             profile/top-langs.svg \

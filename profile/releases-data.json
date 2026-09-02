@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T21:48:51Z",
+  "username": "lReDragol",
+  "scope": "Published releases and public release assets only",
+  "totals": {
+    "downloads": 1576,
+    "releases": 34,
+    "assets": 76,
+    "repositories": 8,
+    "repositories_with_downloads": 8
+  },
+  "repositories": [
+    {
+      "name": "OnceHuman_Tools",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools",
+      "downloads": 1433,
+      "releases": 8,
+      "assets": 17,
+      "latest_release": "v4.6",
+      "latest_published_at": "2026-03-18T20:10:58Z"
+    },
+    {
+      "name": "Cheat-ShellShock-Live",
+      "url": "https://github.com/lReDragol/Cheat-ShellShock-Live",
+      "downloads": 91,
+      "releases": 1,
+      "assets": 1,
+      "latest_release": "v1",
+      "latest_published_at": "2025-02-12T17:10:04Z"
+    },
+    {
+      "name": "ESCgram",
+      "url": "https://github.com/lReDragol/ESCgram",
+      "downloads": 29,
+      "releases": 17,
+      "assets": 50,
+      "latest_release": "v0.2.13",
+      "latest_published_at": "2026-03-11T08:55:15Z"
+    },
+    {
+      "name": "Icon-Creator",
+      "url": "https://github.com/lReDragol/Icon-Creator",
+      "downloads": 9,
+      "releases": 2,
+      "assets": 2,
+      "latest_release": "Icons",
+      "latest_published_at": "2025-03-06T14:17:13Z"
+    },
+    {
+      "name": "icarus-save-editor",
+      "url": "https://github.com/lReDragol/icarus-save-editor",
+      "downloads": 8,
+      "releases": 2,
+      "assets": 2,
+      "latest_release": "v2026.03.24",
+      "latest_published_at": "2026-03-24T19:03:00Z"
+    },
+    {
+      "name": "piano-bot",
+      "url": "https://github.com/lReDragol/piano-bot",
+      "downloads": 4,
+      "releases": 1,
+      "assets": 1,
+      "latest_release": "v1.0.0",
+      "latest_published_at": "2026-06-07T15:42:27Z"
+    },
+    {
+      "name": "grass_auto",
+      "url": "https://github.com/lReDragol/grass_auto",
+      "downloads": 1,
+      "releases": 1,
+      "assets": 1,
+      "latest_release": "#FIX",
+      "latest_published_at": "2024-04-23T19:53:18Z"
+    },
+    {
+      "name": "Mistfall-Build-Manager",
+      "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+      "downloads": 1,
+      "releases": 2,
+      "assets": 2,
+      "latest_release": "v4.5.0",
+      "latest_published_at": "2026-09-01T13:48:31Z"
+    }
+  ],
+  "assets": [
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v0.3",
+      "name": "v0.3.Once.Human.Photo.Changer.exe",
+      "downloads": 720,
+      "size": 67888159,
+      "updated_at": "2024-08-26T23:27:46Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v0.3/v0.3.Once.Human.Photo.Changer.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "fishV3",
+      "name": "fish_bot_ru.exe",
+      "downloads": 198,
+      "size": 327256667,
+      "updated_at": "2024-10-05T23:12:17Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/fish_bot_ru.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "fishV3",
+      "name": "tesseract-ocr.exe",
+      "downloads": 163,
+      "size": 53209536,
+      "updated_at": "2024-10-05T23:35:52Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/tesseract-ocr.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "fishV3",
+      "name": "config.json",
+      "downloads": 105,
+      "size": 2920,
+      "updated_at": "2024-10-11T20:30:23Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/config.json"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v0.2",
+      "name": "v0.2.Once.Human.Photo.Changer.exe",
+      "downloads": 99,
+      "size": 67864384,
+      "updated_at": "2024-08-14T20:51:33Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v0.2/v0.2.Once.Human.Photo.Changer.exe"
+    },
+    {
+      "repository": "Cheat-ShellShock-Live",
+      "release": "v1",
+      "name": "main.exe",
+      "downloads": 91,
+      "size": 25850914,
+      "updated_at": "2025-02-12T17:07:39Z",
+      "url": "https://github.com/lReDragol/Cheat-ShellShock-Live/releases/download/v1/main.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "V1",
+      "name": "Once.Human.Photo.Changer.exe",
+      "downloads": 47,
+      "size": 31405553,
+      "updated_at": "2024-08-10T22:37:03Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/V1/Once.Human.Photo.Changer.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v0.2",
+      "name": "123.rar",
+      "downloads": 43,
+      "size": 67150999,
+      "updated_at": "2024-08-14T20:48:07Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v0.2/123.rar"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.6",
+      "name": "OnceHumanTools_V4.6.exe",
+      "downloads": 30,
+      "size": 126086601,
+      "updated_at": "2026-03-18T20:10:58Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.6",
+      "name": "OnceHumanCalcPortable_V2.8.exe",
+      "downloads": 19,
+      "size": 29883040,
+      "updated_at": "2026-03-19T11:54:19Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanCalcPortable_V2.8.exe"
+    },
+    {
+      "repository": "icarus-save-editor",
+      "release": "v2026.03.24",
+      "name": "icarus_save_editor.exe",
+      "downloads": 8,
+      "size": 49115416,
+      "updated_at": "2026-03-24T19:03:00Z",
+      "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
+    },
+    {
+      "repository": "Icon-Creator",
+      "release": "Icons",
+      "name": "Icons.zip",
+      "downloads": 6,
+      "size": 6743770,
+      "updated_at": "2025-03-06T14:16:22Z",
+      "url": "https://github.com/lReDragol/Icon-Creator/releases/download/Icons/Icons.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.9",
+      "name": "ESCgram-portable.zip",
+      "downloads": 5,
+      "size": 98748018,
+      "updated_at": "2026-03-09T00:30:25Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.9/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.6",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 4,
+      "size": 70842547,
+      "updated_at": "2026-03-07T01:00:19Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.6/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.0",
+      "name": "BotFishPortable_V4.exe",
+      "downloads": 4,
+      "size": 116423884,
+      "updated_at": "2026-03-16T16:39:12Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/BotFishPortable_V4.exe"
+    },
+    {
+      "repository": "piano-bot",
+      "release": "v1.0.0",
+      "name": "PianoBot.exe",
+      "downloads": 4,
+      "size": 16667571,
+      "updated_at": "2026-06-07T15:42:26Z",
+      "url": "https://github.com/lReDragol/piano-bot/releases/download/v1.0.0/PianoBot.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.6",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 3,
+      "size": 143363634,
+      "updated_at": "2026-03-07T00:58:11Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.6/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.1.8",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 3,
+      "size": 68713239,
+      "updated_at": "2026-03-02T05:25:32Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.8/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "Icon-Creator",
+      "release": "v1",
+      "name": "main.exe",
+      "downloads": 3,
+      "size": 66186269,
+      "updated_at": "2025-02-27T18:16:01Z",
+      "url": "https://github.com/lReDragol/Icon-Creator/releases/download/v1/main.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.5",
+      "name": "OnceHumanTools_V4.5.exe",
+      "downloads": 3,
+      "size": 122464722,
+      "updated_at": "2026-03-17T05:10:12Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanTools_V4.5.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.9",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 2,
+      "size": 143422327,
+      "updated_at": "2026-03-09T00:28:14Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.9/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.9",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 2,
+      "size": 70899328,
+      "updated_at": "2026-03-09T00:30:25Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.9/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.5",
+      "name": "OnceHumanCalcPortable_V2.5.exe",
+      "downloads": 2,
+      "size": 27460020,
+      "updated_at": "2026-03-17T05:09:16Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanCalcPortable_V2.5.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.7",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 1,
+      "size": 143375038,
+      "updated_at": "2026-03-07T04:38:57Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.7/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 1,
+      "size": 142716775,
+      "updated_at": "2026-03-02T23:45:00Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.7",
+      "name": "ESCgram-portable.zip",
+      "downloads": 1,
+      "size": 98709868,
+      "updated_at": "2026-03-07T04:40:45Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.7/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.6",
+      "name": "ESCgram-portable.zip",
+      "downloads": 1,
+      "size": 98688353,
+      "updated_at": "2026-03-07T01:00:20Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.6/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4",
+      "name": "ESCgram-portable.zip",
+      "downloads": 1,
+      "size": 97997963,
+      "updated_at": "2026-03-02T23:48:41Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4-aur",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 1,
+      "size": 70287709,
+      "updated_at": "2026-03-03T17:20:34Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4-aur/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 1,
+      "size": 70289235,
+      "updated_at": "2026-03-02T23:48:40Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.3",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 1,
+      "size": 70291254,
+      "updated_at": "2026-03-02T18:22:45Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.3/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.2",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 1,
+      "size": 70263799,
+      "updated_at": "2026-03-02T17:35:40Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.2/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.1",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 1,
+      "size": 70281007,
+      "updated_at": "2026-03-02T17:17:47Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.1/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "grass_auto",
+      "release": "#FIX",
+      "name": "auto_grass.exe",
+      "downloads": 1,
+      "size": 14741782,
+      "updated_at": "2024-04-23T20:21:22Z",
+      "url": "https://github.com/lReDragol/grass_auto/releases/download/%23FIX/auto_grass.exe"
+    },
+    {
+      "repository": "Mistfall-Build-Manager",
+      "release": "v4.3.3",
+      "name": "MistfallBuildManager_v4.3.3.exe",
+      "downloads": 1,
+      "size": 261483060,
+      "updated_at": "2026-08-24T21:04:54Z",
+      "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.3.3/MistfallBuildManager_v4.3.3.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.13",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143593983,
+      "updated_at": "2026-03-11T08:59:43Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.13/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.12",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143424898,
+      "updated_at": "2026-03-09T05:46:30Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.12/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.11",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143423188,
+      "updated_at": "2026-03-09T01:23:30Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.11/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.10",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143424464,
+      "updated_at": "2026-03-09T00:44:14Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.10/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.8",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143392828,
+      "updated_at": "2026-03-07T18:35:53Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.8/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.5",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 143323061,
+      "updated_at": "2026-03-06T21:43:19Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.5/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4-aur",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 142726756,
+      "updated_at": "2026-03-03T17:17:10Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4-aur/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.3",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 142715059,
+      "updated_at": "2026-03-02T18:20:15Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.3/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.2",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 142703903,
+      "updated_at": "2026-03-02T17:31:51Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.2/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.1",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 142700133,
+      "updated_at": "2026-03-02T17:15:37Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.1/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 142695805,
+      "updated_at": "2026-03-02T12:57:02Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.1.9",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 0,
+      "size": 141180794,
+      "updated_at": "2026-03-02T11:28:09Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.9/ESCgram-linux.tar.gz"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.13",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98862027,
+      "updated_at": "2026-03-11T09:02:02Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.13/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.12",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98833041,
+      "updated_at": "2026-03-10T01:55:56Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.12/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.11",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98748130,
+      "updated_at": "2026-03-09T01:28:17Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.11/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.10",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98748175,
+      "updated_at": "2026-03-09T00:46:58Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.10/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.8",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98716607,
+      "updated_at": "2026-03-07T18:38:46Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.8/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.5",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98645175,
+      "updated_at": "2026-03-06T21:57:56Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.5/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.4-aur",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 98004174,
+      "updated_at": "2026-03-03T17:20:34Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.4-aur/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.3",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 97997262,
+      "updated_at": "2026-03-02T18:22:46Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.3/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.2",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 97984024,
+      "updated_at": "2026-03-02T17:35:42Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.2/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.1",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 97984460,
+      "updated_at": "2026-03-02T17:17:48Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.1/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 97977242,
+      "updated_at": "2026-03-02T13:01:58Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.1.9",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 96466211,
+      "updated_at": "2026-03-02T11:30:32Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.9/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.1.8",
+      "name": "ESCgram-portable.zip",
+      "downloads": 0,
+      "size": 96462667,
+      "updated_at": "2026-03-02T05:25:33Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.8/ESCgram-portable.zip"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.13",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70988458,
+      "updated_at": "2026-03-11T09:02:01Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.13/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.12",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70955485,
+      "updated_at": "2026-03-10T01:58:37Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.12/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.11",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70891644,
+      "updated_at": "2026-03-09T01:28:16Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.11/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.10",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70898713,
+      "updated_at": "2026-03-09T00:46:57Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.10/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.8",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70871097,
+      "updated_at": "2026-03-07T18:38:45Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.8/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.7",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70856513,
+      "updated_at": "2026-03-07T04:40:44Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.7/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.5",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70788785,
+      "updated_at": "2026-03-06T21:57:55Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.5/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 70265747,
+      "updated_at": "2026-03-02T13:01:56Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.1.9",
+      "name": "ESCgram-Setup.exe",
+      "downloads": 0,
+      "size": 68716553,
+      "updated_at": "2026-03-02T11:30:31Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.9/ESCgram-Setup.exe"
+    },
+    {
+      "repository": "icarus-save-editor",
+      "release": "v2026.03.23",
+      "name": "icarus_save_editor.exe",
+      "downloads": 0,
+      "size": 49111056,
+      "updated_at": "2026-03-23T16:20:26Z",
+      "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.23/icarus_save_editor.exe"
+    },
+    {
+      "repository": "Mistfall-Build-Manager",
+      "release": "v4.5.0",
+      "name": "MistfallBuildManager_v4.5.0.exe",
+      "downloads": 0,
+      "size": 261505859,
+      "updated_at": "2026-09-01T13:48:30Z",
+      "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.5.0/MistfallBuildManager_v4.5.0.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.1",
+      "name": "BotFishPortable_V4.exe",
+      "downloads": 0,
+      "size": 116423884,
+      "updated_at": "2026-03-16T17:07:12Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.1/BotFishPortable_V4.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.1",
+      "name": "OnceHumanCalcPortable_V2.exe",
+      "downloads": 0,
+      "size": 26591123,
+      "updated_at": "2026-03-16T17:05:15Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.1/OnceHumanCalcPortable_V2.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.0",
+      "name": "OnceHumanCalcPortable_V2.exe",
+      "downloads": 0,
+      "size": 26576678,
+      "updated_at": "2026-03-16T16:37:14Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/OnceHumanCalcPortable_V2.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.1",
+      "name": "OnceHumanTools_V4.exe",
+      "downloads": 0,
+      "size": 121231808,
+      "updated_at": "2026-03-16T17:07:16Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.1/OnceHumanTools_V4.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.0",
+      "name": "OnceHumanTools_V4.exe",
+      "downloads": 0,
+      "size": 121217363,
+      "updated_at": "2026-03-16T16:39:15Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/OnceHumanTools_V4.exe"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-03",
+      "downloads": 1576
+    }
+  ]
+}

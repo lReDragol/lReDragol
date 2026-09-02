@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime as dt
 import json
 import os
 import sys
@@ -144,10 +145,16 @@ def format_count(value: int) -> str:
     return f"{value:,}"
 
 
-def collect_profile_stats(username: str, token: str | None) -> dict[str, int]:
+def collect_profile_stats(username: str, token: str | None) -> dict[str, object]:
+    profile, _ = request_json(f"{API_BASE}/users/{username}", token)
+    if not isinstance(profile, dict):
+        raise RuntimeError(f"Unexpected profile payload for {username!r}")
+
     repositories = list_repositories(username, token)
     username_lower = username.casefold()
     total_stars = 0
+    public_repositories = 0
+    private_repositories = 0
 
     for repository in repositories:
         owner = repository.get("owner")
@@ -159,6 +166,10 @@ def collect_profile_stats(username: str, token: str | None) -> dict[str, int]:
             continue
 
         total_stars += int(repository.get("stargazers_count", 0) or 0)
+        if repository.get("private") is True:
+            private_repositories += 1
+        else:
+            public_repositories += 1
 
     seen_shas: set[str] = set()
     contributed_to: set[str] = set()
@@ -190,10 +201,14 @@ def collect_profile_stats(username: str, token: str | None) -> dict[str, int]:
         "total_prs": search_issue_count(f"author:{username} is:pr", token),
         "total_issues": search_issue_count(f"author:{username} is:issue", token),
         "contributed_to": len(contributed_to),
+        "followers": int(profile.get("followers", 0) or 0),
+        "public_repositories": public_repositories,
+        "private_repositories": private_repositories,
+        "created_at": str(profile.get("created_at") or ""),
     }
 
 
-def render_stats_card(stats: dict[str, int], *, theme: str = "light") -> str:
+def render_stats_card(stats: dict[str, object], *, theme: str = "light") -> str:
     palette = THEMES[theme]
     rows = [
         ("Total Stars", format_count(int(stats["total_stars"]))),
@@ -226,10 +241,22 @@ def render_stats_card(stats: dict[str, int], *, theme: str = "light") -> str:
 """
 
 
-def write_stats_cards(output_dir: Path, stats: dict[str, int]) -> None:
+def write_stats_cards(output_dir: Path, stats: dict[str, object]) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "stats.svg").write_text(render_stats_card(stats, theme="light"), encoding="utf-8")
     (output_dir / "stats-dark.svg").write_text(render_stats_card(stats, theme="dark"), encoding="utf-8")
+
+
+def write_stats_data(output_dir: Path, stats: dict[str, object]) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "stats-data.json"
+    payload = {
+        "schema_version": 1,
+        "generated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        **stats,
+    }
+    output_path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
+    return output_path
 
 
 def main() -> int:
@@ -243,6 +270,7 @@ def main() -> int:
 
     stats = collect_profile_stats(username, token)
     write_stats_cards(output_dir, stats)
+    write_stats_data(output_dir, stats)
     print(json.dumps(stats))
     return 0
 

@@ -14,8 +14,11 @@ class ActivityPageTests(unittest.TestCase):
         self.assertIn('data-metric="commits"', html)
         self.assertIn('data-metric="changed"', html)
         self.assertIn('../profile/activity-data.json', javascript)
-        self.assertIn("showTooltip", javascript)
+        self.assertIn("showDetailsTooltip", javascript)
         self.assertIn("Merge commits", javascript)
+        self.assertIn("Release Downloads", html)
+        self.assertIn('../profile/releases-data.json', javascript)
+        self.assertIn("renderReleases", javascript)
 
     def test_page_does_not_expect_private_identifiers(self) -> None:
         javascript = (ROOT / "activity" / "app.js").read_text(encoding="utf-8")
@@ -30,6 +33,9 @@ class ActivityPageTests(unittest.TestCase):
         self.assertLess(private_collection, third_party_action)
         action_ref = workflow[third_party_action:].splitlines()[0].split("@", 1)[1]
         self.assertRegex(action_ref, r"^[0-9a-f]{40}$")
+        self.assertNotIn("github-profile-trophy.vercel.app", workflow)
+        self.assertIn("generate_release_downloads.py", workflow)
+        self.assertIn("generate_trophy.py", workflow)
 
 
 if __name__ == "__main__":

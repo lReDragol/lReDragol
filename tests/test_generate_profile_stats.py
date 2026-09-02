@@ -48,6 +48,11 @@ class GenerateProfileStatsTests(unittest.TestCase):
         ]
 
         responses = {
+            "https://api.github.com/users/lReDragol": {
+                "login": "lReDragol",
+                "followers": 8,
+                "created_at": "2023-06-16T04:04:01Z",
+            },
             "https://api.github.com/user/repos?visibility=all&affiliation=owner%2Ccollaborator%2Corganization_member&sort=updated&per_page=100&page=1": repositories,
             "https://api.github.com/repos/lReDragol/public-one/commits?author=lReDragol&per_page=100&page=1": [
                 commit_payload("a1"),
@@ -79,6 +84,10 @@ class GenerateProfileStatsTests(unittest.TestCase):
                 "total_prs": 4,
                 "total_issues": 6,
                 "contributed_to": 3,
+                "followers": 8,
+                "public_repositories": 1,
+                "private_repositories": 1,
+                "created_at": "2023-06-16T04:04:01Z",
             },
         )
 
