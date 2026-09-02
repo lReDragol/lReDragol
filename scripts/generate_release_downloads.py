@@ -16,7 +16,7 @@ API_BASE = "https://api.github.com"
 USER_AGENT = "lReDragol-profile-widgets"
 SCHEMA_VERSION = 1
 CARD_WIDTH = 960
-CARD_HEIGHT = 310
+CARD_HEIGHT = 286
 
 
 def request_json(url: str, token: str | None) -> tuple[object, dict[str, str]]:
@@ -241,7 +241,7 @@ def format_count(value: int) -> str:
 
 def truncated(value: object, limit: int = 24) -> str:
     text = str(value)
-    return text if len(text) <= limit else f"{text[: limit - 1]}..."
+    return text if len(text) <= limit else f"{text[: limit - 1]}…"
 
 
 def render_release_card(data: dict[str, object]) -> str:
@@ -251,54 +251,94 @@ def render_release_card(data: dict[str, object]) -> str:
     total_downloads = safe_int(totals.get("downloads"))
     maximum = max((safe_int(row.get("downloads")) for row in top_repositories), default=1)
     max_log = math.log1p(maximum) or 1.0
-    bar_rows: list[str] = []
+    repository_cards: list[str] = []
     for index, row in enumerate(top_repositories):
-        y = 103 + index * 37
+        x = 34 + index * 180
         downloads = safe_int(row.get("downloads"))
-        width = 490 * (math.log1p(downloads) / max_log) if downloads else 0
-        name = html.escape(truncated(row.get("name", "repository")))
-        bar_rows.append(
-            f'  <text x="326" y="{y}" class="label">{name}</text>\n'
-            f'  <rect x="486" y="{y - 12}" width="490" height="14" rx="7" fill="#161b22"/>\n'
-            f'  <rect x="486" y="{y - 12}" width="{width:.1f}" height="14" rx="7" fill="url(#downloadsGradient)"/>\n'
-            f'  <text x="944" y="{y}" class="value" text-anchor="end">{format_count(downloads)}</text>'
+        width = 142 * (math.log1p(downloads) / max_log) if downloads else 0
+        name = html.escape(truncated(row.get("name", "repository"), 19))
+        repository_cards.append(
+            f'  <g transform="translate({x} 207)">\n'
+            f'    <rect width="170" height="52" rx="11" class="panel"/>\n'
+            f'    <text x="14" y="20" class="rank">#{index + 1}</text>\n'
+            f'    <text x="42" y="20" class="repo">{name}</text>\n'
+            f'    <text x="14" y="41" class="count">{format_count(downloads)}</text>\n'
+            f'    <text x="54" y="41" class="muted">downloads</text>\n'
+            f'    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>\n'
+            f'    <rect x="14" y="48" width="{width:.1f}" height="3" rx="1.5" fill="url(#downloadsGradient)"/>\n'
+            f'  </g>'
         )
 
+    if not repository_cards:
+        repository_cards.append('  <text x="34" y="235" class="muted">No published release downloads yet</text>')
+
     history = data.get("history") if isinstance(data.get("history"), list) else []
-    delta_text = "Daily history starts with this snapshot"
+    delta_value = "NEW"
+    delta_caption = "tracking started"
+    delta_color = "#58a6ff"
     if len(history) >= 2 and isinstance(history[-1], dict) and isinstance(history[-2], dict):
         delta = safe_int(history[-1].get("downloads")) - safe_int(history[-2].get("downloads"))
-        delta_text = f"{delta:+,} since previous daily snapshot"
+        delta_value = f"{delta:+,}"
+        delta_caption = "since last snapshot"
+        delta_color = "#39d353" if delta >= 0 else "#f85149"
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" role="img" aria-label="Release downloads: {total_downloads} total">
   <style>
-    .title {{ font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 27px; font-weight: 700; }}
-    .muted {{ font-family: "Segoe UI", Arial, sans-serif; fill: #8b949e; font-size: 12px; }}
-    .label {{ font-family: "Segoe UI", Arial, sans-serif; fill: #c9d1d9; font-size: 12px; font-weight: 600; }}
-    .value {{ font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 12px; font-weight: 700; }}
+    text {{ font-family: "Segoe UI", Arial, sans-serif; }}
+    .title {{ fill: #f0f6fc; font-size: 25px; font-weight: 750; }}
+    .muted {{ fill: #8b949e; font-size: 11px; }}
+    .eyebrow {{ fill: #8b949e; font-size: 10px; font-weight: 700; letter-spacing: 1px; }}
+    .metric {{ fill: #f0f6fc; font-size: 29px; font-weight: 800; }}
+    .total {{ fill: #39d353; font-size: 40px; font-weight: 800; }}
+    .panel {{ fill: #161b22; stroke: #30363d; stroke-width: 1; }}
+    .rank {{ fill: #39d353; font-size: 11px; font-weight: 800; }}
+    .repo {{ fill: #c9d1d9; font-size: 11px; font-weight: 650; }}
+    .count {{ fill: #f0f6fc; font-size: 12px; font-weight: 750; }}
   </style>
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#111926"/></linearGradient>
     <linearGradient id="downloadsGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#238636"/><stop offset="100%" stop-color="#39d353"/></linearGradient>
   </defs>
-  <rect width="960" height="310" rx="24" fill="url(#cardBg)"/>
-  <rect x="1" y="1" width="958" height="308" rx="23" fill="none" stroke="#30363d"/>
-  <text x="34" y="47" class="title">Release Downloads</text>
-  <text x="926" y="43" class="muted" text-anchor="end">Updated daily · public GitHub release assets</text>
+  <rect width="960" height="286" rx="24" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="958" height="284" rx="23" fill="none" stroke="#30363d"/>
+  <text x="34" y="42" class="title">Release Downloads</text>
+  <text x="926" y="39" class="muted" text-anchor="end">Updated daily · public release assets</text>
 
-  <text x="34" y="111" fill="#39d353" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">{format_count(total_downloads)}</text>
-  <text x="34" y="135" class="muted">total downloads</text>
-  <text x="34" y="180" class="value" font-size="19">{safe_int(totals.get('repositories_with_downloads'))}</text>
-  <text x="64" y="180" class="muted">projects</text>
-  <text x="144" y="180" class="value" font-size="19">{safe_int(totals.get('releases'))}</text>
-  <text x="182" y="180" class="muted">releases</text>
-  <text x="34" y="215" class="value" font-size="19">{safe_int(totals.get('assets'))}</text>
-  <text x="69" y="215" class="muted">assets</text>
-  <text x="34" y="250" class="muted">{html.escape(delta_text)}</text>
+  <g transform="translate(34 66)">
+    <rect width="232" height="98" rx="14" fill="#101923" stroke="#238636" stroke-opacity=".65"/>
+    <text x="20" y="25" class="eyebrow">TOTAL DOWNLOADS</text>
+    <text x="20" y="70" class="total">{format_count(total_downloads)}</text>
+    <circle cx="205" cy="25" r="5" fill="#39d353"/>
+    <circle cx="205" cy="25" r="10" fill="#39d353" opacity=".12"/>
+  </g>
+  <g transform="translate(278 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">PROJECTS</text>
+    <text x="18" y="67" class="metric">{safe_int(totals.get('repositories_with_downloads'))}</text>
+    <text x="18" y="85" class="muted">with downloads</text>
+  </g>
+  <g transform="translate(438 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">RELEASES</text>
+    <text x="18" y="67" class="metric">{safe_int(totals.get('releases'))}</text>
+    <text x="18" y="85" class="muted">published</text>
+  </g>
+  <g transform="translate(598 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">ASSETS</text>
+    <text x="18" y="67" class="metric">{safe_int(totals.get('assets'))}</text>
+    <text x="18" y="85" class="muted">downloadable files</text>
+  </g>
+  <g transform="translate(758 66)">
+    <rect width="168" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">LATEST CHANGE</text>
+    <text x="18" y="64" fill="{delta_color}" font-size="22" font-weight="800">{html.escape(delta_value)}</text>
+    <text x="18" y="85" class="muted">{html.escape(delta_caption)}</text>
+  </g>
 
-  <text x="326" y="67" class="label" font-size="14">TOP REPOSITORIES / LOG SCALE</text>
-{chr(10).join(bar_rows)}
-  <text x="326" y="289" class="muted">Click for interactive repositories, releases, and assets</text>
+  <text x="34" y="193" class="eyebrow">MOST DOWNLOADED PROJECTS</text>
+  <text x="926" y="193" class="muted" text-anchor="end">Open interactive breakdown →</text>
+{chr(10).join(repository_cards)}
 </svg>
 """
 

@@ -58,15 +58,6 @@
 </picture>
 
 
-## GitHub Release Downloads 📦
-
-<a href="https://lredragol.github.io/lReDragol/activity/#releases">
-  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260902222118">
-</a>
-
-<sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
-
-
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/lReDragol">
@@ -89,6 +80,16 @@
 </p>
 
 <sub>Click the heatmap for daily repository, commit, and line details.</sub>
+
+---
+
+## GitHub Release Downloads 📦
+
+<a href="https://lredragol.github.io/lReDragol/activity/#releases">
+  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260903-redesign">
+</a>
+
+<sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
 
 ---
 

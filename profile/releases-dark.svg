@@ -1,49 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="310" viewBox="0 0 960 310" role="img" aria-label="Release downloads: 1576 total">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="286" viewBox="0 0 960 286" role="img" aria-label="Release downloads: 1576 total">
   <style>
-    .title { font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 27px; font-weight: 700; }
-    .muted { font-family: "Segoe UI", Arial, sans-serif; fill: #8b949e; font-size: 12px; }
-    .label { font-family: "Segoe UI", Arial, sans-serif; fill: #c9d1d9; font-size: 12px; font-weight: 600; }
-    .value { font-family: "Segoe UI", Arial, sans-serif; fill: #f0f6fc; font-size: 12px; font-weight: 700; }
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .title { fill: #f0f6fc; font-size: 25px; font-weight: 750; }
+    .muted { fill: #8b949e; font-size: 11px; }
+    .eyebrow { fill: #8b949e; font-size: 10px; font-weight: 700; letter-spacing: 1px; }
+    .metric { fill: #f0f6fc; font-size: 29px; font-weight: 800; }
+    .total { fill: #39d353; font-size: 40px; font-weight: 800; }
+    .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .rank { fill: #39d353; font-size: 11px; font-weight: 800; }
+    .repo { fill: #c9d1d9; font-size: 11px; font-weight: 650; }
+    .count { fill: #f0f6fc; font-size: 12px; font-weight: 750; }
   </style>
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#111926"/></linearGradient>
     <linearGradient id="downloadsGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#238636"/><stop offset="100%" stop-color="#39d353"/></linearGradient>
   </defs>
-  <rect width="960" height="310" rx="24" fill="url(#cardBg)"/>
-  <rect x="1" y="1" width="958" height="308" rx="23" fill="none" stroke="#30363d"/>
-  <text x="34" y="47" class="title">Release Downloads</text>
-  <text x="926" y="43" class="muted" text-anchor="end">Updated daily · public GitHub release assets</text>
+  <rect width="960" height="286" rx="24" fill="url(#cardBg)"/>
+  <rect x="1" y="1" width="958" height="284" rx="23" fill="none" stroke="#30363d"/>
+  <text x="34" y="42" class="title">Release Downloads</text>
+  <text x="926" y="39" class="muted" text-anchor="end">Updated daily · public release assets</text>
 
-  <text x="34" y="111" fill="#39d353" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="800">1,576</text>
-  <text x="34" y="135" class="muted">total downloads</text>
-  <text x="34" y="180" class="value" font-size="19">8</text>
-  <text x="64" y="180" class="muted">projects</text>
-  <text x="144" y="180" class="value" font-size="19">34</text>
-  <text x="182" y="180" class="muted">releases</text>
-  <text x="34" y="215" class="value" font-size="19">76</text>
-  <text x="69" y="215" class="muted">assets</text>
-  <text x="34" y="250" class="muted">Daily history starts with this snapshot</text>
+  <g transform="translate(34 66)">
+    <rect width="232" height="98" rx="14" fill="#101923" stroke="#238636" stroke-opacity=".65"/>
+    <text x="20" y="25" class="eyebrow">TOTAL DOWNLOADS</text>
+    <text x="20" y="70" class="total">1,576</text>
+    <circle cx="205" cy="25" r="5" fill="#39d353"/>
+    <circle cx="205" cy="25" r="10" fill="#39d353" opacity=".12"/>
+  </g>
+  <g transform="translate(278 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">PROJECTS</text>
+    <text x="18" y="67" class="metric">8</text>
+    <text x="18" y="85" class="muted">with downloads</text>
+  </g>
+  <g transform="translate(438 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">RELEASES</text>
+    <text x="18" y="67" class="metric">34</text>
+    <text x="18" y="85" class="muted">published</text>
+  </g>
+  <g transform="translate(598 66)">
+    <rect width="148" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">ASSETS</text>
+    <text x="18" y="67" class="metric">76</text>
+    <text x="18" y="85" class="muted">downloadable files</text>
+  </g>
+  <g transform="translate(758 66)">
+    <rect width="168" height="98" rx="14" class="panel"/>
+    <text x="18" y="28" class="eyebrow">LATEST CHANGE</text>
+    <text x="18" y="64" fill="#58a6ff" font-size="22" font-weight="800">NEW</text>
+    <text x="18" y="85" class="muted">tracking started</text>
+  </g>
 
-  <text x="326" y="67" class="label" font-size="14">TOP REPOSITORIES / LOG SCALE</text>
-  <text x="326" y="103" class="label">OnceHuman_Tools</text>
-  <rect x="486" y="91" width="490" height="14" rx="7" fill="#161b22"/>
-  <rect x="486" y="91" width="490.0" height="14" rx="7" fill="url(#downloadsGradient)"/>
-  <text x="944" y="103" class="value" text-anchor="end">1,433</text>
-  <text x="326" y="140" class="label">Cheat-ShellShock-Live</text>
-  <rect x="486" y="128" width="490" height="14" rx="7" fill="#161b22"/>
-  <rect x="486" y="128" width="304.8" height="14" rx="7" fill="url(#downloadsGradient)"/>
-  <text x="944" y="140" class="value" text-anchor="end">91</text>
-  <text x="326" y="177" class="label">ESCgram</text>
-  <rect x="486" y="165" width="490" height="14" rx="7" fill="#161b22"/>
-  <rect x="486" y="165" width="229.3" height="14" rx="7" fill="url(#downloadsGradient)"/>
-  <text x="944" y="177" class="value" text-anchor="end">29</text>
-  <text x="326" y="214" class="label">Icon-Creator</text>
-  <rect x="486" y="202" width="490" height="14" rx="7" fill="#161b22"/>
-  <rect x="486" y="202" width="155.2" height="14" rx="7" fill="url(#downloadsGradient)"/>
-  <text x="944" y="214" class="value" text-anchor="end">9</text>
-  <text x="326" y="251" class="label">icarus-save-editor</text>
-  <rect x="486" y="239" width="490" height="14" rx="7" fill="#161b22"/>
-  <rect x="486" y="239" width="148.1" height="14" rx="7" fill="url(#downloadsGradient)"/>
-  <text x="944" y="251" class="value" text-anchor="end">8</text>
-  <text x="326" y="289" class="muted">Click for interactive repositories, releases, and assets</text>
+  <text x="34" y="193" class="eyebrow">MOST DOWNLOADED PROJECTS</text>
+  <text x="926" y="193" class="muted" text-anchor="end">Open interactive breakdown →</text>
+  <g transform="translate(34 207)">
+    <rect width="170" height="52" rx="11" class="panel"/>
+    <text x="14" y="20" class="rank">#1</text>
+    <text x="42" y="20" class="repo">OnceHuman_Tools</text>
+    <text x="14" y="41" class="count">1,433</text>
+    <text x="54" y="41" class="muted">downloads</text>
+    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="14" y="48" width="142.0" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+  </g>
+  <g transform="translate(214 207)">
+    <rect width="170" height="52" rx="11" class="panel"/>
+    <text x="14" y="20" class="rank">#2</text>
+    <text x="42" y="20" class="repo">Cheat-ShellShock-L…</text>
+    <text x="14" y="41" class="count">91</text>
+    <text x="54" y="41" class="muted">downloads</text>
+    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="14" y="48" width="88.3" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+  </g>
+  <g transform="translate(394 207)">
+    <rect width="170" height="52" rx="11" class="panel"/>
+    <text x="14" y="20" class="rank">#3</text>
+    <text x="42" y="20" class="repo">ESCgram</text>
+    <text x="14" y="41" class="count">29</text>
+    <text x="54" y="41" class="muted">downloads</text>
+    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="14" y="48" width="66.4" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+  </g>
+  <g transform="translate(574 207)">
+    <rect width="170" height="52" rx="11" class="panel"/>
+    <text x="14" y="20" class="rank">#4</text>
+    <text x="42" y="20" class="repo">Icon-Creator</text>
+    <text x="14" y="41" class="count">9</text>
+    <text x="54" y="41" class="muted">downloads</text>
+    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="14" y="48" width="45.0" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+  </g>
+  <g transform="translate(754 207)">
+    <rect width="170" height="52" rx="11" class="panel"/>
+    <text x="14" y="20" class="rank">#5</text>
+    <text x="42" y="20" class="repo">icarus-save-editor</text>
+    <text x="14" y="41" class="count">8</text>
+    <text x="54" y="41" class="muted">downloads</text>
+    <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="14" y="48" width="42.9" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+  </g>
 </svg>

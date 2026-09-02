@@ -92,14 +92,16 @@ class ReleaseDownloadTests(unittest.TestCase):
         self.assertEqual(data["history"], [{"date": "2026-09-02", "downloads": 10}, {"date": "2026-09-03", "downloads": 15}])
         self.assertNotIn("secret.zip", str(data))
 
-    def test_render_card_labels_logarithmic_scale_and_escapes_names(self) -> None:
+    def test_render_card_uses_summary_tiles_and_escapes_names(self) -> None:
         data = {
             "totals": {"downloads": 100, "releases": 2, "assets": 3, "repositories_with_downloads": 1},
             "repositories": [{"name": "repo<script>", "downloads": 100}],
             "history": [{"date": "2026-09-03", "downloads": 100}],
         }
         svg = self.module.render_release_card(data)
-        self.assertIn("TOP REPOSITORIES / LOG SCALE", svg)
+        self.assertIn("TOTAL DOWNLOADS", svg)
+        self.assertIn("MOST DOWNLOADED PROJECTS", svg)
+        self.assertIn("LATEST CHANGE", svg)
         self.assertIn("repo&lt;script&gt;", svg)
         self.assertNotIn("repo<script>", svg)
 
