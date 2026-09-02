@@ -53,15 +53,15 @@
 ## GitHub Profile Trophy 🏆
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg?v=20260902215058">
-  <img alt="lReDragol's GitHub achievements" src="./profile/trophy.svg?v=20260902215058">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg?v=20260902215410">
+  <img alt="lReDragol's GitHub achievements" src="./profile/trophy.svg?v=20260902215410">
 </picture>
 
 
 ## GitHub Release Downloads 📦
 
 <a href="https://lredragol.github.io/lReDragol/activity/#releases">
-  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260902215058">
+  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260902215410">
 </a>
 
 <sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
@@ -70,22 +70,22 @@
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260902215058" height="192px"/>
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260902215410" height="192px"/>
 </a>
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260902215058" height="192px"/>
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260902215410" height="192px"/>
 </a>
 
 ---
 
 ### Activity Overview 📈
 <a href="https://lredragol.github.io/lReDragol/activity/">
-  <img alt="lReDragol's privacy-safe GitHub activity overview" src="./profile/activity-dark.svg?v=20260902215058">
+  <img alt="lReDragol's privacy-safe GitHub activity overview" src="./profile/activity-dark.svg?v=20260902215410">
 </a>
 
 <p>
-  <img src="./profile/lines-7d.svg?v=20260902215058" alt="Raw Git diff in the last 7 days">
-  <img src="./profile/lines-30d.svg?v=20260902215058" alt="Raw Git diff in the last 30 days">
+  <img src="./profile/lines-7d.svg?v=20260902215410" alt="Raw Git diff in the last 7 days">
+  <img src="./profile/lines-30d.svg?v=20260902215410" alt="Raw Git diff in the last 30 days">
 </p>
 
 <sub>Click the heatmap for daily hover details. Private activity is published only as aggregate counts. Diff lines include generated files, merges, imports, and bulk deletions.</sub>
