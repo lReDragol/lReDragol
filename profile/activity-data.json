@@ -1,0 +1,2944 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-02T21:25:08Z",
+  "username": "lReDragol",
+  "title": "lReDragol (Drago)",
+  "joined_text": "Joined GitHub 3 years ago",
+  "timezone": "UTC+03:00",
+  "period": {
+    "start": "2025-09-04",
+    "end": "2026-09-03",
+    "days": 365
+  },
+  "scope": {
+    "commits": "Authored commits reachable from repository default branches",
+    "lines": "Raw Git diff additions and deletions, including generated files and merges",
+    "privacy": "Daily aggregate only; repository names, commit IDs, messages, paths, and code are omitted"
+  },
+  "repository_counts": {
+    "public": 26,
+    "private": 19
+  },
+  "days": [
+    {
+      "date": "2025-09-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-09-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-10-31",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-13",
+      "commits": 1,
+      "additions": 1653,
+      "deletions": 0,
+      "changed": 1653,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-11-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2025-12-31",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-01-31",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-02-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-03",
+      "commits": 1,
+      "additions": 201,
+      "deletions": 0,
+      "changed": 201,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-16",
+      "commits": 8,
+      "additions": 22940,
+      "deletions": 85699,
+      "changed": 108639,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-17",
+      "commits": 2,
+      "additions": 4661,
+      "deletions": 184,
+      "changed": 4845,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-18",
+      "commits": 1,
+      "additions": 219237,
+      "deletions": 1530,
+      "changed": 220767,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-19",
+      "commits": 2,
+      "additions": 736,
+      "deletions": 164,
+      "changed": 900,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-23",
+      "commits": 1,
+      "additions": 16000,
+      "deletions": 0,
+      "changed": 16000,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-24",
+      "commits": 1,
+      "additions": 424,
+      "deletions": 3,
+      "changed": 427,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-03-31",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-04",
+      "commits": 1,
+      "additions": 111,
+      "deletions": 108,
+      "changed": 219,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-06",
+      "commits": 2,
+      "additions": 24991,
+      "deletions": 0,
+      "changed": 24991,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-08",
+      "commits": 3,
+      "additions": 10144,
+      "deletions": 2007,
+      "changed": 12151,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-09",
+      "commits": 3,
+      "additions": 4795,
+      "deletions": 676,
+      "changed": 5471,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-10",
+      "commits": 1,
+      "additions": 6211,
+      "deletions": 0,
+      "changed": 6211,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-11",
+      "commits": 4,
+      "additions": 33151,
+      "deletions": 19803,
+      "changed": 52954,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-12",
+      "commits": 3,
+      "additions": 6520,
+      "deletions": 134,
+      "changed": 6654,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-15",
+      "commits": 1,
+      "additions": 19739,
+      "deletions": 0,
+      "changed": 19739,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-16",
+      "commits": 1,
+      "additions": 2561,
+      "deletions": 371,
+      "changed": 2932,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-17",
+      "commits": 5,
+      "additions": 1445,
+      "deletions": 220,
+      "changed": 1665,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-18",
+      "commits": 1,
+      "additions": 1134,
+      "deletions": 204,
+      "changed": 1338,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-21",
+      "commits": 1,
+      "additions": 2592,
+      "deletions": 217,
+      "changed": 2809,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-23",
+      "commits": 1,
+      "additions": 369,
+      "deletions": 70,
+      "changed": 439,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-24",
+      "commits": 9,
+      "additions": 713690,
+      "deletions": 830,
+      "changed": 714520,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-25",
+      "commits": 11,
+      "additions": 26946,
+      "deletions": 2927,
+      "changed": 29873,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-26",
+      "commits": 10,
+      "additions": 30661,
+      "deletions": 1813,
+      "changed": 32474,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-27",
+      "commits": 11,
+      "additions": 19205,
+      "deletions": 1615,
+      "changed": 20820,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-28",
+      "commits": 7,
+      "additions": 18607,
+      "deletions": 10791,
+      "changed": 29398,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-29",
+      "commits": 6,
+      "additions": 2625,
+      "deletions": 6006,
+      "changed": 8631,
+      "merges": 0
+    },
+    {
+      "date": "2026-04-30",
+      "commits": 5,
+      "additions": 15074,
+      "deletions": 618088,
+      "changed": 633162,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-02",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-05",
+      "commits": 3,
+      "additions": 4415,
+      "deletions": 116,
+      "changed": 4531,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-10",
+      "commits": 1,
+      "additions": 3763,
+      "deletions": 298,
+      "changed": 4061,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-13",
+      "commits": 2,
+      "additions": 1870,
+      "deletions": 68,
+      "changed": 1938,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-18",
+      "commits": 1,
+      "additions": 859,
+      "deletions": 178,
+      "changed": 1037,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-22",
+      "commits": 6,
+      "additions": 110652,
+      "deletions": 54524,
+      "changed": 165176,
+      "merges": 2
+    },
+    {
+      "date": "2026-05-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-24",
+      "commits": 3,
+      "additions": 4899770,
+      "deletions": 523,
+      "changed": 4900293,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-25",
+      "commits": 1,
+      "additions": 4990,
+      "deletions": 265,
+      "changed": 5255,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-26",
+      "commits": 3,
+      "additions": 2862,
+      "deletions": 148,
+      "changed": 3010,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-30",
+      "commits": 2,
+      "additions": 2644,
+      "deletions": 0,
+      "changed": 2644,
+      "merges": 0
+    },
+    {
+      "date": "2026-05-31",
+      "commits": 42,
+      "additions": 31536,
+      "deletions": 9783837,
+      "changed": 9815373,
+      "merges": 1
+    },
+    {
+      "date": "2026-06-01",
+      "commits": 26,
+      "additions": 28875,
+      "deletions": 4893194,
+      "changed": 4922069,
+      "merges": 2
+    },
+    {
+      "date": "2026-06-02",
+      "commits": 1,
+      "additions": 7,
+      "deletions": 0,
+      "changed": 7,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-03",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-04",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-05",
+      "commits": 1,
+      "additions": 5597,
+      "deletions": 0,
+      "changed": 5597,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-06",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-07",
+      "commits": 2,
+      "additions": 2018,
+      "deletions": 0,
+      "changed": 2018,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-08",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-09",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-11",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-12",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-13",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-14",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-19",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-20",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-21",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-22",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-23",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-24",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-25",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-26",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-27",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-28",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-29",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-06-30",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-01",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-02",
+      "commits": 2,
+      "additions": 2181094,
+      "deletions": 88,
+      "changed": 2181182,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-03",
+      "commits": 9,
+      "additions": 7642,
+      "deletions": 2213,
+      "changed": 9855,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-04",
+      "commits": 12,
+      "additions": 3550,
+      "deletions": 1344,
+      "changed": 4894,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-05",
+      "commits": 10,
+      "additions": 3999,
+      "deletions": 7649,
+      "changed": 11648,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-06",
+      "commits": 29,
+      "additions": 13083,
+      "deletions": 2434,
+      "changed": 15517,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-07",
+      "commits": 14,
+      "additions": 28145,
+      "deletions": 9543,
+      "changed": 37688,
+      "merges": 1
+    },
+    {
+      "date": "2026-07-08",
+      "commits": 5,
+      "additions": 7533,
+      "deletions": 799,
+      "changed": 8332,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-09",
+      "commits": 7,
+      "additions": 5259,
+      "deletions": 414,
+      "changed": 5673,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-10",
+      "commits": 30,
+      "additions": 11131,
+      "deletions": 14027,
+      "changed": 25158,
+      "merges": 1
+    },
+    {
+      "date": "2026-07-11",
+      "commits": 18,
+      "additions": 1199,
+      "deletions": 80,
+      "changed": 1279,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-12",
+      "commits": 18,
+      "additions": 3237,
+      "deletions": 1157,
+      "changed": 4394,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-13",
+      "commits": 3,
+      "additions": 5089,
+      "deletions": 324,
+      "changed": 5413,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-14",
+      "commits": 23,
+      "additions": 8817,
+      "deletions": 3517,
+      "changed": 12334,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-15",
+      "commits": 12,
+      "additions": 17020,
+      "deletions": 1059,
+      "changed": 18079,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-16",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-18",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-19",
+      "commits": 7,
+      "additions": 774,
+      "deletions": 268,
+      "changed": 1042,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-20",
+      "commits": 2,
+      "additions": 1201,
+      "deletions": 1239,
+      "changed": 2440,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-21",
+      "commits": 1,
+      "additions": 16333,
+      "deletions": 209,
+      "changed": 16542,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-22",
+      "commits": 34,
+      "additions": 18942,
+      "deletions": 25667,
+      "changed": 44609,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-23",
+      "commits": 32,
+      "additions": 4476,
+      "deletions": 1491,
+      "changed": 5967,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-24",
+      "commits": 8,
+      "additions": 26919,
+      "deletions": 3143,
+      "changed": 30062,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-25",
+      "commits": 3,
+      "additions": 4712,
+      "deletions": 622,
+      "changed": 5334,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-26",
+      "commits": 10,
+      "additions": 9367,
+      "deletions": 950,
+      "changed": 10317,
+      "merges": 1
+    },
+    {
+      "date": "2026-07-27",
+      "commits": 18,
+      "additions": 565551,
+      "deletions": 703,
+      "changed": 566254,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-28",
+      "commits": 16,
+      "additions": 7062,
+      "deletions": 1389,
+      "changed": 8451,
+      "merges": 2
+    },
+    {
+      "date": "2026-07-29",
+      "commits": 9,
+      "additions": 6251,
+      "deletions": 3169,
+      "changed": 9420,
+      "merges": 0
+    },
+    {
+      "date": "2026-07-30",
+      "commits": 9,
+      "additions": 56737,
+      "deletions": 17912,
+      "changed": 74649,
+      "merges": 1
+    },
+    {
+      "date": "2026-07-31",
+      "commits": 89,
+      "additions": 74974,
+      "deletions": 10769,
+      "changed": 85743,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-01",
+      "commits": 22,
+      "additions": 156960,
+      "deletions": 1314,
+      "changed": 158274,
+      "merges": 1
+    },
+    {
+      "date": "2026-08-02",
+      "commits": 12,
+      "additions": 2610,
+      "deletions": 906,
+      "changed": 3516,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-03",
+      "commits": 1,
+      "additions": 1536,
+      "deletions": 252,
+      "changed": 1788,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-04",
+      "commits": 4,
+      "additions": 18297,
+      "deletions": 20150,
+      "changed": 38447,
+      "merges": 1
+    },
+    {
+      "date": "2026-08-05",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-06",
+      "commits": 1,
+      "additions": 497,
+      "deletions": 577,
+      "changed": 1074,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-07",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-08",
+      "commits": 22,
+      "additions": 35578,
+      "deletions": 13387,
+      "changed": 48965,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-09",
+      "commits": 10,
+      "additions": 5863,
+      "deletions": 3199,
+      "changed": 9062,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-10",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-11",
+      "commits": 14,
+      "additions": 4163,
+      "deletions": 888,
+      "changed": 5051,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-12",
+      "commits": 1,
+      "additions": 2267,
+      "deletions": 1005,
+      "changed": 3272,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-13",
+      "commits": 9,
+      "additions": 91315,
+      "deletions": 100857,
+      "changed": 192172,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-14",
+      "commits": 4,
+      "additions": 1124,
+      "deletions": 1042807,
+      "changed": 1043931,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-15",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-16",
+      "commits": 1,
+      "additions": 63,
+      "deletions": 0,
+      "changed": 63,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-17",
+      "commits": 0,
+      "additions": 0,
+      "deletions": 0,
+      "changed": 0,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-18",
+      "commits": 6,
+      "additions": 362,
+      "deletions": 161,
+      "changed": 523,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-19",
+      "commits": 6,
+      "additions": 55,
+      "deletions": 45,
+      "changed": 100,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-20",
+      "commits": 9,
+      "additions": 3492,
+      "deletions": 1716,
+      "changed": 5208,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-21",
+      "commits": 12,
+      "additions": 2614,
+      "deletions": 1500,
+      "changed": 4114,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-22",
+      "commits": 1,
+      "additions": 1318,
+      "deletions": 417,
+      "changed": 1735,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-23",
+      "commits": 2,
+      "additions": 10643,
+      "deletions": 27,
+      "changed": 10670,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-24",
+      "commits": 5,
+      "additions": 604,
+      "deletions": 192,
+      "changed": 796,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-25",
+      "commits": 1,
+      "additions": 936,
+      "deletions": 217,
+      "changed": 1153,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-26",
+      "commits": 14,
+      "additions": 16780,
+      "deletions": 1337,
+      "changed": 18117,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-27",
+      "commits": 44,
+      "additions": 12585,
+      "deletions": 3791,
+      "changed": 16376,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-28",
+      "commits": 21,
+      "additions": 56544,
+      "deletions": 17794,
+      "changed": 74338,
+      "merges": 2
+    },
+    {
+      "date": "2026-08-29",
+      "commits": 17,
+      "additions": 4766,
+      "deletions": 1479,
+      "changed": 6245,
+      "merges": 4
+    },
+    {
+      "date": "2026-08-30",
+      "commits": 19,
+      "additions": 24812,
+      "deletions": 2960,
+      "changed": 27772,
+      "merges": 0
+    },
+    {
+      "date": "2026-08-31",
+      "commits": 44,
+      "additions": 23133,
+      "deletions": 38976,
+      "changed": 62109,
+      "merges": 0
+    },
+    {
+      "date": "2026-09-01",
+      "commits": 23,
+      "additions": 192309,
+      "deletions": 97492,
+      "changed": 289801,
+      "merges": 4
+    },
+    {
+      "date": "2026-09-02",
+      "commits": 35,
+      "additions": 37271,
+      "deletions": 26069,
+      "changed": 63340,
+      "merges": 7
+    },
+    {
+      "date": "2026-09-03",
+      "commits": 1,
+      "additions": 1102,
+      "deletions": 352,
+      "changed": 1454,
+      "merges": 0
+    }
+  ]
+}

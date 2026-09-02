@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive daily GitHub activity for lReDragol, including privacy-safe aggregate data from private repositories.">
+    <title>lReDragol - Activity Overview</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">LREDRAGOL / GITHUB ACTIVITY</p>
+          <h1>Activity Overview</h1>
+          <p class="intro">Daily authored commits and raw Git diff volume across accessible public and private repositories.</p>
+        </div>
+        <a class="profile-link" href="https://github.com/lReDragol">Open GitHub profile</a>
+      </header>
+
+      <section class="notice" aria-label="Privacy and metric explanation">
+        <strong>Privacy-safe aggregate.</strong>
+        Private repository names, commit IDs, messages, paths, and code are never published. Line counts are raw additions and deletions, so generated files, merges, imports, and mass deletions are included.
+      </section>
+
+      <section class="summary" aria-label="Activity totals">
+        <article><span id="total-commits">-</span><small>commits</small></article>
+        <article><span id="total-additions" class="positive">-</span><small>additions</small></article>
+        <article><span id="total-deletions" class="negative">-</span><small>deletions</small></article>
+        <article><span id="total-changed">-</span><small>changed lines</small></article>
+      </section>
+
+      <section class="panel" aria-labelledby="calendar-heading">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">HOVER OR FOCUS A DAY</p>
+            <h2 id="calendar-heading">Daily heatmap</h2>
+          </div>
+          <div class="controls">
+            <div class="segmented" id="metric-controls" aria-label="Heatmap metric">
+              <button type="button" data-metric="commits" class="active">Commits</button>
+              <button type="button" data-metric="changed">Changed</button>
+              <button type="button" data-metric="additions">Added</button>
+              <button type="button" data-metric="deletions">Deleted</button>
+            </div>
+            <div class="segmented" id="range-controls" aria-label="Date range">
+              <button type="button" data-range="30">30d</button>
+              <button type="button" data-range="90">90d</button>
+              <button type="button" data-range="365" class="active">1y</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="calendar-frame">
+          <div class="weekday-labels" aria-hidden="true"><span>Mon</span><span>Wed</span><span>Fri</span></div>
+          <div class="calendar-scroll">
+            <div id="months" class="months" aria-hidden="true"></div>
+            <div id="heatmap" class="heatmap" role="grid" aria-label="Daily GitHub activity"></div>
+          </div>
+        </div>
+
+        <div class="legend-row">
+          <span id="period-label">Loading activity...</span>
+          <div class="legend" aria-label="Heat scale"><span>Less</span><i data-level="0"></i><i data-level="1"></i><i data-level="2"></i><i data-level="3"></i><i data-level="4"></i><span>More</span></div>
+        </div>
+      </section>
+
+      <footer>
+        <span id="generated-at"></span>
+        <span>Source: GitHub REST API, published as daily totals only.</span>
+      </footer>
+    </main>
+
+    <div id="tooltip" class="tooltip" role="status" aria-live="polite" hidden></div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

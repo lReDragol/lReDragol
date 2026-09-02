@@ -52,27 +52,31 @@
 
 ## GitHub Profile Trophy 🏆
 
-[![trophy](./profile/trophy.svg?v=20260902065215)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](./profile/trophy.svg?v=20260902212634)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260902065215" height="192px"/>
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20260902212634" height="192px"/>
 </a>
 <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260902065215" height="192px"/>
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20260902212634" height="192px"/>
 </a>
 
 ---
 
 ### Activity Overview 📈
-<img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg?v=20260902065215">
+<a href="https://lredragol.github.io/lReDragol/activity/">
+  <img alt="lReDragol's privacy-safe GitHub activity overview" src="./profile/activity-dark.svg?v=20260902212634">
+</a>
 
 <p>
-  <img src="./profile/lines-7d.svg?v=20260902065215" alt="Lines changed in the last 7 days">
-  <img src="./profile/lines-30d.svg?v=20260902065215" alt="Lines changed in the last 30 days">
+  <img src="./profile/lines-7d.svg?v=20260902212634" alt="Raw Git diff in the last 7 days">
+  <img src="./profile/lines-30d.svg?v=20260902212634" alt="Raw Git diff in the last 30 days">
 </p>
+
+<sub>Click the heatmap for daily hover details. Private activity is published only as aggregate counts. Diff lines include generated files, merges, imports, and bulk deletions.</sub>
 
 ---
 

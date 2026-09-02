@@ -14,6 +14,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Ensure widgets token is configured
+        env:
+          WIDGETS_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+        run: |
+          if [ -z "$WIDGETS_TOKEN" ]; then
+            echo "WIDGETS_TOKEN secret is required for aggregate activity from private repositories." >&2
+            exit 1
+          fi
+
+      - name: Generate activity overview
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+          UTC_OFFSET: 3
+          ACTIVITY_DAYS: 365
+          ACTIVITY_REFRESH_DAYS: 35
+          EXCLUDE_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/generate_activity_overview.py
+
+      - name: Generate diff badges
+        env:
+          OUTPUT_DIR: profile
+        run: python3 scripts/generate_line_badges.py
+
+      - name: Generate profile stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+          OUTPUT_DIR: profile
+        run: python3 scripts/generate_profile_stats.py
+
       - name: Generate trophy
         run: |
           mkdir -p profile
@@ -41,7 +73,8 @@ jobs:
             "profile/trophy-dark.svg"
 
       - name: Generate stats cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
+        # Pin the release branch so third-party code cannot change between runs unnoticed.
+        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
@@ -58,50 +91,25 @@ jobs:
           cp "profile-summary-card-output/github_dark/1-repos-per-language.svg" "profile/top-langs-dark.svg"
           rm -rf profile-summary-card-output
 
-      - name: Ensure widgets token is configured
-        env:
-          WIDGETS_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
-        run: |
-          if [ -z "$WIDGETS_TOKEN" ]; then
-            echo "WIDGETS_TOKEN secret is required for line badges that include private repositories." >&2
-            exit 1
-          fi
-
-      - name: Generate line badges
-        env:
-          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
-          GITHUB_USER: ${{ github.repository_owner }}
-          OUTPUT_DIR: profile
-        run: python3 scripts/generate_line_badges.py
-
-      - name: Generate activity overview
-        env:
-          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
-          GITHUB_USER: ${{ github.repository_owner }}
-          OUTPUT_DIR: profile
-          UTC_OFFSET: 3
-          ACTIVITY_DAYS: 14
-        run: python3 scripts/generate_activity_overview.py
-
-      - name: Generate profile stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.WIDGETS_TOKEN }}
-          GITHUB_USER: ${{ github.repository_owner }}
-          OUTPUT_DIR: profile
-        run: python3 scripts/generate_profile_stats.py
-
       - name: Update README cache-bust token
         run: |
           CACHE_BUST="$(date -u +%Y%m%d%H%M%S)"
           python3 scripts/update_readme_cache_bust.py README.md "$CACHE_BUST"
 
+      - name: Run generator tests
+        run: python3 -m unittest discover -s tests -v
+
       - name: Commit and push
         run: |
-          git config user.name "lReDragol"
-          git config user.email "blinov.dr1@yandex.ru"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
             README.md \
+            activity/app.js \
+            activity/index.html \
+            activity/styles.css \
+            profile/activity-data.json \
             profile/activity-dark.svg \
             profile/lines-7d.svg \
             profile/lines-30d.svg \

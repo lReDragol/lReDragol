@@ -1,9 +1,7 @@
-import datetime as dt
 import importlib.util
 import pathlib
+import tempfile
 import unittest
-from unittest import mock
-from urllib.parse import urlparse
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -18,75 +16,29 @@ def load_module():
     return module
 
 
-def isoformat_z(value: dt.datetime) -> str:
-    return value.astimezone(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
-
-def repository_payload(name: str, pushed_at: str) -> dict[str, object]:
-    return {
-        "name": name,
-        "archived": False,
-        "pushed_at": pushed_at,
-        "owner": {"login": "lReDragol"},
-    }
-
-
-def commit_payload(sha: str, committed_at: str) -> dict[str, object]:
-    return {
-        "sha": sha,
-        "commit": {
-            "author": {
-                "date": committed_at,
-            }
-        },
-    }
-
-
-class CollectStatsTests(unittest.TestCase):
+class DiffBadgeTests(unittest.TestCase):
     def setUp(self) -> None:
         self.module = load_module()
-        self.now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-        self.recent = isoformat_z(self.now - dt.timedelta(hours=1))
-        self.public_repo = repository_payload("public-one", self.recent)
-        self.private_repo = repository_payload("private-one", self.recent)
+        self.data = {
+            "days": [
+                {"date": f"2026-04-{day:02d}", "additions": day, "deletions": 1}
+                for day in range(1, 31)
+            ]
+        }
 
-    def fake_request_json(self, url: str, token: str | None):
-        path = urlparse(url).path
+    def test_summarizes_last_seven_and_thirty_days(self) -> None:
+        self.assertEqual(self.module.summarize_activity(self.data, 7), (189, 7))
+        self.assertEqual(self.module.summarize_activity(self.data, 30), (465, 30))
 
-        if path == "/user/repos":
-            self.assertEqual(token, "secret-token")
-            return ([self.public_repo, self.private_repo], {})
+    def test_badges_are_labeled_as_raw_diff(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            stats = self.module.write_badges(pathlib.Path(directory), self.data)
+            badge = (pathlib.Path(directory) / "lines-7d.svg").read_text(encoding="utf-8")
 
-        if path == "/users/lReDragol/repos":
-            return ([self.public_repo], {})
-
-        if path == "/repos/lReDragol/public-one/commits":
-            return ([commit_payload("pub-sha", self.recent)], {})
-
-        if path == "/repos/lReDragol/private-one/commits":
-            return ([commit_payload("priv-sha", self.recent)], {})
-
-        if path == "/repos/lReDragol/public-one/commits/pub-sha":
-            return ({"stats": {"additions": 10, "deletions": 2}}, {})
-
-        if path == "/repos/lReDragol/private-one/commits/priv-sha":
-            return ({"stats": {"additions": 30, "deletions": 5}}, {})
-
-        raise AssertionError(f"Unexpected URL: {url}")
-
-    def test_collect_stats_includes_private_repositories_when_token_is_available(self) -> None:
-        with mock.patch.object(self.module, "request_json", side_effect=self.fake_request_json):
-            stats = self.module.collect_stats("lReDragol", "secret-token")
-
-        self.assertEqual(stats["7d"], (40, 7))
-        self.assertEqual(stats["30d"], (40, 7))
-
-    def test_collect_stats_falls_back_to_public_repositories_without_token(self) -> None:
-        with mock.patch.object(self.module, "request_json", side_effect=self.fake_request_json):
-            stats = self.module.collect_stats("lReDragol", None)
-
-        self.assertEqual(stats["7d"], (10, 2))
-        self.assertEqual(stats["30d"], (10, 2))
+        self.assertEqual(stats["7d"], (189, 7))
+        self.assertIn("DIFF 7D", badge)
+        self.assertIn("raw Git diff", badge)
+        self.assertNotIn("LINES 7D", badge)
 
 
 if __name__ == "__main__":
