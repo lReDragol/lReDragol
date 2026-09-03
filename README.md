@@ -83,16 +83,6 @@
 
 ---
 
-## GitHub Release Downloads 📦
-
-<a href="https://lredragol.github.io/lReDragol/activity/#releases">
-  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260903-redesign">
-</a>
-
-<sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
-
----
-
 ### Profile Views and YouTube 📹
 <p>
   <a href="https://www.youtube.com/@drago5210">
@@ -100,6 +90,12 @@
   </a>
   <img src="https://komarev.com/ghpvc/?username=lReDragol&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen" alt="Profile Views">
 </p>
+
+<a href="https://lredragol.github.io/lReDragol/activity/#releases">
+  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20260903-redesign">
+</a>
+
+<sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
 
 ---
 
