@@ -7,7 +7,7 @@
   </style>
   <rect x="1" y="1" width="418" height="198" rx="10" fill="#ffffff" stroke="#d0d7de"/>
   <text x="20" y="29" class="title">Top Languages</text>
-  <text x="20" y="49" class="subtitle">By code size | 40 owned repos | 29,695,749 bytes</text>
+  <text x="20" y="49" class="subtitle">By code size | 40 owned repos | 29,697,506 bytes</text>
   <circle cx="22" cy="72" r="5" fill="#3572A5"/>
   <text x="34" y="76" class="name">Python</text>
   <rect x="176" y="64" width="132" height="8" rx="4" fill="#eaeef2"/>
