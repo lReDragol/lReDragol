@@ -7,30 +7,30 @@
   </style>
   <rect x="1" y="1" width="418" height="198" rx="10" fill="#ffffff" stroke="#d0d7de"/>
   <text x="20" y="29" class="title">Top Languages</text>
-  <text x="20" y="49" class="subtitle">By code size | 40 owned repos | 29,697,506 bytes</text>
-  <circle cx="22" cy="72" r="5" fill="#3572A5"/>
-  <text x="34" y="76" class="name">Python</text>
+  <text x="20" y="49" class="subtitle">By code size | 40 owned repos | 465,469,166 bytes</text>
+  <circle cx="22" cy="72" r="5" fill="#e34c26"/>
+  <text x="34" y="76" class="name">HTML</text>
   <rect x="176" y="64" width="132" height="8" rx="4" fill="#eaeef2"/>
-  <rect x="176" y="64" width="116.53" height="8" rx="4" fill="#3572A5"/>
-  <text x="398" y="76" class="percent" text-anchor="end">88.28%</text>
-  <circle cx="22" cy="96" r="5" fill="#178600"/>
-  <text x="34" y="100" class="name">C#</text>
+  <rect x="176" y="64" width="121.35" height="8" rx="4" fill="#e34c26"/>
+  <text x="398" y="76" class="percent" text-anchor="end">91.93%</text>
+  <circle cx="22" cy="96" r="5" fill="#3572A5"/>
+  <text x="34" y="100" class="name">Python</text>
   <rect x="176" y="88" width="132" height="8" rx="4" fill="#eaeef2"/>
-  <rect x="176" y="88" width="7.14" height="8" rx="4" fill="#178600"/>
-  <text x="398" y="100" class="percent" text-anchor="end">5.41%</text>
-  <circle cx="22" cy="120" r="5" fill="#f34b7d"/>
-  <text x="34" y="124" class="name">C++</text>
+  <rect x="176" y="88" width="7.84" height="8" rx="4" fill="#3572A5"/>
+  <text x="398" y="100" class="percent" text-anchor="end">5.94%</text>
+  <circle cx="22" cy="120" r="5" fill="#f1e05a"/>
+  <text x="34" y="124" class="name">JavaScript</text>
   <rect x="176" y="112" width="132" height="8" rx="4" fill="#eaeef2"/>
-  <rect x="176" y="112" width="3.13" height="8" rx="4" fill="#f34b7d"/>
-  <text x="398" y="124" class="percent" text-anchor="end">2.37%</text>
-  <circle cx="22" cy="144" r="5" fill="#f1e05a"/>
-  <text x="34" y="148" class="name">JavaScript</text>
+  <rect x="176" y="112" width="2.01" height="8" rx="4" fill="#f1e05a"/>
+  <text x="398" y="124" class="percent" text-anchor="end">1.52%</text>
+  <circle cx="22" cy="144" r="5" fill="#178600"/>
+  <text x="34" y="148" class="name">C#</text>
   <rect x="176" y="136" width="132" height="8" rx="4" fill="#eaeef2"/>
-  <rect x="176" y="136" width="2.84" height="8" rx="4" fill="#f1e05a"/>
-  <text x="398" y="148" class="percent" text-anchor="end">2.15%</text>
-  <circle cx="22" cy="168" r="5" fill="#000080"/>
-  <text x="34" y="172" class="name">Lua</text>
+  <rect x="176" y="136" width="0.45" height="8" rx="4" fill="#178600"/>
+  <text x="398" y="148" class="percent" text-anchor="end">0.34%</text>
+  <circle cx="22" cy="168" r="5" fill="#f34b7d"/>
+  <text x="34" y="172" class="name">C++</text>
   <rect x="176" y="160" width="132" height="8" rx="4" fill="#eaeef2"/>
-  <rect x="176" y="160" width="1.06" height="8" rx="4" fill="#000080"/>
-  <text x="398" y="172" class="percent" text-anchor="end">0.80%</text>
+  <rect x="176" y="160" width="0.20" height="8" rx="4" fill="#f34b7d"/>
+  <text x="398" y="172" class="percent" text-anchor="end">0.15%</text>
 </svg>
