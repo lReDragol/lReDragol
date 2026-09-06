@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T06:43:54Z",
+  "generated_at": "2026-09-06T06:54:54Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1576,
+    "downloads": 1579,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1433,
+      "downloads": 1435,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -23,7 +23,7 @@
     {
       "name": "Cheat-ShellShock-Live",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live",
-      "downloads": 91,
+      "downloads": 92,
       "releases": 1,
       "assets": 1,
       "latest_release": "v1",
@@ -134,7 +134,7 @@
       "repository": "Cheat-ShellShock-Live",
       "release": "v1",
       "name": "main.exe",
-      "downloads": 91,
+      "downloads": 92,
       "size": 25850914,
       "updated_at": "2025-02-12T17:07:39Z",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live/releases/download/v1/main.exe"
@@ -161,7 +161,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 30,
+      "downloads": 31,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -170,7 +170,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanCalcPortable_V2.8.exe",
-      "downloads": 19,
+      "downloads": 20,
       "size": 29883040,
       "updated_at": "2026-03-19T11:54:19Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanCalcPortable_V2.8.exe"
@@ -782,6 +782,10 @@
     {
       "date": "2026-09-05",
       "downloads": 1576
+    },
+    {
+      "date": "2026-09-06",
+      "downloads": 1579
     }
   ]
 }
