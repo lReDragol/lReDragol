@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T07:05:42Z",
+  "generated_at": "2026-09-08T06:59:39Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1581,
+    "downloads": 1585,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1437,
+      "downloads": 1438,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -39,6 +39,15 @@
       "latest_published_at": "2026-03-11T08:55:15Z"
     },
     {
+      "name": "icarus-save-editor",
+      "url": "https://github.com/lReDragol/icarus-save-editor",
+      "downloads": 11,
+      "releases": 2,
+      "assets": 2,
+      "latest_release": "v2026.03.24",
+      "latest_published_at": "2026-03-24T19:03:00Z"
+    },
+    {
       "name": "Icon-Creator",
       "url": "https://github.com/lReDragol/Icon-Creator",
       "downloads": 9,
@@ -46,15 +55,6 @@
       "assets": 2,
       "latest_release": "Icons",
       "latest_published_at": "2025-03-06T14:17:13Z"
-    },
-    {
-      "name": "icarus-save-editor",
-      "url": "https://github.com/lReDragol/icarus-save-editor",
-      "downloads": 8,
-      "releases": 2,
-      "assets": 2,
-      "latest_release": "v2026.03.24",
-      "latest_published_at": "2026-03-24T19:03:00Z"
     },
     {
       "name": "piano-bot",
@@ -170,7 +170,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanCalcPortable_V2.8.exe",
-      "downloads": 21,
+      "downloads": 22,
       "size": 29883040,
       "updated_at": "2026-03-19T11:54:19Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanCalcPortable_V2.8.exe"
@@ -179,7 +179,7 @@
       "repository": "icarus-save-editor",
       "release": "v2026.03.24",
       "name": "icarus_save_editor.exe",
-      "downloads": 8,
+      "downloads": 11,
       "size": 49115416,
       "updated_at": "2026-03-24T19:03:00Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
@@ -790,6 +790,10 @@
     {
       "date": "2026-09-07",
       "downloads": 1581
+    },
+    {
+      "date": "2026-09-08",
+      "downloads": 1585
     }
   ]
 }
