@@ -16,10 +16,10 @@
     <text x="67.5" y="20" text-anchor="middle" fill="#24292f" font-size="12" font-weight="700">Commits</text>
     <circle cx="67.5" cy="48" r="18" fill="#58a6ff" opacity="0.16"/>
     <path d="M60 39h15v8c0 8-4 13-7.5 13S60 55 60 47z M60 42h-5v4c0 4 2 6 6 7 M75 42h5v4c0 4-2 6-6 7 M64 64h7 M61 68h13" fill="none" stroke="#58a6ff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="67.5" y="84" text-anchor="middle" fill="#24292f" font-size="15" font-weight="800">1,302</text>
+    <text x="67.5" y="84" text-anchor="middle" fill="#24292f" font-size="15" font-weight="800">1,320</text>
     <text x="67.5" y="98" text-anchor="middle" fill="#57606a" font-size="8.5">authored commits</text>
     <rect x="17" y="106" width="101" height="3" rx="1.5" fill="#d8dee4"/>
-    <rect x="17" y="106" width="65.8" height="3" rx="1.5" fill="#58a6ff"/>
+    <rect x="17" y="106" width="66.7" height="3" rx="1.5" fill="#58a6ff"/>
   </g>
   <g transform="translate(295,8)">
     <rect width="135" height="116" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
@@ -66,7 +66,7 @@
     <text x="67.5" y="20" text-anchor="middle" fill="#24292f" font-size="12" font-weight="700">Downloads</text>
     <circle cx="67.5" cy="48" r="18" fill="#ff7b72" opacity="0.16"/>
     <path d="M60 39h15v8c0 8-4 13-7.5 13S60 55 60 47z M60 42h-5v4c0 4 2 6 6 7 M75 42h5v4c0 4-2 6-6 7 M64 64h7 M61 68h13" fill="none" stroke="#ff7b72" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="67.5" y="84" text-anchor="middle" fill="#24292f" font-size="15" font-weight="800">1,585</text>
+    <text x="67.5" y="84" text-anchor="middle" fill="#24292f" font-size="15" font-weight="800">1,586</text>
     <text x="67.5" y="98" text-anchor="middle" fill="#57606a" font-size="8.5">release assets</text>
     <rect x="17" y="106" width="101" height="3" rx="1.5" fill="#d8dee4"/>
     <rect x="17" y="106" width="16.0" height="3" rx="1.5" fill="#ff7b72"/>
