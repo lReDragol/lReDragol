@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="286" viewBox="0 0 960 286" role="img" aria-label="Release downloads: 1586 total">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="286" viewBox="0 0 960 286" role="img" aria-label="Release downloads: 1587 total">
   <style>
     text { font-family: "Segoe UI", Arial, sans-serif; }
     .title { fill: #f0f6fc; font-size: 25px; font-weight: 750; }
@@ -23,7 +23,7 @@
   <g transform="translate(34 66)">
     <rect width="232" height="98" rx="14" fill="#101923" stroke="#238636" stroke-opacity=".65"/>
     <text x="20" y="25" class="eyebrow">TOTAL DOWNLOADS</text>
-    <text x="20" y="70" class="total">1,586</text>
+    <text x="20" y="70" class="total">1,587</text>
     <circle cx="205" cy="25" r="5" fill="#39d353"/>
     <circle cx="205" cy="25" r="10" fill="#39d353" opacity=".12"/>
   </g>
@@ -85,10 +85,10 @@
     <rect width="170" height="52" rx="11" class="panel"/>
     <text x="14" y="20" class="rank">#4</text>
     <text x="42" y="20" class="repo">icarus-save-editor</text>
-    <text x="14" y="41" class="count">11</text>
+    <text x="14" y="41" class="count">12</text>
     <text x="54" y="41" class="muted">downloads</text>
     <rect x="14" y="48" width="142" height="3" rx="1.5" fill="#21262d"/>
-    <rect x="14" y="48" width="48.5" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
+    <rect x="14" y="48" width="50.1" height="3" rx="1.5" fill="url(#downloadsGradient)"/>
   </g>
   <g transform="translate(754 207)">
     <rect width="170" height="52" rx="11" class="panel"/>
