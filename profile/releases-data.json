@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T07:06:20Z",
+  "generated_at": "2026-09-12T06:56:11Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1587,
+    "downloads": 1589,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1439,
+      "downloads": 1440,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -23,7 +23,7 @@
     {
       "name": "Cheat-ShellShock-Live",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live",
-      "downloads": 92,
+      "downloads": 93,
       "releases": 1,
       "assets": 1,
       "latest_release": "v1",
@@ -134,7 +134,7 @@
       "repository": "Cheat-ShellShock-Live",
       "release": "v1",
       "name": "main.exe",
-      "downloads": 92,
+      "downloads": 93,
       "size": 25850914,
       "updated_at": "2025-02-12T17:07:39Z",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live/releases/download/v1/main.exe"
@@ -161,7 +161,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 33,
+      "downloads": 34,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -806,6 +806,10 @@
     {
       "date": "2026-09-11",
       "downloads": 1587
+    },
+    {
+      "date": "2026-09-12",
+      "downloads": 1589
     }
   ]
 }
