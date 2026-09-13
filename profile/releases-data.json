@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T06:56:11Z",
+  "generated_at": "2026-09-13T07:14:18Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1589,
+    "downloads": 1590,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -41,7 +41,7 @@
     {
       "name": "icarus-save-editor",
       "url": "https://github.com/lReDragol/icarus-save-editor",
-      "downloads": 12,
+      "downloads": 13,
       "releases": 2,
       "assets": 2,
       "latest_release": "v2026.03.24",
@@ -179,7 +179,7 @@
       "repository": "icarus-save-editor",
       "release": "v2026.03.24",
       "name": "icarus_save_editor.exe",
-      "downloads": 12,
+      "downloads": 13,
       "size": 49115416,
       "updated_at": "2026-03-24T19:03:00Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
@@ -810,6 +810,10 @@
     {
       "date": "2026-09-12",
       "downloads": 1589
+    },
+    {
+      "date": "2026-09-13",
+      "downloads": 1590
     }
   ]
 }
