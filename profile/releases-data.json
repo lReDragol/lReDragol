@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T07:14:18Z",
+  "generated_at": "2026-09-14T07:39:53Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1590,
+    "downloads": 1592,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1440,
+      "downloads": 1442,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -161,7 +161,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 34,
+      "downloads": 35,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -170,7 +170,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanCalcPortable_V2.8.exe",
-      "downloads": 22,
+      "downloads": 23,
       "size": 29883040,
       "updated_at": "2026-03-19T11:54:19Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanCalcPortable_V2.8.exe"
@@ -814,6 +814,10 @@
     {
       "date": "2026-09-13",
       "downloads": 1590
+    },
+    {
+      "date": "2026-09-14",
+      "downloads": 1592
     }
   ]
 }
