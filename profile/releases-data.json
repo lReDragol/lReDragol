@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T07:17:25Z",
+  "generated_at": "2026-09-18T07:11:18Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1594,
+    "downloads": 1597,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1443,
+      "downloads": 1446,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -98,7 +98,7 @@
       "repository": "OnceHuman_Tools",
       "release": "fishV3",
       "name": "fish_bot_ru.exe",
-      "downloads": 198,
+      "downloads": 199,
       "size": 327256667,
       "updated_at": "2024-10-05T23:12:17Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/fish_bot_ru.exe"
@@ -107,7 +107,7 @@
       "repository": "OnceHuman_Tools",
       "release": "fishV3",
       "name": "tesseract-ocr.exe",
-      "downloads": 163,
+      "downloads": 164,
       "size": 53209536,
       "updated_at": "2024-10-05T23:35:52Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/tesseract-ocr.exe"
@@ -116,7 +116,7 @@
       "repository": "OnceHuman_Tools",
       "release": "fishV3",
       "name": "config.json",
-      "downloads": 105,
+      "downloads": 106,
       "size": 2920,
       "updated_at": "2024-10-11T20:30:23Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/fishV3/config.json"
@@ -830,6 +830,10 @@
     {
       "date": "2026-09-17",
       "downloads": 1594
+    },
+    {
+      "date": "2026-09-18",
+      "downloads": 1597
     }
   ]
 }
