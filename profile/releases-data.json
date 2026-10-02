@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T08:27:00Z",
+  "generated_at": "2026-10-02T08:02:53Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1604,
+    "downloads": 1606,
     "releases": 34,
     "assets": 76,
     "repositories": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1449,
+      "downloads": 1450,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -41,7 +41,7 @@
     {
       "name": "icarus-save-editor",
       "url": "https://github.com/lReDragol/icarus-save-editor",
-      "downloads": 16,
+      "downloads": 17,
       "releases": 2,
       "assets": 2,
       "latest_release": "v2026.03.24",
@@ -179,7 +179,7 @@
       "repository": "icarus-save-editor",
       "release": "v2026.03.24",
       "name": "icarus_save_editor.exe",
-      "downloads": 16,
+      "downloads": 17,
       "size": 49115416,
       "updated_at": "2026-03-24T19:03:00Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
@@ -203,6 +203,15 @@
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.9/ESCgram-portable.zip"
     },
     {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.0.0",
+      "name": "BotFishPortable_V4.exe",
+      "downloads": 5,
+      "size": 116423884,
+      "updated_at": "2026-03-16T16:39:12Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/BotFishPortable_V4.exe"
+    },
+    {
       "repository": "piano-bot",
       "release": "v1.0.0",
       "name": "PianoBot.exe",
@@ -219,15 +228,6 @@
       "size": 70842547,
       "updated_at": "2026-03-07T01:00:19Z",
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.6/ESCgram-Setup.exe"
-    },
-    {
-      "repository": "OnceHuman_Tools",
-      "release": "v4.0.0",
-      "name": "BotFishPortable_V4.exe",
-      "downloads": 4,
-      "size": 116423884,
-      "updated_at": "2026-03-16T16:39:12Z",
-      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/BotFishPortable_V4.exe"
     },
     {
       "repository": "ESCgram",
@@ -882,6 +882,10 @@
     {
       "date": "2026-10-01",
       "downloads": 1604
+    },
+    {
+      "date": "2026-10-02",
+      "downloads": 1606
     }
   ]
 }
