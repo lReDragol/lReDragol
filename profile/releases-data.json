@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T07:43:05Z",
+  "generated_at": "2026-10-04T07:54:59Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1610,
-    "releases": 34,
-    "assets": 76,
-    "repositories": 8,
+    "downloads": 1611,
+    "releases": 38,
+    "assets": 84,
+    "repositories": 9,
     "repositories_with_downloads": 8
   },
   "repositories": [
@@ -23,7 +23,7 @@
     {
       "name": "Cheat-ShellShock-Live",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live",
-      "downloads": 94,
+      "downloads": 95,
       "releases": 1,
       "assets": 1,
       "latest_release": "v1",
@@ -82,6 +82,15 @@
       "assets": 2,
       "latest_release": "v4.5.0",
       "latest_published_at": "2026-09-01T13:48:31Z"
+    },
+    {
+      "name": "waven-custom",
+      "url": "https://github.com/lReDragol/waven-custom",
+      "downloads": 0,
+      "releases": 4,
+      "assets": 8,
+      "latest_release": "v2.1.0",
+      "latest_published_at": "2026-10-03T23:40:21Z"
     }
   ],
   "assets": [
@@ -134,7 +143,7 @@
       "repository": "Cheat-ShellShock-Live",
       "release": "v1",
       "name": "main.exe",
-      "downloads": 94,
+      "downloads": 95,
       "size": 25850914,
       "updated_at": "2025-02-12T17:07:39Z",
       "url": "https://github.com/lReDragol/Cheat-ShellShock-Live/releases/download/v1/main.exe"
@@ -768,6 +777,78 @@
       "size": 121231808,
       "updated_at": "2026-03-16T17:07:16Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.1/OnceHumanTools_V4.exe"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.0",
+      "name": "WavenCustom-Portable-2.0.0-x64.zip",
+      "downloads": 0,
+      "size": 70553754,
+      "updated_at": "2026-10-03T22:19:19Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.0/WavenCustom-Portable-2.0.0-x64.zip"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.1",
+      "name": "WavenCustom-Portable-2.0.1-x64.zip",
+      "downloads": 0,
+      "size": 70559722,
+      "updated_at": "2026-10-03T22:41:46Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.1/WavenCustom-Portable-2.0.1-x64.zip"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.2",
+      "name": "WavenCustom-Portable-2.0.2-x64.zip",
+      "downloads": 0,
+      "size": 70570190,
+      "updated_at": "2026-10-03T23:06:48Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.2/WavenCustom-Portable-2.0.2-x64.zip"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.1.0",
+      "name": "WavenCustom-Portable-2.1.0-x64.zip",
+      "downloads": 0,
+      "size": 70581232,
+      "updated_at": "2026-10-03T23:40:19Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.1.0/WavenCustom-Portable-2.1.0-x64.zip"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.0",
+      "name": "WavenCustom-Setup-2.0.0-x64.exe",
+      "downloads": 0,
+      "size": 72329357,
+      "updated_at": "2026-10-03T22:19:18Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.0/WavenCustom-Setup-2.0.0-x64.exe"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.1",
+      "name": "WavenCustom-Setup-2.0.1-x64.exe",
+      "downloads": 0,
+      "size": 72336012,
+      "updated_at": "2026-10-03T22:41:47Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.1/WavenCustom-Setup-2.0.1-x64.exe"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.0.2",
+      "name": "WavenCustom-Setup-2.0.2-x64.exe",
+      "downloads": 0,
+      "size": 72346501,
+      "updated_at": "2026-10-03T23:06:48Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.0.2/WavenCustom-Setup-2.0.2-x64.exe"
+    },
+    {
+      "repository": "waven-custom",
+      "release": "v2.1.0",
+      "name": "WavenCustom-Setup-2.1.0-x64.exe",
+      "downloads": 0,
+      "size": 72356573,
+      "updated_at": "2026-10-03T23:40:20Z",
+      "url": "https://github.com/lReDragol/waven-custom/releases/download/v2.1.0/WavenCustom-Setup-2.1.0-x64.exe"
     }
   ],
   "history": [
@@ -890,6 +971,10 @@
     {
       "date": "2026-10-03",
       "downloads": 1610
+    },
+    {
+      "date": "2026-10-04",
+      "downloads": 1611
     }
   ]
 }

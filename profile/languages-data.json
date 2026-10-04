@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T07:43:28Z",
+  "generated_at": "2026-10-04T07:55:28Z",
   "username": "lReDragol",
-  "repository_count": 40,
-  "total_bytes": 466071842,
+  "repository_count": 41,
+  "total_bytes": 466225805,
   "languages": [
     {
       "name": "HTML",
       "bytes": 427928703,
-      "percent": 91.82,
+      "percent": 91.79,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 28171404,
-      "percent": 6.04,
+      "bytes": 28313073,
+      "percent": 6.07,
       "color": "#3572A5"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 58227,
+      "bytes": 60106,
       "percent": 0.01,
       "color": "#012456"
     },
@@ -61,8 +61,8 @@
     },
     {
       "name": "Inno Setup",
-      "bytes": 17172,
-      "percent": 0.0,
+      "bytes": 27587,
+      "percent": 0.01,
       "color": "#264b99"
     },
     {
