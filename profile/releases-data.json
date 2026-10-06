@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T08:33:45Z",
+  "generated_at": "2026-10-06T08:41:47Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1617,
+    "downloads": 1620,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1456,
+      "downloads": 1457,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -41,7 +41,7 @@
     {
       "name": "icarus-save-editor",
       "url": "https://github.com/lReDragol/icarus-save-editor",
-      "downloads": 20,
+      "downloads": 22,
       "releases": 2,
       "assets": 2,
       "latest_release": "v2026.03.24",
@@ -170,7 +170,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 40,
+      "downloads": 41,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -188,7 +188,7 @@
       "repository": "icarus-save-editor",
       "release": "v2026.03.24",
       "name": "icarus_save_editor.exe",
-      "downloads": 20,
+      "downloads": 22,
       "size": 49115416,
       "updated_at": "2026-03-24T19:03:00Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
@@ -979,6 +979,10 @@
     {
       "date": "2026-10-05",
       "downloads": 1617
+    },
+    {
+      "date": "2026-10-06",
+      "downloads": 1620
     }
   ]
 }
