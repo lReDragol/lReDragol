@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T08:26:23Z",
+  "generated_at": "2026-10-09T08:30:22Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-10-09",
-    "end": "2026-10-08",
+    "start": "2025-10-10",
+    "end": "2026-10-09",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-10-09",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-10-10",
       "commits": 0,
@@ -5429,10 +5420,53 @@
     },
     {
       "date": "2026-10-08",
-      "commits": 4,
-      "additions": 255,
-      "deletions": 58,
-      "changed": 313,
+      "commits": 20,
+      "additions": 4009,
+      "deletions": 587,
+      "changed": 4596,
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 12,
+          "additions": 3445,
+          "deletions": 388,
+          "changed": 3833,
+          "merges": 1
+        },
+        {
+          "id": "private-290469a7",
+          "name": "Private repository 290469A7",
+          "url": null,
+          "private": true,
+          "commits": 5,
+          "additions": 484,
+          "deletions": 174,
+          "changed": 658,
+          "merges": 0
+        },
+        {
+          "id": "private-e717ffab",
+          "name": "Private repository E717FFAB",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 80,
+          "deletions": 25,
+          "changed": 105,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "commits": 2,
+      "additions": 2844,
+      "deletions": 794,
+      "changed": 3638,
       "merges": 0,
       "repositories": [
         {
@@ -5441,20 +5475,9 @@
           "url": null,
           "private": true,
           "commits": 2,
-          "additions": 115,
-          "deletions": 55,
-          "changed": 170,
-          "merges": 0
-        },
-        {
-          "id": "private-290469a7",
-          "name": "Private repository 290469A7",
-          "url": null,
-          "private": true,
-          "commits": 2,
-          "additions": 140,
-          "deletions": 3,
-          "changed": 143,
+          "additions": 2844,
+          "deletions": 794,
+          "changed": 3638,
           "merges": 0
         }
       ]
