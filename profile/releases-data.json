@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T07:16:38Z",
+  "generated_at": "2026-10-15T07:08:58Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1622,
+    "downloads": 1623,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -59,7 +59,7 @@
     {
       "name": "piano-bot",
       "url": "https://github.com/lReDragol/piano-bot",
-      "downloads": 6,
+      "downloads": 7,
       "releases": 1,
       "assets": 1,
       "latest_release": "v1.0.0",
@@ -194,6 +194,15 @@
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
     },
     {
+      "repository": "piano-bot",
+      "release": "v1.0.0",
+      "name": "PianoBot.exe",
+      "downloads": 7,
+      "size": 16667571,
+      "updated_at": "2026-06-07T15:42:26Z",
+      "url": "https://github.com/lReDragol/piano-bot/releases/download/v1.0.0/PianoBot.exe"
+    },
+    {
       "repository": "Icon-Creator",
       "release": "Icons",
       "name": "Icons.zip",
@@ -210,15 +219,6 @@
       "size": 116423884,
       "updated_at": "2026-03-16T16:39:12Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/BotFishPortable_V4.exe"
-    },
-    {
-      "repository": "piano-bot",
-      "release": "v1.0.0",
-      "name": "PianoBot.exe",
-      "downloads": 6,
-      "size": 16667571,
-      "updated_at": "2026-06-07T15:42:26Z",
-      "url": "https://github.com/lReDragol/piano-bot/releases/download/v1.0.0/PianoBot.exe"
     },
     {
       "repository": "ESCgram",
@@ -1015,6 +1015,10 @@
     {
       "date": "2026-10-14",
       "downloads": 1622
+    },
+    {
+      "date": "2026-10-15",
+      "downloads": 1623
     }
   ]
 }
