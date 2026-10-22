@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-21T07:04:59Z",
+  "generated_at": "2026-10-22T07:07:12Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-10-22",
-    "end": "2026-10-21",
+    "start": "2025-10-23",
+    "end": "2026-10-22",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-10-22",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-10-23",
       "commits": 0,
@@ -5871,10 +5862,42 @@
     },
     {
       "date": "2026-10-21",
-      "commits": 9,
-      "additions": 10915,
-      "deletions": 2585,
-      "changed": 13500,
+      "commits": 44,
+      "additions": 17034,
+      "deletions": 6509,
+      "changed": 23543,
+      "merges": 6,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 43,
+          "additions": 16892,
+          "deletions": 6509,
+          "changed": 23401,
+          "merges": 6
+        },
+        {
+          "id": "private-290469a7",
+          "name": "Private repository 290469A7",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 142,
+          "deletions": 0,
+          "changed": 142,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "commits": 5,
+      "additions": 712,
+      "deletions": 150,
+      "changed": 862,
       "merges": 0,
       "repositories": [
         {
@@ -5882,10 +5905,10 @@
           "name": "Private repository 562D601B",
           "url": null,
           "private": true,
-          "commits": 9,
-          "additions": 10915,
-          "deletions": 2585,
-          "changed": 13500,
+          "commits": 5,
+          "additions": 712,
+          "deletions": 150,
+          "changed": 862,
           "merges": 0
         }
       ]
