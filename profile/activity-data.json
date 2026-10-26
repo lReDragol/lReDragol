@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T07:17:05Z",
+  "generated_at": "2026-10-26T07:25:46Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-10-26",
-    "end": "2026-10-25",
+    "start": "2025-10-27",
+    "end": "2026-10-26",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-10-26",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-10-27",
       "commits": 0,
@@ -6007,32 +5998,32 @@
     },
     {
       "date": "2026-10-25",
-      "commits": 22,
-      "additions": 6387,
-      "deletions": 1819,
-      "changed": 8206,
-      "merges": 0,
+      "commits": 74,
+      "additions": 16200,
+      "deletions": 9899,
+      "changed": 26099,
+      "merges": 5,
       "repositories": [
         {
           "id": "private-562d601b",
           "name": "Private repository 562D601B",
           "url": null,
           "private": true,
-          "commits": 17,
-          "additions": 5721,
-          "deletions": 1767,
-          "changed": 7488,
-          "merges": 0
+          "commits": 50,
+          "additions": 13410,
+          "deletions": 9467,
+          "changed": 22877,
+          "merges": 5
         },
         {
-          "id": "private-ae40539e",
-          "name": "Private repository AE40539E",
+          "id": "private-290469a7",
+          "name": "Private repository 290469A7",
           "url": null,
           "private": true,
-          "commits": 2,
-          "additions": 579,
-          "deletions": 17,
-          "changed": 596,
+          "commits": 9,
+          "additions": 430,
+          "deletions": 124,
+          "changed": 554,
           "merges": 0
         },
         {
@@ -6040,22 +6031,54 @@
           "name": "Private repository E717FFAB",
           "url": null,
           "private": true,
-          "commits": 2,
-          "additions": 4,
-          "deletions": 4,
-          "changed": 8,
+          "commits": 6,
+          "additions": 546,
+          "deletions": 25,
+          "changed": 571,
           "merges": 0
         },
         {
-          "id": "private-290469a7",
-          "name": "Private repository 290469A7",
+          "id": "private-ae40539e",
+          "name": "Private repository AE40539E",
           "url": null,
           "private": true,
-          "commits": 1,
-          "additions": 83,
-          "deletions": 31,
-          "changed": 114,
+          "commits": 5,
+          "additions": 1025,
+          "deletions": 118,
+          "changed": 1143,
           "merges": 0
+        },
+        {
+          "id": "private-e4148585",
+          "name": "Private repository E4148585",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 789,
+          "deletions": 165,
+          "changed": 954,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "commits": 3,
+      "additions": 753,
+      "deletions": 19,
+      "changed": 772,
+      "merges": 1,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 753,
+          "deletions": 19,
+          "changed": 772,
+          "merges": 1
         }
       ]
     }
