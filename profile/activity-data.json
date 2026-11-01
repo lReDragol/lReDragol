@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-31T07:59:47Z",
+  "generated_at": "2026-11-01T08:43:53Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-01",
-    "end": "2026-10-31",
+    "start": "2025-11-02",
+    "end": "2026-11-01",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-11-01",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-02",
       "commits": 0,
@@ -5954,9 +5945,9 @@
     {
       "date": "2026-10-25",
       "commits": 74,
-      "additions": 14554,
-      "deletions": 6408,
-      "changed": 20962,
+      "additions": 16200,
+      "deletions": 9899,
+      "changed": 26099,
       "merges": 5,
       "repositories": [
         {
@@ -5965,9 +5956,9 @@
           "url": null,
           "private": true,
           "commits": 50,
-          "additions": 11764,
-          "deletions": 5976,
-          "changed": 17740,
+          "additions": 13410,
+          "deletions": 9467,
+          "changed": 22877,
           "merges": 5
         },
         {
@@ -6210,12 +6201,45 @@
     },
     {
       "date": "2026-10-31",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
+      "commits": 3,
+      "additions": 1819,
+      "deletions": 1201,
+      "changed": 3020,
       "merges": 0,
-      "repositories": []
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 1819,
+          "deletions": 1201,
+          "changed": 3020,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "commits": 2,
+      "additions": 997,
+      "deletions": 74,
+      "changed": 1071,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 997,
+          "deletions": 74,
+          "changed": 1071,
+          "merges": 0
+        }
+      ]
     }
   ]
 }
