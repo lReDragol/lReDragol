@@ -53,30 +53,30 @@
 ## GitHub Profile Trophy 🏆
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg?v=20261102090509">
-  <img alt="lReDragol's GitHub achievements" src="./profile/trophy.svg?v=20261102090509">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg?v=20261103091425">
+  <img alt="lReDragol's GitHub achievements" src="./profile/trophy.svg?v=20261103091425">
 </picture>
 
 
 ## GitHub Profile Stats 💻
 
 <a href="https://github.com/lReDragol">
-  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20261102090509" height="192px"/>
+  <img alt="lReDragol's GitHub Stats" src="./profile/stats-dark.svg?v=20261103091425" height="192px"/>
 </a>
 <a href="https://lredragol.github.io/lReDragol/activity/">
-  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20261102090509" height="192px"/>
+  <img alt="lReDragol's Top Languages" src="./profile/top-langs-dark.svg?v=20261103091425" height="192px"/>
 </a>
 
 ---
 
 ### Activity Overview 📈
 <a href="https://lredragol.github.io/lReDragol/activity/">
-  <img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg?v=20261102090509">
+  <img alt="lReDragol's GitHub activity overview" src="./profile/activity-dark.svg?v=20261103091425">
 </a>
 
 <p>
-  <img src="./profile/lines-7d.svg?v=20261102090509" alt="Raw Git diff in the last 7 days">
-  <img src="./profile/lines-30d.svg?v=20261102090509" alt="Raw Git diff in the last 30 days">
+  <img src="./profile/lines-7d.svg?v=20261103091425" alt="Raw Git diff in the last 7 days">
+  <img src="./profile/lines-30d.svg?v=20261103091425" alt="Raw Git diff in the last 30 days">
 </p>
 
 <sub>Click the heatmap for daily repository, commit, and line details.</sub>
@@ -92,7 +92,7 @@
 </p>
 
 <a href="https://lredragol.github.io/lReDragol/activity/#releases">
-  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20261102090509">
+  <img alt="Downloads of lReDragol's public GitHub release assets" src="./profile/releases-dark.svg?v=20261103091425">
 </a>
 
 <sub>Updated daily from public GitHub releases. Click for interactive repository and asset details.</sub>
