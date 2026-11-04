@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T09:14:25Z",
+  "generated_at": "2026-11-04T08:54:50Z",
   "username": "lReDragol",
   "repository_count": 41,
-  "total_bytes": 466225805,
+  "total_bytes": 466706702,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 427928703,
-      "percent": 91.79,
+      "bytes": 427997545,
+      "percent": 91.71,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 28313073,
-      "percent": 6.07,
+      "bytes": 28553796,
+      "percent": 6.12,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 7153206,
-      "percent": 1.53,
+      "bytes": 7178621,
+      "percent": 1.54,
       "color": "#f1e05a"
     },
     {
@@ -31,25 +31,25 @@
     },
     {
       "name": "C++",
-      "bytes": 705208,
+      "bytes": 706823,
       "percent": 0.15,
       "color": "#f34b7d"
     },
     {
       "name": "Lua",
-      "bytes": 236239,
-      "percent": 0.05,
+      "bytes": 363143,
+      "percent": 0.08,
       "color": "#000080"
     },
     {
       "name": "CSS",
-      "bytes": 126543,
+      "bytes": 127952,
       "percent": 0.03,
       "color": "#563d7c"
     },
     {
       "name": "PowerShell",
-      "bytes": 60106,
+      "bytes": 63852,
       "percent": 0.01,
       "color": "#012456"
     },
@@ -67,7 +67,19 @@
     },
     {
       "name": "Batchfile",
-      "bytes": 12188,
+      "bytes": 12141,
+      "percent": 0.0,
+      "color": "#8b949e"
+    },
+    {
+      "name": "CMake",
+      "bytes": 7577,
+      "percent": 0.0,
+      "color": "#8b949e"
+    },
+    {
+      "name": "HLSL",
+      "bytes": 6685,
       "percent": 0.0,
       "color": "#8b949e"
     },
@@ -84,16 +96,16 @@
       "color": "#8b949e"
     },
     {
-      "name": "CMake",
-      "bytes": 2702,
-      "percent": 0.0,
-      "color": "#8b949e"
-    },
-    {
       "name": "Cython",
       "bytes": 1858,
       "percent": 0.0,
       "color": "#8b949e"
+    },
+    {
+      "name": "C",
+      "bytes": 730,
+      "percent": 0.0,
+      "color": "#555555"
     },
     {
       "name": "Makefile",
