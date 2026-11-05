@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T08:54:50Z",
+  "generated_at": "2026-11-05T09:12:11Z",
   "username": "lReDragol",
   "repository_count": 41,
-  "total_bytes": 466706702,
+  "total_bytes": 472585412,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 427997545,
-      "percent": 91.71,
+      "bytes": 428002153,
+      "percent": 90.57,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 28553796,
-      "percent": 6.12,
+      "bytes": 32234314,
+      "percent": 6.82,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 7178621,
-      "percent": 1.54,
+      "bytes": 7877465,
+      "percent": 1.67,
       "color": "#f1e05a"
     },
     {
@@ -30,14 +30,20 @@
       "color": "#178600"
     },
     {
+      "name": "Rust",
+      "bytes": 1445082,
+      "percent": 0.31,
+      "color": "#dea584"
+    },
+    {
       "name": "C++",
-      "bytes": 706823,
+      "bytes": 711635,
       "percent": 0.15,
       "color": "#f34b7d"
     },
     {
       "name": "Lua",
-      "bytes": 363143,
+      "bytes": 379169,
       "percent": 0.08,
       "color": "#000080"
     },
@@ -49,8 +55,8 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 63852,
-      "percent": 0.01,
+      "bytes": 73898,
+      "percent": 0.02,
       "color": "#012456"
     },
     {
@@ -66,6 +72,12 @@
       "color": "#264b99"
     },
     {
+      "name": "TLA",
+      "bytes": 14062,
+      "percent": 0.0,
+      "color": "#8b949e"
+    },
+    {
       "name": "Batchfile",
       "bytes": 12141,
       "percent": 0.0,
@@ -73,7 +85,7 @@
     },
     {
       "name": "CMake",
-      "bytes": 7577,
+      "bytes": 8240,
       "percent": 0.0,
       "color": "#8b949e"
     },
@@ -88,6 +100,12 @@
       "bytes": 6628,
       "percent": 0.0,
       "color": "#89e051"
+    },
+    {
+      "name": "SystemVerilog",
+      "bytes": 4049,
+      "percent": 0.0,
+      "color": "#8b949e"
     },
     {
       "name": "Dockerfile",
