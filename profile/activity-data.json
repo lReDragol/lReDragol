@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T08:58:22Z",
+  "generated_at": "2026-11-06T08:56:26Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-06",
-    "end": "2026-11-05",
+    "start": "2025-11-07",
+    "end": "2026-11-06",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-11-06",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-07",
       "commits": 0,
@@ -5909,9 +5900,9 @@
     {
       "date": "2026-10-25",
       "commits": 74,
-      "additions": 14554,
-      "deletions": 6408,
-      "changed": 20962,
+      "additions": 16200,
+      "deletions": 9899,
+      "changed": 26099,
       "merges": 5,
       "repositories": [
         {
@@ -5920,9 +5911,9 @@
           "url": null,
           "private": true,
           "commits": 50,
-          "additions": 11764,
-          "deletions": 5976,
-          "changed": 17740,
+          "additions": 13410,
+          "deletions": 9467,
+          "changed": 22877,
           "merges": 5
         },
         {
@@ -6391,12 +6382,23 @@
     },
     {
       "date": "2026-11-05",
-      "commits": 82,
-      "additions": 833116,
-      "deletions": 25937,
-      "changed": 859053,
+      "commits": 109,
+      "additions": 837401,
+      "deletions": 37071,
+      "changed": 874472,
       "merges": 0,
       "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 40,
+          "additions": 4826,
+          "deletions": 10810,
+          "changed": 15636,
+          "merges": 0
+        },
         {
           "id": "private-21e16bc7",
           "name": "Private repository 21E16BC7",
@@ -6420,25 +6422,14 @@
           "merges": 0
         },
         {
-          "id": "private-562d601b",
-          "name": "Private repository 562D601B",
-          "url": null,
-          "private": true,
-          "commits": 20,
-          "additions": 3199,
-          "deletions": 233,
-          "changed": 3432,
-          "merges": 0
-        },
-        {
           "id": "private-e717ffab",
           "name": "Private repository E717FFAB",
           "url": null,
           "private": true,
-          "commits": 5,
-          "additions": 1094,
-          "deletions": 117,
-          "changed": 1211,
+          "commits": 9,
+          "additions": 1900,
+          "deletions": 251,
+          "changed": 2151,
           "merges": 0
         },
         {
@@ -6450,6 +6441,60 @@
           "additions": 280096,
           "deletions": 8416,
           "changed": 288512,
+          "merges": 0
+        },
+        {
+          "id": "private-8d678384",
+          "name": "Private repository 8D678384",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 1848,
+          "deletions": 421,
+          "changed": 2269,
+          "merges": 0
+        },
+        {
+          "id": "private-290469a7",
+          "name": "Private repository 290469A7",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 4,
+          "deletions": 2,
+          "changed": 6,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "commits": 3,
+      "additions": 175,
+      "deletions": 94,
+      "changed": 269,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 12,
+          "deletions": 93,
+          "changed": 105,
+          "merges": 0
+        },
+        {
+          "id": "private-e4148585",
+          "name": "Private repository E4148585",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 163,
+          "deletions": 1,
+          "changed": 164,
           "merges": 0
         }
       ]
