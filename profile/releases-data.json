@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T08:33:46Z",
+  "generated_at": "2026-11-08T08:48:42Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1686,
+    "downloads": 1688,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1467,
+      "downloads": 1469,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -150,21 +150,21 @@
     },
     {
       "repository": "OnceHuman_Tools",
+      "release": "v4.6",
+      "name": "OnceHumanTools_V4.6.exe",
+      "downloads": 48,
+      "size": 126086601,
+      "updated_at": "2026-03-18T20:10:58Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
       "release": "V1",
       "name": "Once.Human.Photo.Changer.exe",
       "downloads": 47,
       "size": 31405553,
       "updated_at": "2024-08-10T22:37:03Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/V1/Once.Human.Photo.Changer.exe"
-    },
-    {
-      "repository": "OnceHuman_Tools",
-      "release": "v4.6",
-      "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 47,
-      "size": 126086601,
-      "updated_at": "2026-03-18T20:10:58Z",
-      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
     },
     {
       "repository": "OnceHuman_Tools",
@@ -179,7 +179,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanCalcPortable_V2.8.exe",
-      "downloads": 28,
+      "downloads": 29,
       "size": 29883040,
       "updated_at": "2026-03-19T11:54:19Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanCalcPortable_V2.8.exe"
@@ -1111,6 +1111,10 @@
     {
       "date": "2026-11-07",
       "downloads": 1686
+    },
+    {
+      "date": "2026-11-08",
+      "downloads": 1688
     }
   ]
 }
