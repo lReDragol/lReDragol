@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T09:19:54Z",
+  "generated_at": "2026-11-10T09:30:59Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
@@ -1118,6 +1118,10 @@
     },
     {
       "date": "2026-11-09",
+      "downloads": 1688
+    },
+    {
+      "date": "2026-11-10",
       "downloads": 1688
     }
   ]

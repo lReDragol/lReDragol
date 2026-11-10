@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T09:09:23Z",
+  "generated_at": "2026-11-10T09:17:55Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-10",
-    "end": "2026-11-09",
+    "start": "2025-11-11",
+    "end": "2026-11-10",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-11-10",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-11",
       "commits": 0,
@@ -5099,9 +5090,9 @@
     {
       "date": "2026-10-07",
       "commits": 79,
-      "additions": 13302,
-      "deletions": 2901,
-      "changed": 16203,
+      "additions": 323070,
+      "deletions": 34514,
+      "changed": 357584,
       "merges": 1,
       "repositories": [
         {
@@ -5110,9 +5101,9 @@
           "url": null,
           "private": true,
           "commits": 49,
-          "additions": 9426,
-          "deletions": 2496,
-          "changed": 11922,
+          "additions": 319194,
+          "deletions": 34109,
+          "changed": 353303,
           "merges": 1
         },
         {
@@ -6417,8 +6408,8 @@
           "merges": 0
         },
         {
-          "id": "private-eacd3122",
-          "name": "Private repository EACD3122",
+          "id": "private-8d678384",
+          "name": "Private repository 8D678384",
           "url": null,
           "private": true,
           "commits": 2,
@@ -6449,8 +6440,8 @@
       "merges": 0,
       "repositories": [
         {
-          "id": "private-eacd3122",
-          "name": "Private repository EACD3122",
+          "id": "private-8d678384",
+          "name": "Private repository 8D678384",
           "url": null,
           "private": true,
           "commits": 5,
@@ -6526,12 +6517,133 @@
     },
     {
       "date": "2026-11-09",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
+      "commits": 5,
+      "additions": 1187,
+      "deletions": 1297668,
+      "changed": 1298855,
       "merges": 0,
-      "repositories": []
+      "repositories": [
+        {
+          "id": "private-2467039a",
+          "name": "Private repository 2467039A",
+          "url": null,
+          "private": true,
+          "commits": 5,
+          "additions": 1187,
+          "deletions": 1297668,
+          "changed": 1298855,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "commits": 102,
+      "additions": 154681,
+      "deletions": 331322,
+      "changed": 486003,
+      "merges": 3,
+      "repositories": [
+        {
+          "id": "private-2467039a",
+          "name": "Private repository 2467039A",
+          "url": null,
+          "private": true,
+          "commits": 48,
+          "additions": 143644,
+          "deletions": 329999,
+          "changed": 473643,
+          "merges": 3
+        },
+        {
+          "id": "private-0d4444aa",
+          "name": "Private repository 0D4444AA",
+          "url": null,
+          "private": true,
+          "commits": 18,
+          "additions": 2985,
+          "deletions": 123,
+          "changed": 3108,
+          "merges": 0
+        },
+        {
+          "id": "private-04ca6290",
+          "name": "Private repository 04CA6290",
+          "url": null,
+          "private": true,
+          "commits": 14,
+          "additions": 2551,
+          "deletions": 216,
+          "changed": 2767,
+          "merges": 0
+        },
+        {
+          "id": "private-9d037332",
+          "name": "Private repository 9D037332",
+          "url": null,
+          "private": true,
+          "commits": 6,
+          "additions": 1030,
+          "deletions": 35,
+          "changed": 1065,
+          "merges": 0
+        },
+        {
+          "id": "private-8d678384",
+          "name": "Private repository 8D678384",
+          "url": null,
+          "private": true,
+          "commits": 5,
+          "additions": 1222,
+          "deletions": 870,
+          "changed": 2092,
+          "merges": 0
+        },
+        {
+          "id": "private-b8f3c347",
+          "name": "Private repository B8F3C347",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 1101,
+          "deletions": 13,
+          "changed": 1114,
+          "merges": 0
+        },
+        {
+          "id": "private-f03c3853",
+          "name": "Private repository F03C3853",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 85,
+          "deletions": 4,
+          "changed": 89,
+          "merges": 0
+        },
+        {
+          "id": "private-562d601b",
+          "name": "Private repository 562D601B",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 2046,
+          "deletions": 54,
+          "changed": 2100,
+          "merges": 0
+        },
+        {
+          "id": "private-db24078d",
+          "name": "Private repository DB24078D",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 17,
+          "deletions": 8,
+          "changed": 25,
+          "merges": 0
+        }
+      ]
     }
   ]
 }
