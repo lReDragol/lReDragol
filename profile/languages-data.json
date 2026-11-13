@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T09:04:18Z",
+  "generated_at": "2026-11-13T09:19:28Z",
   "username": "lReDragol",
   "repository_count": 41,
-  "total_bytes": 472585412,
+  "total_bytes": 472622401,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 428002153,
-      "percent": 90.57,
+      "bytes": 428007669,
+      "percent": 90.56,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 32234314,
-      "percent": 6.82,
+      "bytes": 32262254,
+      "percent": 6.83,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 7877465,
+      "bytes": 7880998,
       "percent": 1.67,
       "color": "#f1e05a"
     },
