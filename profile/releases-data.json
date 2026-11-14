@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T09:18:54Z",
+  "generated_at": "2026-11-14T08:45:32Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1689,
+    "downloads": 1692,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1470,
+      "downloads": 1471,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -32,7 +32,7 @@
     {
       "name": "ESCgram",
       "url": "https://github.com/lReDragol/ESCgram",
-      "downloads": 79,
+      "downloads": 80,
       "releases": 17,
       "assets": 50,
       "latest_release": "v0.2.13",
@@ -41,7 +41,7 @@
     {
       "name": "icarus-save-editor",
       "url": "https://github.com/lReDragol/icarus-save-editor",
-      "downloads": 27,
+      "downloads": 28,
       "releases": 2,
       "assets": 2,
       "latest_release": "v2026.03.24",
@@ -152,7 +152,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 49,
+      "downloads": 50,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -188,7 +188,7 @@
       "repository": "icarus-save-editor",
       "release": "v2026.03.24",
       "name": "icarus_save_editor.exe",
-      "downloads": 27,
+      "downloads": 28,
       "size": 49115416,
       "updated_at": "2026-03-24T19:03:00Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.24/icarus_save_editor.exe"
@@ -291,6 +291,15 @@
       "size": 122464722,
       "updated_at": "2026-03-17T05:10:12Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanTools_V4.5.exe"
+    },
+    {
+      "repository": "ESCgram",
+      "release": "v0.2.13",
+      "name": "ESCgram-linux.tar.gz",
+      "downloads": 2,
+      "size": 143593983,
+      "updated_at": "2026-03-11T08:59:43Z",
+      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.13/ESCgram-linux.tar.gz"
     },
     {
       "repository": "ESCgram",
@@ -399,15 +408,6 @@
       "size": 121217363,
       "updated_at": "2026-03-16T16:39:15Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.0.0/OnceHumanTools_V4.exe"
-    },
-    {
-      "repository": "ESCgram",
-      "release": "v0.2.13",
-      "name": "ESCgram-linux.tar.gz",
-      "downloads": 1,
-      "size": 143593983,
-      "updated_at": "2026-03-11T08:59:43Z",
-      "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.13/ESCgram-linux.tar.gz"
     },
     {
       "repository": "ESCgram",
@@ -1131,6 +1131,10 @@
     {
       "date": "2026-11-13",
       "downloads": 1689
+    },
+    {
+      "date": "2026-11-14",
+      "downloads": 1692
     }
   ]
 }

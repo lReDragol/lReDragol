@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T09:19:28Z",
+  "generated_at": "2026-11-14T08:45:53Z",
   "username": "lReDragol",
   "repository_count": 41,
-  "total_bytes": 472622401,
+  "total_bytes": 474012041,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 428007669,
-      "percent": 90.56,
+      "bytes": 428008029,
+      "percent": 90.29,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 32262254,
-      "percent": 6.83,
+      "bytes": 33651534,
+      "percent": 7.1,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
       "bytes": 7880998,
-      "percent": 1.67,
+      "percent": 1.66,
       "color": "#f1e05a"
     },
     {
@@ -32,7 +32,7 @@
     {
       "name": "Rust",
       "bytes": 1445082,
-      "percent": 0.31,
+      "percent": 0.3,
       "color": "#dea584"
     },
     {
