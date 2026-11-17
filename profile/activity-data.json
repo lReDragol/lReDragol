@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-15T08:50:32Z",
+  "generated_at": "2026-11-17T10:13:26Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-16",
-    "end": "2026-11-15",
+    "start": "2025-11-18",
+    "end": "2026-11-17",
     "days": 365
   },
   "scope": {
@@ -20,24 +20,6 @@
     "private": 19
   },
   "days": [
-    {
-      "date": "2025-11-16",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
-    {
-      "date": "2025-11-17",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-18",
       "commits": 0,
@@ -6795,6 +6777,70 @@
     },
     {
       "date": "2026-11-15",
+      "commits": 4,
+      "additions": 152,
+      "deletions": 17,
+      "changed": 169,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-0d4444aa",
+          "name": "Private repository 0D4444AA",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 126,
+          "deletions": 2,
+          "changed": 128,
+          "merges": 0
+        },
+        {
+          "id": "private-2467039a",
+          "name": "Private repository 2467039A",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 26,
+          "deletions": 15,
+          "changed": 41,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "commits": 6,
+      "additions": 65215,
+      "deletions": 39,
+      "changed": 65254,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-2467039a",
+          "name": "Private repository 2467039A",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 65176,
+          "deletions": 31,
+          "changed": 65207,
+          "merges": 0
+        },
+        {
+          "id": "private-04ca6290",
+          "name": "Private repository 04CA6290",
+          "url": null,
+          "private": true,
+          "commits": 3,
+          "additions": 39,
+          "deletions": 8,
+          "changed": 47,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
       "commits": 0,
       "additions": 0,
       "deletions": 0,
