@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T09:55:26Z",
+  "generated_at": "2026-11-19T10:07:24Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1692,
+    "downloads": 1693,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1471,
+      "downloads": 1472,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -152,7 +152,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 50,
+      "downloads": 51,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -1147,6 +1147,10 @@
     {
       "date": "2026-11-18",
       "downloads": 1692
+    },
+    {
+      "date": "2026-11-19",
+      "downloads": 1693
     }
   ]
 }
