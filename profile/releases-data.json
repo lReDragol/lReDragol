@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T09:54:58Z",
+  "generated_at": "2026-11-21T09:22:49Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1695,
+    "downloads": 1697,
     "releases": 38,
     "assets": 84,
     "repositories": 9,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1474,
+      "downloads": 1476,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -161,7 +161,7 @@
       "repository": "OnceHuman_Tools",
       "release": "V1",
       "name": "Once.Human.Photo.Changer.exe",
-      "downloads": 47,
+      "downloads": 48,
       "size": 31405553,
       "updated_at": "2024-08-10T22:37:03Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/V1/Once.Human.Photo.Changer.exe"
@@ -286,6 +286,15 @@
     {
       "repository": "OnceHuman_Tools",
       "release": "v4.5",
+      "name": "OnceHumanCalcPortable_V2.5.exe",
+      "downloads": 3,
+      "size": 27460020,
+      "updated_at": "2026-03-17T05:09:16Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanCalcPortable_V2.5.exe"
+    },
+    {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.5",
       "name": "OnceHumanTools_V4.5.exe",
       "downloads": 3,
       "size": 122464722,
@@ -390,15 +399,6 @@
       "size": 70281007,
       "updated_at": "2026-03-02T17:17:47Z",
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.1/ESCgram-Setup.exe"
-    },
-    {
-      "repository": "OnceHuman_Tools",
-      "release": "v4.5",
-      "name": "OnceHumanCalcPortable_V2.5.exe",
-      "downloads": 2,
-      "size": 27460020,
-      "updated_at": "2026-03-17T05:09:16Z",
-      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanCalcPortable_V2.5.exe"
     },
     {
       "repository": "OnceHuman_Tools",
@@ -1155,6 +1155,10 @@
     {
       "date": "2026-11-20",
       "downloads": 1695
+    },
+    {
+      "date": "2026-11-21",
+      "downloads": 1697
     }
   ]
 }
