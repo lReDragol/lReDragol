@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T09:30:34Z",
+  "generated_at": "2026-11-23T10:27:17Z",
   "username": "lReDragol",
-  "repository_count": 41,
-  "total_bytes": 474012041,
+  "repository_count": 44,
+  "total_bytes": 474775363,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 428008029,
-      "percent": 90.29,
+      "bytes": 428056878,
+      "percent": 90.16,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 33651534,
-      "percent": 7.1,
+      "bytes": 33980142,
+      "percent": 7.16,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 7880998,
-      "percent": 1.66,
+      "bytes": 8054116,
+      "percent": 1.7,
       "color": "#f1e05a"
     },
     {
@@ -48,6 +48,12 @@
       "color": "#000080"
     },
     {
+      "name": "Java",
+      "bytes": 205721,
+      "percent": 0.04,
+      "color": "#b07219"
+    },
+    {
       "name": "CSS",
       "bytes": 127952,
       "percent": 0.03,
@@ -55,7 +61,7 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 73898,
+      "bytes": 80924,
       "percent": 0.02,
       "color": "#012456"
     },

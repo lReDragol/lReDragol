@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T09:23:14Z",
+  "generated_at": "2026-11-23T10:19:06Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-23",
-    "end": "2026-11-22",
+    "start": "2025-11-24",
+    "end": "2026-11-23",
     "days": 365
   },
   "scope": {
@@ -16,19 +16,10 @@
     "privacy": "Public repository names are included; private repository names are replaced with opaque labels"
   },
   "repository_counts": {
-    "public": 27,
-    "private": 19
+    "public": 28,
+    "private": 21
   },
   "days": [
-    {
-      "date": "2025-11-23",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-24",
       "commits": 0,
@@ -6899,10 +6890,10 @@
     },
     {
       "date": "2026-11-22",
-      "commits": 4,
-      "additions": 57,
-      "deletions": 27,
-      "changed": 84,
+      "commits": 12,
+      "additions": 624,
+      "deletions": 199,
+      "changed": 823,
       "merges": 0,
       "repositories": [
         {
@@ -6910,10 +6901,10 @@
           "name": "Private repository 2467039A",
           "url": null,
           "private": true,
-          "commits": 3,
-          "additions": 51,
-          "deletions": 26,
-          "changed": 77,
+          "commits": 11,
+          "additions": 618,
+          "deletions": 198,
+          "changed": 816,
           "merges": 0
         },
         {
@@ -6925,6 +6916,71 @@
           "additions": 6,
           "deletions": 1,
           "changed": 7,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "commits": 10,
+      "additions": 14142,
+      "deletions": 372,
+      "changed": 14514,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "private-2467039a",
+          "name": "Private repository 2467039A",
+          "url": null,
+          "private": true,
+          "commits": 4,
+          "additions": 1618,
+          "deletions": 210,
+          "changed": 1828,
+          "merges": 0
+        },
+        {
+          "id": "private-29407653",
+          "name": "Private repository 29407653",
+          "url": null,
+          "private": true,
+          "commits": 2,
+          "additions": 10117,
+          "deletions": 0,
+          "changed": 10117,
+          "merges": 0
+        },
+        {
+          "id": "lredragol/thaumometer-storage-scan",
+          "name": "lReDragol/thaumometer-storage-scan",
+          "url": "https://github.com/lReDragol/thaumometer-storage-scan",
+          "private": false,
+          "commits": 2,
+          "additions": 1887,
+          "deletions": 0,
+          "changed": 1887,
+          "merges": 0
+        },
+        {
+          "id": "private-ae8f1d6f",
+          "name": "Private repository AE8F1D6F",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 463,
+          "deletions": 156,
+          "changed": 619,
+          "merges": 0
+        },
+        {
+          "id": "private-0d4444aa",
+          "name": "Private repository 0D4444AA",
+          "url": null,
+          "private": true,
+          "commits": 1,
+          "additions": 57,
+          "deletions": 6,
+          "changed": 63,
           "merges": 0
         }
       ]

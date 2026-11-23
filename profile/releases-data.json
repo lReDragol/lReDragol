@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T09:30:12Z",
+  "generated_at": "2026-11-23T10:26:51Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1698,
-    "releases": 38,
-    "assets": 84,
-    "repositories": 9,
-    "repositories_with_downloads": 8
+    "downloads": 1704,
+    "releases": 39,
+    "assets": 90,
+    "repositories": 10,
+    "repositories_with_downloads": 9
   },
   "repositories": [
     {
@@ -64,6 +64,15 @@
       "assets": 1,
       "latest_release": "v1.0.0",
       "latest_published_at": "2026-06-07T15:42:27Z"
+    },
+    {
+      "name": "thaumometer-storage-scan",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan",
+      "downloads": 6,
+      "releases": 1,
+      "assets": 6,
+      "latest_release": "v1.1.0",
+      "latest_published_at": "2026-11-22T22:41:35Z"
     },
     {
       "name": "grass_auto",
@@ -725,6 +734,60 @@
       "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.3.3/MistfallBuildManager_v4.3.3.exe"
     },
     {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.1.0.jar",
+      "downloads": 1,
+      "size": 23399,
+      "updated_at": "2026-11-22T22:41:34Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.1.0.jar"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.10.2-forge-1.1.0.jar",
+      "downloads": 1,
+      "size": 15540,
+      "updated_at": "2026-11-22T22:41:33Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.10.2-forge-1.1.0.jar"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.12.2-forge-1.1.0.jar",
+      "downloads": 1,
+      "size": 15545,
+      "updated_at": "2026-11-22T22:41:34Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.12.2-forge-1.1.0.jar"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.7.10-forge-1.1.0.jar",
+      "downloads": 1,
+      "size": 15498,
+      "updated_at": "2026-11-22T22:41:34Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.7.10-forge-1.1.0.jar"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.8-forge-1.1.0.jar",
+      "downloads": 1,
+      "size": 15536,
+      "updated_at": "2026-11-22T22:41:33Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.8-forge-1.1.0.jar"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.8.9-forge-1.1.0.jar",
+      "downloads": 1,
+      "size": 15545,
+      "updated_at": "2026-11-22T22:41:34Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.8.9-forge-1.1.0.jar"
+    },
+    {
       "repository": "icarus-save-editor",
       "release": "v2026.03.23",
       "name": "icarus_save_editor.exe",
@@ -1163,6 +1226,10 @@
     {
       "date": "2026-11-22",
       "downloads": 1698
+    },
+    {
+      "date": "2026-11-23",
+      "downloads": 1704
     }
   ]
 }

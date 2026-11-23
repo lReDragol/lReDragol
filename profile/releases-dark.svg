@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="286" viewBox="0 0 960 286" role="img" aria-label="Release downloads: 1698 total">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="286" viewBox="0 0 960 286" role="img" aria-label="Release downloads: 1704 total">
   <style>
     text { font-family: "Segoe UI", Arial, sans-serif; }
     .title { fill: #f0f6fc; font-size: 25px; font-weight: 750; }
@@ -23,32 +23,32 @@
   <g transform="translate(34 66)">
     <rect width="232" height="98" rx="14" fill="#101923" stroke="#238636" stroke-opacity=".65"/>
     <text x="20" y="25" class="eyebrow">TOTAL DOWNLOADS</text>
-    <text x="20" y="70" class="total">1,698</text>
+    <text x="20" y="70" class="total">1,704</text>
     <circle cx="205" cy="25" r="5" fill="#39d353"/>
     <circle cx="205" cy="25" r="10" fill="#39d353" opacity=".12"/>
   </g>
   <g transform="translate(278 66)">
     <rect width="148" height="98" rx="14" class="panel"/>
     <text x="18" y="28" class="eyebrow">PROJECTS</text>
-    <text x="18" y="67" class="metric">8</text>
+    <text x="18" y="67" class="metric">9</text>
     <text x="18" y="85" class="muted">with downloads</text>
   </g>
   <g transform="translate(438 66)">
     <rect width="148" height="98" rx="14" class="panel"/>
     <text x="18" y="28" class="eyebrow">RELEASES</text>
-    <text x="18" y="67" class="metric">38</text>
+    <text x="18" y="67" class="metric">39</text>
     <text x="18" y="85" class="muted">published</text>
   </g>
   <g transform="translate(598 66)">
     <rect width="148" height="98" rx="14" class="panel"/>
     <text x="18" y="28" class="eyebrow">ASSETS</text>
-    <text x="18" y="67" class="metric">84</text>
+    <text x="18" y="67" class="metric">90</text>
     <text x="18" y="85" class="muted">downloadable files</text>
   </g>
   <g transform="translate(758 66)">
     <rect width="168" height="98" rx="14" class="panel"/>
     <text x="18" y="28" class="eyebrow">LATEST CHANGE</text>
-    <text x="18" y="64" fill="#39d353" font-size="22" font-weight="800">+1</text>
+    <text x="18" y="64" fill="#39d353" font-size="22" font-weight="800">+6</text>
     <text x="18" y="85" class="muted">since last snapshot</text>
   </g>
 
