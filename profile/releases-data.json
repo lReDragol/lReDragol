@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T10:26:51Z",
+  "generated_at": "2026-11-24T12:09:08Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1704,
+    "downloads": 1707,
     "releases": 39,
     "assets": 90,
     "repositories": 10,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1476,
+      "downloads": 1477,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -57,6 +57,15 @@
       "latest_published_at": "2025-03-06T14:17:13Z"
     },
     {
+      "name": "thaumometer-storage-scan",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan",
+      "downloads": 8,
+      "releases": 1,
+      "assets": 6,
+      "latest_release": "v1.1.0",
+      "latest_published_at": "2026-11-22T22:41:35Z"
+    },
+    {
       "name": "piano-bot",
       "url": "https://github.com/lReDragol/piano-bot",
       "downloads": 7,
@@ -64,15 +73,6 @@
       "assets": 1,
       "latest_release": "v1.0.0",
       "latest_published_at": "2026-06-07T15:42:27Z"
-    },
-    {
-      "name": "thaumometer-storage-scan",
-      "url": "https://github.com/lReDragol/thaumometer-storage-scan",
-      "downloads": 6,
-      "releases": 1,
-      "assets": 6,
-      "latest_release": "v1.1.0",
-      "latest_published_at": "2026-11-22T22:41:35Z"
     },
     {
       "name": "grass_auto",
@@ -161,7 +161,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v4.6",
       "name": "OnceHumanTools_V4.6.exe",
-      "downloads": 52,
+      "downloads": 53,
       "size": 126086601,
       "updated_at": "2026-03-18T20:10:58Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.6/OnceHumanTools_V4.6.exe"
@@ -309,6 +309,15 @@
       "size": 122464722,
       "updated_at": "2026-03-17T05:10:12Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanTools_V4.5.exe"
+    },
+    {
+      "repository": "thaumometer-storage-scan",
+      "release": "v1.1.0",
+      "name": "thaumic-storage-scan-1.1.0.jar",
+      "downloads": 3,
+      "size": 23399,
+      "updated_at": "2026-11-22T22:41:34Z",
+      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.1.0.jar"
     },
     {
       "repository": "ESCgram",
@@ -732,15 +741,6 @@
       "size": 261483060,
       "updated_at": "2026-08-24T21:04:54Z",
       "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.3.3/MistfallBuildManager_v4.3.3.exe"
-    },
-    {
-      "repository": "thaumometer-storage-scan",
-      "release": "v1.1.0",
-      "name": "thaumic-storage-scan-1.1.0.jar",
-      "downloads": 1,
-      "size": 23399,
-      "updated_at": "2026-11-22T22:41:34Z",
-      "url": "https://github.com/lReDragol/thaumometer-storage-scan/releases/download/v1.1.0/thaumic-storage-scan-1.1.0.jar"
     },
     {
       "repository": "thaumometer-storage-scan",
@@ -1230,6 +1230,10 @@
     {
       "date": "2026-11-23",
       "downloads": 1704
+    },
+    {
+      "date": "2026-11-24",
+      "downloads": 1707
     }
   ]
 }
