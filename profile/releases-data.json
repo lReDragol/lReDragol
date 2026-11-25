@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T12:09:08Z",
+  "generated_at": "2026-11-25T11:00:58Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1707,
+    "downloads": 1708,
     "releases": 39,
     "assets": 90,
     "repositories": 10,
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1477,
+      "downloads": 1478,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -266,6 +266,15 @@
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.8/ESCgram-Setup.exe"
     },
     {
+      "repository": "OnceHuman_Tools",
+      "release": "v4.5",
+      "name": "OnceHumanCalcPortable_V2.5.exe",
+      "downloads": 4,
+      "size": 27460020,
+      "updated_at": "2026-03-17T05:09:16Z",
+      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanCalcPortable_V2.5.exe"
+    },
+    {
       "repository": "ESCgram",
       "release": "v0.2.9",
       "name": "ESCgram-linux.tar.gz",
@@ -291,15 +300,6 @@
       "size": 66186269,
       "updated_at": "2025-02-27T18:16:01Z",
       "url": "https://github.com/lReDragol/Icon-Creator/releases/download/v1/main.exe"
-    },
-    {
-      "repository": "OnceHuman_Tools",
-      "release": "v4.5",
-      "name": "OnceHumanCalcPortable_V2.5.exe",
-      "downloads": 3,
-      "size": 27460020,
-      "updated_at": "2026-03-17T05:09:16Z",
-      "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v4.5/OnceHumanCalcPortable_V2.5.exe"
     },
     {
       "repository": "OnceHuman_Tools",
@@ -1234,6 +1234,10 @@
     {
       "date": "2026-11-24",
       "downloads": 1707
+    },
+    {
+      "date": "2026-11-25",
+      "downloads": 1708
     }
   ]
 }
