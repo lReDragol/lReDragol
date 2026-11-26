@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T11:01:27Z",
+  "generated_at": "2026-11-26T10:37:55Z",
   "username": "lReDragol",
   "repository_count": 44,
-  "total_bytes": 474775363,
+  "total_bytes": 474768568,
   "languages": [
     {
       "name": "HTML",
-      "bytes": 428056878,
-      "percent": 90.16,
+      "bytes": 428076409,
+      "percent": 90.17,
       "color": "#e34c26"
     },
     {
       "name": "Python",
-      "bytes": 33980142,
-      "percent": 7.16,
+      "bytes": 33647117,
+      "percent": 7.09,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 8054116,
-      "percent": 1.7,
+      "bytes": 8229929,
+      "percent": 1.73,
       "color": "#f1e05a"
     },
     {
       "name": "C#",
-      "bytes": 1605219,
-      "percent": 0.34,
+      "bytes": 1705911,
+      "percent": 0.36,
       "color": "#178600"
     },
     {
@@ -55,7 +55,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 127952,
+      "bytes": 158634,
       "percent": 0.03,
       "color": "#563d7c"
     },
@@ -85,7 +85,7 @@
     },
     {
       "name": "Batchfile",
-      "bytes": 12141,
+      "bytes": 11653,
       "percent": 0.0,
       "color": "#8b949e"
     },

@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T10:53:06Z",
+  "generated_at": "2026-11-26T10:28:32Z",
   "username": "lReDragol",
   "title": "lReDragol (Drago)",
   "joined_text": "Joined GitHub 3 years ago",
   "timezone": "UTC+03:00",
   "period": {
-    "start": "2025-11-26",
-    "end": "2026-11-25",
+    "start": "2025-11-27",
+    "end": "2026-11-26",
     "days": 365
   },
   "scope": {
@@ -20,15 +20,6 @@
     "private": 21
   },
   "days": [
-    {
-      "date": "2025-11-26",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
-      "merges": 0,
-      "repositories": []
-    },
     {
       "date": "2025-11-27",
       "commits": 0,
@@ -5717,9 +5708,9 @@
     {
       "date": "2026-10-25",
       "commits": 74,
-      "additions": 16200,
-      "deletions": 9899,
-      "changed": 26099,
+      "additions": 14554,
+      "deletions": 6408,
+      "changed": 20962,
       "merges": 5,
       "repositories": [
         {
@@ -5728,9 +5719,9 @@
           "url": null,
           "private": true,
           "commits": 50,
-          "additions": 13410,
-          "deletions": 9467,
-          "changed": 22877,
+          "additions": 11764,
+          "deletions": 5976,
+          "changed": 17740,
           "merges": 5
         },
         {
@@ -7012,12 +7003,45 @@
     },
     {
       "date": "2026-11-25",
-      "commits": 0,
-      "additions": 0,
-      "deletions": 0,
-      "changed": 0,
+      "commits": 2,
+      "additions": 7883,
+      "deletions": 10417,
+      "changed": 18300,
       "merges": 0,
-      "repositories": []
+      "repositories": [
+        {
+          "id": "lredragol/mistfall-build-manager",
+          "name": "lReDragol/Mistfall-Build-Manager",
+          "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+          "private": false,
+          "commits": 2,
+          "additions": 7883,
+          "deletions": 10417,
+          "changed": 18300,
+          "merges": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "commits": 1,
+      "additions": 17,
+      "deletions": 17,
+      "changed": 34,
+      "merges": 0,
+      "repositories": [
+        {
+          "id": "lredragol/mistfall-build-manager",
+          "name": "lReDragol/Mistfall-Build-Manager",
+          "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+          "private": false,
+          "commits": 1,
+          "additions": 17,
+          "deletions": 17,
+          "changed": 34,
+          "merges": 0
+        }
+      ]
     }
   ]
 }

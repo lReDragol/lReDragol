@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T11:00:58Z",
+  "generated_at": "2026-11-26T10:37:22Z",
   "username": "lReDragol",
   "scope": "Published releases and public release assets only",
   "totals": {
-    "downloads": 1708,
-    "releases": 39,
-    "assets": 90,
+    "downloads": 1712,
+    "releases": 38,
+    "assets": 89,
     "repositories": 10,
     "repositories_with_downloads": 9
   },
@@ -14,7 +14,7 @@
     {
       "name": "OnceHuman_Tools",
       "url": "https://github.com/lReDragol/OnceHuman_Tools",
-      "downloads": 1478,
+      "downloads": 1479,
       "releases": 8,
       "assets": 17,
       "latest_release": "v4.6",
@@ -50,7 +50,7 @@
     {
       "name": "Icon-Creator",
       "url": "https://github.com/lReDragol/Icon-Creator",
-      "downloads": 9,
+      "downloads": 10,
       "releases": 2,
       "assets": 2,
       "latest_release": "Icons",
@@ -75,6 +75,15 @@
       "latest_published_at": "2026-06-07T15:42:27Z"
     },
     {
+      "name": "Mistfall-Build-Manager",
+      "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
+      "downloads": 3,
+      "releases": 1,
+      "assets": 1,
+      "latest_release": "v5.0.13",
+      "latest_published_at": "2026-11-25T15:20:44Z"
+    },
+    {
       "name": "grass_auto",
       "url": "https://github.com/lReDragol/grass_auto",
       "downloads": 1,
@@ -82,15 +91,6 @@
       "assets": 1,
       "latest_release": "#FIX",
       "latest_published_at": "2024-04-23T19:53:18Z"
-    },
-    {
-      "name": "Mistfall-Build-Manager",
-      "url": "https://github.com/lReDragol/Mistfall-Build-Manager",
-      "downloads": 1,
-      "releases": 2,
-      "assets": 2,
-      "latest_release": "v4.5.0",
-      "latest_published_at": "2026-09-01T13:48:31Z"
     },
     {
       "name": "waven-custom",
@@ -107,7 +107,7 @@
       "repository": "OnceHuman_Tools",
       "release": "v0.3",
       "name": "v0.3.Once.Human.Photo.Changer.exe",
-      "downloads": 721,
+      "downloads": 722,
       "size": 67888159,
       "updated_at": "2024-08-26T23:27:46Z",
       "url": "https://github.com/lReDragol/OnceHuman_Tools/releases/download/v0.3/v0.3.Once.Human.Photo.Changer.exe"
@@ -266,6 +266,15 @@
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.1.8/ESCgram-Setup.exe"
     },
     {
+      "repository": "Icon-Creator",
+      "release": "v1",
+      "name": "main.exe",
+      "downloads": 4,
+      "size": 66186269,
+      "updated_at": "2025-02-27T18:16:01Z",
+      "url": "https://github.com/lReDragol/Icon-Creator/releases/download/v1/main.exe"
+    },
+    {
       "repository": "OnceHuman_Tools",
       "release": "v4.5",
       "name": "OnceHumanCalcPortable_V2.5.exe",
@@ -293,13 +302,13 @@
       "url": "https://github.com/lReDragol/ESCgram/releases/download/v0.2.9/ESCgram-Setup.exe"
     },
     {
-      "repository": "Icon-Creator",
-      "release": "v1",
-      "name": "main.exe",
+      "repository": "Mistfall-Build-Manager",
+      "release": "v5.0.13",
+      "name": "MistfallForge-v5.0.13-win-x64.zip",
       "downloads": 3,
-      "size": 66186269,
-      "updated_at": "2025-02-27T18:16:01Z",
-      "url": "https://github.com/lReDragol/Icon-Creator/releases/download/v1/main.exe"
+      "size": 88722437,
+      "updated_at": "2026-11-25T15:20:43Z",
+      "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v5.0.13/MistfallForge-v5.0.13-win-x64.zip"
     },
     {
       "repository": "OnceHuman_Tools",
@@ -734,15 +743,6 @@
       "url": "https://github.com/lReDragol/grass_auto/releases/download/%23FIX/auto_grass.exe"
     },
     {
-      "repository": "Mistfall-Build-Manager",
-      "release": "v4.3.3",
-      "name": "MistfallBuildManager_v4.3.3.exe",
-      "downloads": 1,
-      "size": 261483060,
-      "updated_at": "2026-08-24T21:04:54Z",
-      "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.3.3/MistfallBuildManager_v4.3.3.exe"
-    },
-    {
       "repository": "thaumometer-storage-scan",
       "release": "v1.1.0",
       "name": "thaumic-storage-scan-1.10.2-forge-1.1.0.jar",
@@ -795,15 +795,6 @@
       "size": 49111056,
       "updated_at": "2026-03-23T16:20:26Z",
       "url": "https://github.com/lReDragol/icarus-save-editor/releases/download/v2026.03.23/icarus_save_editor.exe"
-    },
-    {
-      "repository": "Mistfall-Build-Manager",
-      "release": "v4.5.0",
-      "name": "MistfallBuildManager_v4.5.0.exe",
-      "downloads": 0,
-      "size": 261505859,
-      "updated_at": "2026-09-01T13:48:30Z",
-      "url": "https://github.com/lReDragol/Mistfall-Build-Manager/releases/download/v4.5.0/MistfallBuildManager_v4.5.0.exe"
     },
     {
       "repository": "OnceHuman_Tools",
@@ -1238,6 +1229,10 @@
     {
       "date": "2026-11-25",
       "downloads": 1708
+    },
+    {
+      "date": "2026-11-26",
+      "downloads": 1712
     }
   ]
 }
